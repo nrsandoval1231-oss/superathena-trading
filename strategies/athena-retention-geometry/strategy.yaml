@@ -1,0 +1,61 @@
+id: athena-retention-geometry
+version: 0.1.0
+status: research-specification-only
+asset_class: US equities
+timeframe: intraday earnings-reaction session
+entrypoint: null
+risk_profile: disabled
+execution_enabled: false
+public_safe: true
+variants:
+  - id: ARG-65
+    alias: TCretain65
+    initial_stop: -0.015
+    activation_return: 0.01
+    peak_retention: 0.65
+    fixed_target: null
+  - id: ARG-75
+    alias: TCretain75
+    initial_stop: -0.015
+    activation_return: 0.01
+    peak_retention: 0.75
+    fixed_target: null
+control:
+  id: TC-BASELINE
+  immutable: true
+  gap_abs_min: 0.04
+  retracement: 0.33
+  raw_trigger_notional_usd: 2000
+  prior_close_min_usd: 10
+  opening_price_min_usd: 10
+  addv20_min_usd: 20000000
+  market_cap_min_usd: 1000000000
+  us_tradable: true
+  earnings_timing: [AMC_previous_session, BMO_today]
+  eps_revenue_signs_aligned: true
+  shortability_required_for_short: true
+  split_and_halt_checks: required
+  opening_print: first_eligible_SIP_daily_open_updating_print
+  opening_window_et: "09:30 before 09:31"
+  opening_print_is_not_necessarily_auction: true
+  price_rounding: ROUND_HALF_UP_nearest_cent
+  raw_trigger_formula: "O - 0.33 * (O - P)"
+  share_quantity_formula: "floor(2000 / raw_trigger); reject quantity below 1"
+  exits: {target: 0.015, stop: -0.015}
+  partial_fill_protection: true
+  flatten_et: "15:55"
+  acknowledgement_2s_flag: retained_not_retroactive_exclusion
+return_definition: "g = direction * (trade_price / entry_price - 1); peak uses only eligible post-entry observations"
+retention_stop_definition: "-0.015 before peak >= 0.01; afterwards max(previous_stop_return, -0.015, retention * peak)"
+desired_stop_price: "entry_price * (1 + direction * stop_return)"
+archive_only: true
+assumptions:
+  costs: execution_pending_not_guaranteed
+  fill_model: pending_causal_trade_quote_queue_and_reconciliation
+  prior_bar_proxy: exploratory_only
+evidence:
+  actual_tape_replay: not_tested
+  held_out_edge: not_established
+  execution_access: blocked
+  runtime_tests: pending_implementation
+  live_authorization: none
