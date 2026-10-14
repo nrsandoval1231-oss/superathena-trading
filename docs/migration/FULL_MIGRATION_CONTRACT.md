@@ -24,4 +24,6 @@
 - Exact commits and validation receipts retained.
 
 ## Status
-Migration NOT complete. This document establishes source anchors and acceptance criteria. The destination PR currently contains strategy inventory folders and documentation, not source implementation.
+Trading-source migration is implemented on this branch from anchor `8bd0e7289e0a4899ec7e12291ca02a2c883c583d`. Every tracked trading file is migrated, import-adjusted, or preserved byte-for-byte under `docs/lineage/athena-trading/`. See [MIGRATION_MANIFEST.md](MIGRATION_MANIFEST.md) and [STATUS.md](STATUS.md).
+
+Athena Core anchor `adba694563751256f5f5e95ad47079b37c7697ec` was not readable. That blocker is [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md). The pull request stays open until that source can be accounted for. No live service was changed.

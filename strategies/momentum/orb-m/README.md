@@ -1,7 +1,11 @@
-# ORB-M
+# ORB Momentum
 
-Frozen opening-range breakout baseline. Original: https://github.com/nrsandoval1231-oss/athena-trading/blob/main/docs/ORB_MOMENTUM_V1.md
+Frozen 15-minute opening-range breakout. The constitution in `orb_m/constitution.py` is the strategy definition: 09:30–09:45 America/New_York, close confirmation rather than a wick, session flat, and the recorded risk ceilings. `ManagementParameters` is the only adaptive surface, and it drives the research simulator.
 
-Source repository: https://github.com/nrsandoval1231-oss/athena-trading
+The predictive-intraday paper runner uses this package for the opening-range candidate. It does not replace the constitution with a second copy of the rules. `strategies/orb_momentum.py` is the older wrapper and delegates to this package.
 
-Status: inventory only; not executable; live trading disabled.
+Historical write-up: `docs/lineage/athena-trading/docs/ORB_MOMENTUM_V1.md`.
+
+Tests: `tests/test_orb_m_*.py`, `tests/test_orb_momentum.py`.
+
+Status: research baseline. Not promoted. LIVE is rejected. No overnight position.

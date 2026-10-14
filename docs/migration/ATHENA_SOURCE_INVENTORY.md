@@ -7,6 +7,6 @@ Source: https://github.com/nrsandoval1231-oss/athena-trading
 - ORB-M: frozen opening range momentum baseline and reusable component.
 - Legacy Strategy Research: historical AAT V1/V2 experiments, not production. Stored under strategies/custom/legacy-strategy-research; original source labels retained only for traceability.
 
-Migration safeguards: retain source commit and file provenance; do not copy or reinterpret invalidated holdouts; preserve original research restrictions. No live authority. This inventory is not an executable code migration.
+The inventory folders now hold the implementations. Provenance is in [source-manifest.json](source-manifest.json). Holdout bytes were copied unchanged. LIVE stays rejected.
 
-Next: inspect full source tree, dependency graph and test coverage; transfer eligible modules into isolated strategy folders with explicit provenance and verify behavior before merging.
+Athena Core could not be inventoried. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
