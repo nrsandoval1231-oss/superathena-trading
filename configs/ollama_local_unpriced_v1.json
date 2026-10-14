@@ -1,0 +1,12 @@
+{
+  "bytes_per_token_proxy": 4,
+  "execution_authority": "ABSENT",
+  "input_usd_per_million_tokens": 0.0,
+  "model_id": "qwen3.5:9b",
+  "note": "Local GPU time is unpriced. Prefer Ollama prompt_eval_count/eval_count when present. If those fields are missing, record utf-8 bytes/4 as BYTE_PROXY_ESTIMATE. Estimates are labeled and are not vendor billing.",
+  "output_usd_per_million_tokens": 0.0,
+  "provider": "ollama",
+  "schema_version": "ollama-local-unpriced-v1",
+  "source_url": "https://github.com/ollama/ollama",
+  "token_accounting": "OLLAMA_REPORTED_OR_BYTE_PROXY_ESTIMATE"
+}

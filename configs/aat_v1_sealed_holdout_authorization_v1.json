@@ -1,0 +1,11 @@
+{
+  "authorization_id": "aat-v1-owner-authorization-2026-09-04",
+  "authorized_at_utc": "2026-09-04T13:32:26.1330562Z",
+  "authorized_by": "repository_owner_via_codex_instruction",
+  "contract_hash": "269a2e4842ac591d1f89de5b518bd9c2ffc49d682e2e313156df8c75e37fd904",
+  "execution_authority": "ABSENT",
+  "scope": "ONE_TIME_SEALED_HOLDOUT_EVALUATION",
+  "schema_version": "aat-v1-sealed-holdout-authorization-v1",
+  "single_use": true,
+  "spend_ceiling_usd": 20.0
+}

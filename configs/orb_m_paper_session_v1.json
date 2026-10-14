@@ -1,0 +1,8 @@
+{
+  "schema_version": "athena-orb-m-paper-session-v1",
+  "environment": "PAPER",
+  "execution_authority": "ABSENT",
+  "broker": "fixture",
+  "equity": 100000.0,
+  "comment": "Authority stays ABSENT until an operator passes --authority PAPER or --dry-run. LIVE is rejected. This is not live trading and does not reopen the AAT holdout."
+}

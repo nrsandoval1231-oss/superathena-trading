@@ -1,0 +1,34 @@
+[Unit]
+Description=Athena earnings adaptive paper book
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=athena
+Group=athena
+WorkingDirectory=/opt/athena-trading
+EnvironmentFile=/etc/athena/earnings.env
+Environment=PYTHONUNBUFFERED=1
+Environment=ATHENA_EARNINGS_STATE_DIR=/var/lib/athena-earnings
+Environment=ATHENA_STATE_DIR=/var/lib/athena
+Environment=ATHENA_SHARED_RISK_DIR=/var/lib/athena-risk
+ExecStart=/opt/athena-trading/.venv/bin/python -m athena_trading.paper.earnings_cloud
+Restart=always
+RestartSec=30
+KillMode=mixed
+TimeoutStopSec=60
+StateDirectory=athena-earnings athena-risk
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/athena-earnings /var/lib/athena/learning /var/lib/athena-risk
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+[project]
+name = "athena-trading"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    # The candidate-pool builder reads daily grouped aggregates from parquet.
+    "pyarrow",
+    # Session boundaries resolve in America/New_York via zoneinfo. Windows ships
+    # no system tz database, so the fallback package is required there; CI runs
+    # on Linux and will not surface its absence.
+    "tzdata>=2025.2; platform_system == 'Windows'",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["F", "E9", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401", "F403", "F405"]

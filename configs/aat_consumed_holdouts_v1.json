@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "assignment_hash": "993118affa11dd1653451eb63a305951f28ad2ffca9136152c7d441af05c08f3",
+      "authorization_id": "aat-v1-owner-authorization-2026-09-04",
+      "consumed_at_utc": "2026-09-04T13:39:00Z",
+      "contract_hash": "269a2e4842ac591d1f89de5b518bd9c2ffc49d682e2e313156df8c75e37fd904",
+      "dataset_hash": "8dcb6cbe5b59f2b4dca78fa254521de3fdb95a342ca9969e27c587dd32946169",
+      "disposition": "INVALID_EVIDENCE",
+      "execution_authority": "ABSENT",
+      "holdout_projection_hash": "d3764af4c21500f077404ebb15e4ba4b48af96217d426270fad4382f3e120784",
+      "opportunity_projection_hash": "e088945ba2c75e14192187552380396d41f09f5c3aecd31d62ac49bd86a785b9",
+      "preflight_result_hash": "29891a9ecd711a120c626a8d31594788d9c76ef1ee060a385660f99bef6416b5",
+      "qualified_opportunity_count": 249
+    }
+  ],
+  "schema_version": "aat-consumed-holdout-registry-v1"
+}

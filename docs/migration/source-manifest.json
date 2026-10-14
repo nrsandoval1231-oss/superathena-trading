@@ -1,0 +1,2718 @@
+{
+  "source_repo": "https://github.com/nrsandoval1231-oss/athena-trading",
+  "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+  "source_remote_head_verified": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+  "destination_repo": "https://github.com/nrsandoval1231-oss/superathena-trading",
+  "athena_core": {
+    "repo": "https://github.com/nrsandoval1231-oss/Athena",
+    "anchor": "adba694563751256f5f5e95ad47079b37c7697ec",
+    "disposition": "excluded-external-dependency",
+    "decided_on": "2026-10-14",
+    "decision": "Owner decision on 2026-10-14: Athena stays an external, unmigrated dependency and is outside this migration scope.",
+    "scope": "deliberate-exclusion"
+  },
+  "policies": {
+    "live_authority": "rejected",
+    "overnight_positions": "forbidden-both-arms",
+    "earnings_flat_before_regular_close": true,
+    "earnings_confirmation": "verified issuer release or filing required; existing heuristic not loosened",
+    "approved_risk_limits": "unchanged",
+    "apde_threshold_proposals": "not-activated",
+    "consumed_holdouts_and_invalid_evidence": "immutable",
+    "running_paper_service": "not modified; athena-paper.service remains on the source checkout"
+  },
+  "source_file_count": 265,
+  "files": [
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": ".github/workflows/ci.yml",
+      "source_sha256": "8dad56140457553a786fcc4312fdff103f4cd81c72adb8ead79319e4d471dab6",
+      "destination_path": "docs/lineage/athena-trading/.github/workflows/ci.yml",
+      "destination_sha256": "8dad56140457553a786fcc4312fdff103f4cd81c72adb8ead79319e4d471dab6",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": ".gitignore",
+      "source_sha256": "1c60a6407229ceb09032f0c19ef7c7d0c0e4c7a27fd139908278030311a03fcd",
+      "destination_path": "docs/lineage/athena-trading/.gitignore",
+      "destination_sha256": "1c60a6407229ceb09032f0c19ef7c7d0c0e4c7a27fd139908278030311a03fcd",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "AGENTS.md",
+      "source_sha256": "a91b9ed373483e3b6fa59a45deaf7357dadb35576d021fb6b5a1a5837a69960d",
+      "destination_path": "docs/lineage/athena-trading/AGENTS.md",
+      "destination_sha256": "a91b9ed373483e3b6fa59a45deaf7357dadb35576d021fb6b5a1a5837a69960d",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "README.md",
+      "source_sha256": "fab915f4244e106f4699879757f5d1e893cab0385b04832f45103c4a82f1748c",
+      "destination_path": "docs/lineage/athena-trading/README.md",
+      "destination_sha256": "fab915f4244e106f4699879757f5d1e893cab0385b04832f45103c4a82f1748c",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_consumed_holdouts_v1.json",
+      "source_sha256": "715f1e76acc857f1ab78875c4755481d51aaaae4016225e9de51aaa78b93dff9",
+      "destination_path": "configs/aat_consumed_holdouts_v1.json",
+      "destination_sha256": "715f1e76acc857f1ab78875c4755481d51aaaae4016225e9de51aaa78b93dff9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_action_scoring_v1.json",
+      "source_sha256": "f71221e69c05e28688495a2930da7134c346df51d9de95c90b9003d1afad6eda",
+      "destination_path": "configs/aat_v1_action_scoring_v1.json",
+      "destination_sha256": "f71221e69c05e28688495a2930da7134c346df51d9de95c90b9003d1afad6eda",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_canary.json",
+      "source_sha256": "56f5f7a02dfdbb4ac15b93e37a8a0eb5bc157211e55075df8d659ce158bd431d",
+      "destination_path": "configs/aat_v1_canary.json",
+      "destination_sha256": "56f5f7a02dfdbb4ac15b93e37a8a0eb5bc157211e55075df8d659ce158bd431d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_final_claim_contract_v1.json",
+      "source_sha256": "703aa50322c74fa90db3d1d05b488cb0332922301e3f5e9f4a7e3dd1fa1597c4",
+      "destination_path": "configs/aat_v1_final_claim_contract_v1.json",
+      "destination_sha256": "703aa50322c74fa90db3d1d05b488cb0332922301e3f5e9f4a7e3dd1fa1597c4",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_four_arm_recovery_v1.json",
+      "source_sha256": "fbf86f8e24ca089bb028b7885e3eb1fd630763bf679f922f194e6c1a517cc4b2",
+      "destination_path": "configs/aat_v1_four_arm_recovery_v1.json",
+      "destination_sha256": "fbf86f8e24ca089bb028b7885e3eb1fd630763bf679f922f194e6c1a517cc4b2",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_four_arm_training_v1.json",
+      "source_sha256": "06b43fc8b12501ee7e131d02914f10ec5dd2053fafe34de8a4b0126e428b94b5",
+      "destination_path": "configs/aat_v1_four_arm_training_v1.json",
+      "destination_sha256": "06b43fc8b12501ee7e131d02914f10ec5dd2053fafe34de8a4b0126e428b94b5",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_lesson_promotion_v1.json",
+      "source_sha256": "c737e6a5cd44ae3d5182eff5390ebe2ceca4858fe0e78277a677ea38c70c6998",
+      "destination_path": "configs/aat_v1_lesson_promotion_v1.json",
+      "destination_sha256": "c737e6a5cd44ae3d5182eff5390ebe2ceca4858fe0e78277a677ea38c70c6998",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v1_sealed_holdout_authorization_v1.json",
+      "source_sha256": "0e794cc6ed1c3041d79fff2738c37c96a88a5e9ec82b034f32fa821aad71c64c",
+      "destination_path": "configs/aat_v1_sealed_holdout_authorization_v1.json",
+      "destination_sha256": "0e794cc6ed1c3041d79fff2738c37c96a88a5e9ec82b034f32fa821aad71c64c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_action_scoring_v1.json",
+      "source_sha256": "8d848ae25e085df79769ec9b4204f3f4ee8fbc9d1e21b9d35790f20fc03fdbe9",
+      "destination_path": "configs/aat_v2_action_scoring_v1.json",
+      "destination_sha256": "8d848ae25e085df79769ec9b4204f3f4ee8fbc9d1e21b9d35790f20fc03fdbe9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_actor_identity_v1.json",
+      "source_sha256": "3957db0f7dd59c09f00fc18b81c98c951b586fd9df94df47ce307809d0655363",
+      "destination_path": "configs/aat_v2_actor_identity_v1.json",
+      "destination_sha256": "3957db0f7dd59c09f00fc18b81c98c951b586fd9df94df47ce307809d0655363",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_claim_contract_v1.json",
+      "source_sha256": "a0c0808bda889b471b49bd0eee3340b64246074240d21c6c2d5f5e17ff78378c",
+      "destination_path": "configs/aat_v2_claim_contract_v1.json",
+      "destination_sha256": "a0c0808bda889b471b49bd0eee3340b64246074240d21c6c2d5f5e17ff78378c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_dataset_assignment_v1.json",
+      "source_sha256": "2f9a5252e2dddc1503fa9cabe2eced4282d9fa989603344d6b923ed63015e9d8",
+      "destination_path": "configs/aat_v2_dataset_assignment_v1.json",
+      "destination_sha256": "2f9a5252e2dddc1503fa9cabe2eced4282d9fa989603344d6b923ed63015e9d8",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_deepseek_flash_actor_identity_v1.json",
+      "source_sha256": "5ff95aefb3a88d5dc9aff02b602ae1a513a7b19ee5fd97214b4878e14832fffa",
+      "destination_path": "configs/aat_v2_deepseek_flash_actor_identity_v1.json",
+      "destination_sha256": "5ff95aefb3a88d5dc9aff02b602ae1a513a7b19ee5fd97214b4878e14832fffa",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_e_arm_compact_schema_amendment_v1.json",
+      "source_sha256": "5e3c3c5a5a023a5fd2e9c419b5ecd7be650a6ee9138a51469a78edeeeecf21f4",
+      "destination_path": "configs/aat_v2_e_arm_compact_schema_amendment_v1.json",
+      "destination_sha256": "5e3c3c5a5a023a5fd2e9c419b5ecd7be650a6ee9138a51469a78edeeeecf21f4",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_local_training_authorization_v1.json",
+      "source_sha256": "ce3a179ca90f3ddfee62cd130025aaec52941b8a6d718c720bffda0d73a7ddf9",
+      "destination_path": "configs/aat_v2_ollama_local_training_authorization_v1.json",
+      "destination_sha256": "ce3a179ca90f3ddfee62cd130025aaec52941b8a6d718c720bffda0d73a7ddf9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_qwen_14b_runpod_actor_identity_v1.json",
+      "source_sha256": "0e514c1f2864841cea096c8ebe1f6542aea96b1b56edd5b1b72cc0bea2e116e6",
+      "destination_path": "configs/aat_v2_ollama_qwen_14b_runpod_actor_identity_v1.json",
+      "destination_sha256": "0e514c1f2864841cea096c8ebe1f6542aea96b1b56edd5b1b72cc0bea2e116e6",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_qwen_7b_volume_actor_identity_v1.json",
+      "source_sha256": "2d28ba8450dbd8d014e3548772c1c799a8a160b413a92d22df26adaa6afabaaf",
+      "destination_path": "configs/aat_v2_ollama_qwen_7b_volume_actor_identity_v1.json",
+      "destination_sha256": "2d28ba8450dbd8d014e3548772c1c799a8a160b413a92d22df26adaa6afabaaf",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_qwen_actor_identity_v1.json",
+      "source_sha256": "41a27b691c78fc3d6089cb360f0d8ecaa204b880399c7a19719b5e60d52fc683",
+      "destination_path": "configs/aat_v2_ollama_qwen_actor_identity_v1.json",
+      "destination_sha256": "41a27b691c78fc3d6089cb360f0d8ecaa204b880399c7a19719b5e60d52fc683",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_runpod_training_authorization_v1.json",
+      "source_sha256": "8922a63a7a9c315dcb010f1c8459ef5c07f13fd1568649d6899a44871d4f7cde",
+      "destination_path": "configs/aat_v2_ollama_runpod_training_authorization_v1.json",
+      "destination_sha256": "8922a63a7a9c315dcb010f1c8459ef5c07f13fd1568649d6899a44871d4f7cde",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_ollama_volume_training_authorization_v1.json",
+      "source_sha256": "75dc71913759e0b3cd2f6d520691fd805486b31fd73143b22a98a07052e88f9c",
+      "destination_path": "configs/aat_v2_ollama_volume_training_authorization_v1.json",
+      "destination_sha256": "75dc71913759e0b3cd2f6d520691fd805486b31fd73143b22a98a07052e88f9c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_registered_protocol_v1.json",
+      "source_sha256": "a588e6c91a1ba6bf9e1da00097128bd0621e6cb765cc421603bb4ef3a38a5ba6",
+      "destination_path": "configs/aat_v2_registered_protocol_v1.json",
+      "destination_sha256": "a588e6c91a1ba6bf9e1da00097128bd0621e6cb765cc421603bb4ef3a38a5ba6",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_training_plan_v1.json",
+      "source_sha256": "f0f772e49a73797ecea5a882e5d64ab1a831108c5c7d603b009b8bd0dec7a6e7",
+      "destination_path": "configs/aat_v2_training_plan_v1.json",
+      "destination_sha256": "f0f772e49a73797ecea5a882e5d64ab1a831108c5c7d603b009b8bd0dec7a6e7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_training_plan_v2.json",
+      "source_sha256": "54c8469dbf76f4a5637cd5a60462b65dabbc55f145d8956a2e5aae90d546dbe7",
+      "destination_path": "configs/aat_v2_training_plan_v2.json",
+      "destination_sha256": "54c8469dbf76f4a5637cd5a60462b65dabbc55f145d8956a2e5aae90d546dbe7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/aat_v2_training_subsample_plan_v1.json",
+      "source_sha256": "369fa9cd8545d5cddce341a25e4012a56ea56aee1a6e783fb69a4373e1a7cf1a",
+      "destination_path": "configs/aat_v2_training_subsample_plan_v1.json",
+      "destination_sha256": "369fa9cd8545d5cddce341a25e4012a56ea56aee1a6e783fb69a4373e1a7cf1a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/deepseek_flash_pricing_2026-09-14.json",
+      "source_sha256": "73a6ff4a2a25394bd90657c6da4b3fb3cc8817f093124e8122eebe7379fbf52f",
+      "destination_path": "configs/deepseek_flash_pricing_2026-09-14.json",
+      "destination_sha256": "73a6ff4a2a25394bd90657c6da4b3fb3cc8817f093124e8122eebe7379fbf52f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/aat_v2_training_opportunities_smoke_v1.jsonl",
+      "source_sha256": "b772743716300d587be20fcca8f2cb53502071c2f6e3eeebb4ba50ea7e9eab93",
+      "destination_path": "configs/fixtures/aat_v2_training_opportunities_smoke_v1.jsonl",
+      "destination_sha256": "b772743716300d587be20fcca8f2cb53502071c2f6e3eeebb4ba50ea7e9eab93",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/aat_v2_training_snapshot_smoke_v1.jsonl",
+      "source_sha256": "1c3fd0de4598e5498e0c8ebccc600fab47a103905887d25abb5c4aea6233bfc1",
+      "destination_path": "configs/fixtures/aat_v2_training_snapshot_smoke_v1.jsonl",
+      "destination_sha256": "1c3fd0de4598e5498e0c8ebccc600fab47a103905887d25abb5c4aea6233bfc1",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/alfred_vintage_observations_v1.json",
+      "source_sha256": "7dc66bef0c67e29c78329606f91fe6e3a8acdc9276a35cfb6fbfda9799c9c7fe",
+      "destination_path": "configs/fixtures/alfred_vintage_observations_v1.json",
+      "destination_sha256": "7dc66bef0c67e29c78329606f91fe6e3a8acdc9276a35cfb6fbfda9799c9c7fe",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/deepseek_flash_e_arm_mismatch_v1.json",
+      "source_sha256": "0dd6f984891e4d0fb82a2e6e6504d941a3c09e402adb3ac461a951b4706d1e78",
+      "destination_path": "configs/fixtures/deepseek_flash_e_arm_mismatch_v1.json",
+      "destination_sha256": "0dd6f984891e4d0fb82a2e6e6504d941a3c09e402adb3ac461a951b4706d1e78",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/deepseek_flash_preflight_v1.json",
+      "source_sha256": "057ab3c2664e26253a3d586def6c086d82931caf29376d2ad1f646c122e2241f",
+      "destination_path": "configs/fixtures/deepseek_flash_preflight_v1.json",
+      "destination_sha256": "057ab3c2664e26253a3d586def6c086d82931caf29376d2ad1f646c122e2241f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/ollama_qwen_14b_runpod_training_v1.json",
+      "source_sha256": "c1c0dd6b0a8ad495395e1b5c10e95f4ec3f42a44eb84e1c0499c44efe09ef21a",
+      "destination_path": "configs/fixtures/ollama_qwen_14b_runpod_training_v1.json",
+      "destination_sha256": "c1c0dd6b0a8ad495395e1b5c10e95f4ec3f42a44eb84e1c0499c44efe09ef21a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/ollama_qwen_7b_volume_training_v1.json",
+      "source_sha256": "dca79e43c9a83345bdc2de72f7221f66729d7c3a295e7d9c63b9283e253d3255",
+      "destination_path": "configs/fixtures/ollama_qwen_7b_volume_training_v1.json",
+      "destination_sha256": "dca79e43c9a83345bdc2de72f7221f66729d7c3a295e7d9c63b9283e253d3255",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/ollama_qwen_training_v1.json",
+      "source_sha256": "40036083799285a45fe5cfb1949fc66b660ef218f58add997ae062f6d18e7816",
+      "destination_path": "configs/fixtures/ollama_qwen_training_v1.json",
+      "destination_sha256": "40036083799285a45fe5cfb1949fc66b660ef218f58add997ae062f6d18e7816",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/fixtures/orb_m_paper_bars_v1.json",
+      "source_sha256": "a4ad436b601c7cbd780319c97b430ed32fa575298530dc3217eace5427803361",
+      "destination_path": "configs/fixtures/orb_m_paper_bars_v1.json",
+      "destination_sha256": "a4ad436b601c7cbd780319c97b430ed32fa575298530dc3217eace5427803361",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/legacy/athena_paper_risk_v1.json",
+      "source_sha256": "889c8fb2ce799c8d30244e3eadbe7955473fcda4a69bd313f3407a70e9b0428a",
+      "destination_path": "configs/legacy/athena_paper_risk_v1.json",
+      "destination_sha256": "889c8fb2ce799c8d30244e3eadbe7955473fcda4a69bd313f3407a70e9b0428a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/ollama_local_unpriced_v1.json",
+      "source_sha256": "5b4e016128d57dbba1762579ca5831a58340c280a142cd1db8021c8eb80d2cf1",
+      "destination_path": "configs/ollama_local_unpriced_v1.json",
+      "destination_sha256": "5b4e016128d57dbba1762579ca5831a58340c280a142cd1db8021c8eb80d2cf1",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/openai_gpt_5_6_terra_pricing_2026-09-03.json",
+      "source_sha256": "7847eb4e8edae465a337d67e203c3a7cd58c086337f544d905849a2bd0eb038e",
+      "destination_path": "configs/openai_gpt_5_6_terra_pricing_2026-09-03.json",
+      "destination_sha256": "7847eb4e8edae465a337d67e203c3a7cd58c086337f544d905849a2bd0eb038e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_m_candidate_pool.txt",
+      "source_sha256": "470c8974f0faa106ae3c5cf3b422adba1b3f8e7c2c611c86a6b7699a118ca4f7",
+      "destination_path": "configs/orb_m_candidate_pool.txt",
+      "destination_sha256": "470c8974f0faa106ae3c5cf3b422adba1b3f8e7c2c611c86a6b7699a118ca4f7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_m_candidate_pool_point_in_time.manifest.json",
+      "source_sha256": "f3b56fd2b74ce6c8c7c38366efe17a5402e87b4c3ebb79fbc6b31cced67f1dc7",
+      "destination_path": "configs/orb_m_candidate_pool_point_in_time.manifest.json",
+      "destination_sha256": "f3b56fd2b74ce6c8c7c38366efe17a5402e87b4c3ebb79fbc6b31cced67f1dc7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_m_candidate_pool_point_in_time.txt",
+      "source_sha256": "03867332685a79afe9f309a5f165297dc6b1ee3c9699434ffb465cf11b1fd131",
+      "destination_path": "configs/orb_m_candidate_pool_point_in_time.txt",
+      "destination_sha256": "03867332685a79afe9f309a5f165297dc6b1ee3c9699434ffb465cf11b1fd131",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_m_paper_session_v1.json",
+      "source_sha256": "ae630662a6f59ed945f662f59978c4c2da530f5b3b92ecbe8041b294acceaced",
+      "destination_path": "configs/orb_m_paper_session_v1.json",
+      "destination_sha256": "ae630662a6f59ed945f662f59978c4c2da530f5b3b92ecbe8041b294acceaced",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_m_reference_series.txt",
+      "source_sha256": "fb286190921459b01d20e3976090e266139868d9d964b92d683a525554ab4002",
+      "destination_path": "configs/orb_m_reference_series.txt",
+      "destination_sha256": "fb286190921459b01d20e3976090e266139868d9d964b92d683a525554ab4002",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "configs/orb_momentum_v1.json",
+      "source_sha256": "50b91f01898768951c0f12d5662cb18043cc9a0323fc177c4cf0967a1df8007d",
+      "destination_path": "configs/orb_momentum_v1.json",
+      "destination_sha256": "50b91f01898768951c0f12d5662cb18043cc9a0323fc177c4cf0967a1df8007d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "data/universe/manifest.json",
+      "source_sha256": "687c5ef824ec6e7307cda037a3da929f05403b28ea344015fead0628bf7b79f2",
+      "destination_path": "data/universe/manifest.json",
+      "destination_sha256": "687c5ef824ec6e7307cda037a3da929f05403b28ea344015fead0628bf7b79f2",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "data/universe/stats.json",
+      "source_sha256": "a12d357538001d31c9ac3a1ce2a662196e0fe323f987f8a316b8d9a93bd83a5f",
+      "destination_path": "data/universe/stats.json",
+      "destination_sha256": "a12d357538001d31c9ac3a1ce2a662196e0fe323f987f8a316b8d9a93bd83a5f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "deploy/athena-earnings.service",
+      "source_sha256": "df7540927d5eed2d15bbea3853b957ec8080ff378e3ee35181ea2fc532412e34",
+      "destination_path": "deploy/athena-earnings.service",
+      "destination_sha256": "df7540927d5eed2d15bbea3853b957ec8080ff378e3ee35181ea2fc532412e34",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "deploy/athena-paper.service",
+      "source_sha256": "53d320e656752cc72892f86f8b15803f4752cb630dff9939b43abf98c6b773d2",
+      "destination_path": "deploy/athena-paper.service",
+      "destination_sha256": "53d320e656752cc72892f86f8b15803f4752cb630dff9939b43abf98c6b773d2",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "deploy/earnings.env.example",
+      "source_sha256": "8c6b7bdc5b6825dabe058c8df82f43e7d9986d1e6aaee66ada783238ef6ac033",
+      "destination_path": "deploy/earnings.env.example",
+      "destination_sha256": "8c6b7bdc5b6825dabe058c8df82f43e7d9986d1e6aaee66ada783238ef6ac033",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "deploy/install.sh",
+      "source_sha256": "7168f5ca77dcafee8e480dbfc5ac961b14a46626dd9692e68588035d69be9665",
+      "destination_path": "deploy/install.sh",
+      "destination_sha256": "7168f5ca77dcafee8e480dbfc5ac961b14a46626dd9692e68588035d69be9665",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "deploy/paper.env.example",
+      "source_sha256": "a0762a350226c8c4e15e0c2ee3c1972d12d865ee7ffb85c8433c79018b3b89b1",
+      "destination_path": "deploy/paper.env.example",
+      "destination_sha256": "a0762a350226c8c4e15e0c2ee3c1972d12d865ee7ffb85c8433c79018b3b89b1",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/AAT_V1_TRAINING_RUNNER.md",
+      "source_sha256": "172b552ce31787bec7093631f73073b471a58f7fb75adf826889bc0492961d6b",
+      "destination_path": "docs/lineage/athena-trading/docs/AAT_V1_TRAINING_RUNNER.md",
+      "destination_sha256": "172b552ce31787bec7093631f73073b471a58f7fb75adf826889bc0492961d6b",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/AAT_V2_HANDOFF.md",
+      "source_sha256": "b7e5b84d4e8a1fdce58f4b8b43d826d2a011bc723faf4c7768089cdcab8297ed",
+      "destination_path": "docs/lineage/athena-trading/docs/AAT_V2_HANDOFF.md",
+      "destination_sha256": "b7e5b84d4e8a1fdce58f4b8b43d826d2a011bc723faf4c7768089cdcab8297ed",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+      "source_sha256": "799b7935315c30711b8fb1e82e47ed931c264be4c47cf39bd83288d97a26b968",
+      "destination_path": "docs/lineage/athena-trading/docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+      "destination_sha256": "799b7935315c30711b8fb1e82e47ed931c264be4c47cf39bd83288d97a26b968",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/AAT_V2_PLAN.md",
+      "source_sha256": "9f4cb1d4617d48ecbc3df684e21b06f1fa2a7a666bb62a4eb587e1dcedcb6fc6",
+      "destination_path": "docs/lineage/athena-trading/docs/AAT_V2_PLAN.md",
+      "destination_sha256": "9f4cb1d4617d48ecbc3df684e21b06f1fa2a7a666bb62a4eb587e1dcedcb6fc6",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/AAT_V2_VISION.md",
+      "source_sha256": "f5ae41e2bfe883718fe7168c0c77116c3edae23fa211470a34b74c9647333a0a",
+      "destination_path": "docs/lineage/athena-trading/docs/AAT_V2_VISION.md",
+      "destination_sha256": "f5ae41e2bfe883718fe7168c0c77116c3edae23fa211470a34b74c9647333a0a",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ALFRED_MACRO_SOURCE_PROVENANCE.md",
+      "source_sha256": "af893b6198219ccec5b9e1efaac5e780815da7febf72beb4913f7ddcc25cbf42",
+      "destination_path": "docs/lineage/athena-trading/docs/ALFRED_MACRO_SOURCE_PROVENANCE.md",
+      "destination_sha256": "af893b6198219ccec5b9e1efaac5e780815da7febf72beb4913f7ddcc25cbf42",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ARCHITECTURE.md",
+      "source_sha256": "3d738e30b5684322451fe6e0069d9febef5dac9220d12502f964e22d817783c2",
+      "destination_path": "docs/lineage/athena-trading/docs/ARCHITECTURE.md",
+      "destination_sha256": "3d738e30b5684322451fe6e0069d9febef5dac9220d12502f964e22d817783c2",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ASTRA_DESK_EXTRACTION.md",
+      "source_sha256": "3b433f56bb44b74512d7acabf0a0b95c172b65bb07a14198f395c096d0fbab25",
+      "destination_path": "docs/lineage/athena-trading/docs/ASTRA_DESK_EXTRACTION.md",
+      "destination_sha256": "3b433f56bb44b74512d7acabf0a0b95c172b65bb07a14198f395c096d0fbab25",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ATHENA_TRADING_CANON.md",
+      "source_sha256": "9328f44cf306c21050554efe4f76acca139400eefed90a3bfebd80e660e2918c",
+      "destination_path": "docs/lineage/athena-trading/docs/ATHENA_TRADING_CANON.md",
+      "destination_sha256": "9328f44cf306c21050554efe4f76acca139400eefed90a3bfebd80e660e2918c",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/BUILD_PLAN.md",
+      "source_sha256": "39b23ca434472673b6828609c379f2973d424b4d302987f48e0b8d409ed5f659",
+      "destination_path": "docs/lineage/athena-trading/docs/BUILD_PLAN.md",
+      "destination_sha256": "39b23ca434472673b6828609c379f2973d424b4d302987f48e0b8d409ed5f659",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/CLOUD_DEPLOYMENT.md",
+      "source_sha256": "7cf3cd35cd139e099cc4181f6370002e25e060e9b37dcc82474d5bcf70271029",
+      "destination_path": "docs/lineage/athena-trading/docs/CLOUD_DEPLOYMENT.md",
+      "destination_sha256": "7cf3cd35cd139e099cc4181f6370002e25e060e9b37dcc82474d5bcf70271029",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/EARNINGS_PAPER.md",
+      "source_sha256": "0f99dcc96d62aea52e8339f96ea08d03eaaa3b912803f5ef4e6cd70a2879a5e9",
+      "destination_path": "docs/lineage/athena-trading/docs/EARNINGS_PAPER.md",
+      "destination_sha256": "0f99dcc96d62aea52e8339f96ea08d03eaaa3b912803f5ef4e6cd70a2879a5e9",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/EXOGENOUS_SOURCES_V1.md",
+      "source_sha256": "47b2d3c85c4efa8794056a59c8d8a2d71412ad0f3f5b2167cb20bbb57a2bb9fd",
+      "destination_path": "docs/lineage/athena-trading/docs/EXOGENOUS_SOURCES_V1.md",
+      "destination_sha256": "47b2d3c85c4efa8794056a59c8d8a2d71412ad0f3f5b2167cb20bbb57a2bb9fd",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/FIXTURE_SELF_IMPROVE.md",
+      "source_sha256": "759196778341387b376b8474ebf060cd51b115062ee5117638407a1f0ece0905",
+      "destination_path": "docs/lineage/athena-trading/docs/FIXTURE_SELF_IMPROVE.md",
+      "destination_sha256": "759196778341387b376b8474ebf060cd51b115062ee5117638407a1f0ece0905",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/GDELT_NEWS_SOURCE_PROVENANCE.md",
+      "source_sha256": "c8d15658e1b00f2222dc9a7f04a5a3b64db64fea457fc63e0c4a85ccc53e1f92",
+      "destination_path": "docs/lineage/athena-trading/docs/GDELT_NEWS_SOURCE_PROVENANCE.md",
+      "destination_sha256": "c8d15658e1b00f2222dc9a7f04a5a3b64db64fea457fc63e0c4a85ccc53e1f92",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/HISTORICAL_SOURCE_PROVENANCE.md",
+      "source_sha256": "1f02d57c76941b12ba6a4bc3589f24e0339588b8c22232d2447eef68bb6fc130",
+      "destination_path": "docs/lineage/athena-trading/docs/HISTORICAL_SOURCE_PROVENANCE.md",
+      "destination_sha256": "1f02d57c76941b12ba6a4bc3589f24e0339588b8c22232d2447eef68bb6fc130",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/HYBRID_MODEL_CONTRACT.md",
+      "source_sha256": "06e0bb4455a0390deb16975476f6a10175e41dbe391f5eb19291d0502c5d1c47",
+      "destination_path": "docs/lineage/athena-trading/docs/HYBRID_MODEL_CONTRACT.md",
+      "destination_sha256": "06e0bb4455a0390deb16975476f6a10175e41dbe391f5eb19291d0502c5d1c47",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/IMPLEMENTATION_STATUS.md",
+      "source_sha256": "c35c93733bbae3759ff9e90f507758f2be2482f57c084da613ed4391b602c6b4",
+      "destination_path": "docs/lineage/athena-trading/docs/IMPLEMENTATION_STATUS.md",
+      "destination_sha256": "c35c93733bbae3759ff9e90f507758f2be2482f57c084da613ed4391b602c6b4",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/LEARNING.md",
+      "source_sha256": "883b66807358ffe1b47774f068675b747de8c3c7df0e8c3df47d409663e71c7c",
+      "destination_path": "docs/lineage/athena-trading/docs/LEARNING.md",
+      "destination_sha256": "883b66807358ffe1b47774f068675b747de8c3c7df0e8c3df47d409663e71c7c",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/LIVE_PAPER.md",
+      "source_sha256": "4b99b58386ae8fd4a6de75ad1064e13ad15f66bc26d81be176f6a230a50134ce",
+      "destination_path": "docs/lineage/athena-trading/docs/LIVE_PAPER.md",
+      "destination_sha256": "4b99b58386ae8fd4a6de75ad1064e13ad15f66bc26d81be176f6a230a50134ce",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/MIGRATION_COMPLETE.md",
+      "source_sha256": "3b2f2af0c50700244954503cef95681f04b39447d79492541f7e37276f50be3c",
+      "destination_path": "docs/lineage/athena-trading/docs/MIGRATION_COMPLETE.md",
+      "destination_sha256": "3b2f2af0c50700244954503cef95681f04b39447d79492541f7e37276f50be3c",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/MIGRATION_FROM_ATHENA.md",
+      "source_sha256": "5e518c7670e44d66bb472d194df9e5b282da015fcafdc76852a640b6d5eb81c5",
+      "destination_path": "docs/lineage/athena-trading/docs/MIGRATION_FROM_ATHENA.md",
+      "destination_sha256": "5e518c7670e44d66bb472d194df9e5b282da015fcafdc76852a640b6d5eb81c5",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/MIGRATION_MATRIX_V1.md",
+      "source_sha256": "86265c3c2c4501a3e1d8696e3cc428a18d920e1fa574254a3b24553856be1be2",
+      "destination_path": "docs/lineage/athena-trading/docs/MIGRATION_MATRIX_V1.md",
+      "destination_sha256": "86265c3c2c4501a3e1d8696e3cc428a18d920e1fa574254a3b24553856be1be2",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ORB_MOMENTUM_V1.md",
+      "source_sha256": "8502114de365c50ed3d77daae8bf8b63e732fdf5876a5b7b5cc862f76147abfb",
+      "destination_path": "docs/lineage/athena-trading/docs/ORB_MOMENTUM_V1.md",
+      "destination_sha256": "8502114de365c50ed3d77daae8bf8b63e732fdf5876a5b7b5cc862f76147abfb",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ORB_MOMENTUM_V1_CAMPAIGN.md",
+      "source_sha256": "e88fc7e8d48668a4aebfd9dabffac10807b754be574e729fc09cdc590bb4b9b7",
+      "destination_path": "docs/lineage/athena-trading/docs/ORB_MOMENTUM_V1_CAMPAIGN.md",
+      "destination_sha256": "e88fc7e8d48668a4aebfd9dabffac10807b754be574e729fc09cdc590bb4b9b7",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/ORB_M_STATUS.md",
+      "source_sha256": "50ef7cb244e5e7eff29f0f3101da2e852c2da13237bf91da4a920311dbf1e70b",
+      "destination_path": "docs/lineage/athena-trading/docs/ORB_M_STATUS.md",
+      "destination_sha256": "50ef7cb244e5e7eff29f0f3101da2e852c2da13237bf91da4a920311dbf1e70b",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/README.md",
+      "source_sha256": "0089e6ff1e37a40d0a6a73dfa413c96b445ebdf819eb333d0b7d4bf3b7e1b8d7",
+      "destination_path": "docs/lineage/athena-trading/docs/README.md",
+      "destination_sha256": "0089e6ff1e37a40d0a6a73dfa413c96b445ebdf819eb333d0b7d4bf3b7e1b8d7",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/assets/athena-trading-canon.jpg",
+      "source_sha256": "fe9a2da6a8de6ae56bb3c3ba864a1efed2fc1fb9eb7aa9a01d1ae0638c54b8ef",
+      "destination_path": "docs/lineage/athena-trading/docs/assets/athena-trading-canon.jpg",
+      "destination_sha256": "fe9a2da6a8de6ae56bb3c3ba864a1efed2fc1fb9eb7aa9a01d1ae0638c54b8ef",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/audits/2026-09-24-jev-learning.md",
+      "source_sha256": "bb72b174262506264f3f87757b9844aa9c707619daf664cd5ed6727ee39289b7",
+      "destination_path": "docs/lineage/athena-trading/docs/audits/2026-09-24-jev-learning.md",
+      "destination_sha256": "bb72b174262506264f3f87757b9844aa9c707619daf664cd5ed6727ee39289b7",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/audits/2026-09-24.md",
+      "source_sha256": "3c03eacbf9da17ad97b44409afa2295b6f28cb8bcf8ea607b647af2e04b091f6",
+      "destination_path": "docs/lineage/athena-trading/docs/audits/2026-09-24.md",
+      "destination_sha256": "3c03eacbf9da17ad97b44409afa2295b6f28cb8bcf8ea607b647af2e04b091f6",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/audits/2026-10-10-paper-readiness.md",
+      "source_sha256": "1a6be98061116313c16d3d4f77502b6ce1f64f791d0c9d8c3e0d1fceee2ed1cb",
+      "destination_path": "docs/lineage/athena-trading/docs/audits/2026-10-10-paper-readiness.md",
+      "destination_sha256": "1a6be98061116313c16d3d4f77502b6ce1f64f791d0c9d8c3e0d1fceee2ed1cb",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/legacy/ATHENA_ALPACA_PAPER_ADAPTER_V1.md",
+      "source_sha256": "69deae8e8b253358b7b8c7e1b99c0908b7ae2a7975d36714cdb99bbde5cc0695",
+      "destination_path": "docs/lineage/athena-trading/docs/legacy/ATHENA_ALPACA_PAPER_ADAPTER_V1.md",
+      "destination_sha256": "69deae8e8b253358b7b8c7e1b99c0908b7ae2a7975d36714cdb99bbde5cc0695",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "docs/legacy/ATHENA_APDE_V1.md",
+      "source_sha256": "7ad19433128bfc3b6469394e692eaaf8fa589e9d9b1e2e999da9fdf49217c49c",
+      "destination_path": "docs/lineage/athena-trading/docs/legacy/ATHENA_APDE_V1.md",
+      "destination_sha256": "7ad19433128bfc3b6469394e692eaaf8fa589e9d9b1e2e999da9fdf49217c49c",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "pyproject.toml",
+      "source_sha256": "89b41c8b02b36fc7ddf104370150d869733f7e4f37f64fcaeac508ff3c5bf390",
+      "destination_path": "docs/lineage/athena-trading/pyproject.toml",
+      "destination_sha256": "89b41c8b02b36fc7ddf104370150d869733f7e4f37f64fcaeac508ff3c5bf390",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/README.md",
+      "source_sha256": "301efe9ed5e0b2adad01cfce4b075bb18ef6744ef7ec7d25251789811e1d28b7",
+      "destination_path": "research/README.md",
+      "destination_sha256": "301efe9ed5e0b2adad01cfce4b075bb18ef6744ef7ec7d25251789811e1d28b7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/earnings-universe/CONSOLIDATION_RECEIPT.md",
+      "source_sha256": "9f427b172f6c384a3615fa1c7a5df910717adfb6a5ce14c7b24ffc265b3febbc",
+      "destination_path": "research/earnings-universe/CONSOLIDATION_RECEIPT.md",
+      "destination_sha256": "9f427b172f6c384a3615fa1c7a5df910717adfb6a5ce14c7b24ffc265b3febbc",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/earnings-universe/README.md",
+      "source_sha256": "00be6e8cfc552848ada1e1f61cec3f339b1ded1f1f20c00fd760db60cb014de6",
+      "destination_path": "research/earnings-universe/README.md",
+      "destination_sha256": "00be6e8cfc552848ada1e1f61cec3f339b1ded1f1f20c00fd760db60cb014de6",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/earnings-universe/universe_screener.py",
+      "source_sha256": "8a78eba8a4766b0e8edc191b336bee922c151c6657bb3293128dac9cc00b91ca",
+      "destination_path": "research/earnings-universe/universe_screener.py",
+      "destination_sha256": "8a78eba8a4766b0e8edc191b336bee922c151c6657bb3293128dac9cc00b91ca",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/history/CANON_before_reset_2026-09-24.md",
+      "source_sha256": "66e900d74f2c35bd8ce4116ae2c9cc338d61ec79b771974700801f7596cdb18c",
+      "destination_path": "research/history/CANON_before_reset_2026-09-24.md",
+      "destination_sha256": "66e900d74f2c35bd8ce4116ae2c9cc338d61ec79b771974700801f7596cdb18c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "research/history/README_before_canon_reset_2026-09-24.md",
+      "source_sha256": "e54cf8db731c023cc24ab0e3d9c4e5475d96ba774b10fe1eba846833edc676a9",
+      "destination_path": "research/history/README_before_canon_reset_2026-09-24.md",
+      "destination_sha256": "e54cf8db731c023cc24ab0e3d9c4e5475d96ba774b10fe1eba846833edc676a9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/audit_aat_v1_adaptation_readiness.py",
+      "source_sha256": "bcea967153679186eb03f9e4055db362e06e34a332476608d15ddfbf37464ca9",
+      "destination_path": "scripts/audit_aat_v1_adaptation_readiness.py",
+      "destination_sha256": "bcea967153679186eb03f9e4055db362e06e34a332476608d15ddfbf37464ca9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/audit_aat_v1_four_arm_training.py",
+      "source_sha256": "d2f47b03eadc8a10bed11e6f83856a13bde3740e6c52f36eb0907061f4eec8ee",
+      "destination_path": "scripts/audit_aat_v1_four_arm_training.py",
+      "destination_sha256": "d2f47b03eadc8a10bed11e6f83856a13bde3740e6c52f36eb0907061f4eec8ee",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/audit_aat_v1_holdout_preflight.py",
+      "source_sha256": "2761e9904e93c0b6f54b7d005299ed6058de04540c6f551b852e235057b5089b",
+      "destination_path": "scripts/audit_aat_v1_holdout_preflight.py",
+      "destination_sha256": "2761e9904e93c0b6f54b7d005299ed6058de04540c6f551b852e235057b5089b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/build_aat_v1_lesson_inventory.py",
+      "source_sha256": "ebccf5ab4e84f98bfc4f0d9b3326a6d869df804b15387526639aa143c44fdda0",
+      "destination_path": "scripts/build_aat_v1_lesson_inventory.py",
+      "destination_sha256": "ebccf5ab4e84f98bfc4f0d9b3326a6d869df804b15387526639aa143c44fdda0",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/build_orb_m_pool.py",
+      "source_sha256": "65d055bcc0160ab2b58d80c2d6e8d4cf189531e8c5285a5335e88e495dea4a4d",
+      "destination_path": "scripts/build_orb_m_pool.py",
+      "destination_sha256": "65d055bcc0160ab2b58d80c2d6e8d4cf189531e8c5285a5335e88e495dea4a4d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/compile_aat_v1_holdout_opportunities.py",
+      "source_sha256": "1ae5c6dae435874b502ee9702773617af8f110d15a1d3b0729e4e6721cd84493",
+      "destination_path": "scripts/compile_aat_v1_holdout_opportunities.py",
+      "destination_sha256": "1ae5c6dae435874b502ee9702773617af8f110d15a1d3b0729e4e6721cd84493",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/compile_aat_v1_opportunities.py",
+      "source_sha256": "23f65d00e13828bc2532572e1ac5444543715fd7c716e12dd369347a22080a0f",
+      "destination_path": "scripts/compile_aat_v1_opportunities.py",
+      "destination_sha256": "23f65d00e13828bc2532572e1ac5444543715fd7c716e12dd369347a22080a0f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/draw_aat_v2_assignment.py",
+      "source_sha256": "ee894cad1f98984bd807b429e6db2e8a4659cee56580c1d4a3dcc6e189aa4e76",
+      "destination_path": "scripts/draw_aat_v2_assignment.py",
+      "destination_sha256": "ee894cad1f98984bd807b429e6db2e8a4659cee56580c1d4a3dcc6e189aa4e76",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/draw_aat_v2_training_subsample.py",
+      "source_sha256": "970ca0206d0773ac84f4924e6e385baf67b7cbbd203eb1d14d81bd424815846a",
+      "destination_path": "scripts/draw_aat_v2_training_subsample.py",
+      "destination_sha256": "970ca0206d0773ac84f4924e6e385baf67b7cbbd203eb1d14d81bd424815846a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/evaluate_aat_v1_training_outcomes.py",
+      "source_sha256": "4a9b2b2473eedc7c8fbb58ccc1755b1312bc225cfe4fed49c943a7c1fc37709e",
+      "destination_path": "scripts/evaluate_aat_v1_training_outcomes.py",
+      "destination_sha256": "4a9b2b2473eedc7c8fbb58ccc1755b1312bc225cfe4fed49c943a7c1fc37709e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/freeze_aat_v1_claim_contract.py",
+      "source_sha256": "3c257f2253943d3b9327d8b75652f5d60bf8304ab819e161d214e89e73475d83",
+      "destination_path": "scripts/freeze_aat_v1_claim_contract.py",
+      "destination_sha256": "3c257f2253943d3b9327d8b75652f5d60bf8304ab819e161d214e89e73475d83",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/freeze_orb_m_universe.py",
+      "source_sha256": "4bf4b07510ab07906490c807107b41629f9498abd15f85eed4f8ff679e0363e0",
+      "destination_path": "scripts/freeze_orb_m_universe.py",
+      "destination_sha256": "4bf4b07510ab07906490c807107b41629f9498abd15f85eed4f8ff679e0363e0",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/measure_exogenous_coverage.py",
+      "source_sha256": "dceb44a42686ae68243ade9cd03ae98492b98f64b528e86675b0b8002f57f02d",
+      "destination_path": "scripts/measure_exogenous_coverage.py",
+      "destination_sha256": "dceb44a42686ae68243ade9cd03ae98492b98f64b528e86675b0b8002f57f02d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/plan_aat_v2_deepseek_flash.py",
+      "source_sha256": "4c3f3171ca893eb3a79b08638d3085be780abde1c0ba5bdf96d483007fa90d83",
+      "destination_path": "scripts/plan_aat_v2_deepseek_flash.py",
+      "destination_sha256": "4c3f3171ca893eb3a79b08638d3085be780abde1c0ba5bdf96d483007fa90d83",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/probe_holdout_sufficiency.py",
+      "source_sha256": "ecbe978bc11ad793364f7d107b115c497e2f1cd370ba34fbf5b95a562802b304",
+      "destination_path": "scripts/probe_holdout_sufficiency.py",
+      "destination_sha256": "ecbe978bc11ad793364f7d107b115c497e2f1cd370ba34fbf5b95a562802b304",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/probe_orb_m_intrabar.py",
+      "source_sha256": "b46d07c740f0fa81b1fef116a67f60b3a31042f9d1e59563424318958c3a2daf",
+      "destination_path": "scripts/probe_orb_m_intrabar.py",
+      "destination_sha256": "b46d07c740f0fa81b1fef116a67f60b3a31042f9d1e59563424318958c3a2daf",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/register_aat_v1_training_amendment.py",
+      "source_sha256": "44506e78e00b92f840c9ec7963b64fa5b70956b278d0bba7814f17b46e42284d",
+      "destination_path": "scripts/register_aat_v1_training_amendment.py",
+      "destination_sha256": "44506e78e00b92f840c9ec7963b64fa5b70956b278d0bba7814f17b46e42284d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_aat_v1_four_arm_training.py",
+      "source_sha256": "759551487c956a9349af3e125b8fc5942f7ea30bba2597bac7ac9a49da70e9c4",
+      "destination_path": "scripts/run_aat_v1_four_arm_training.py",
+      "destination_sha256": "759551487c956a9349af3e125b8fc5942f7ea30bba2597bac7ac9a49da70e9c4",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_aat_v1_terra_canary.py",
+      "source_sha256": "7842538140418aae18be31ef3164a19e0affd2f553d6fa67cdcfa2a3d58fb628",
+      "destination_path": "scripts/run_aat_v1_terra_canary.py",
+      "destination_sha256": "7842538140418aae18be31ef3164a19e0affd2f553d6fa67cdcfa2a3d58fb628",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_aat_v1_training.py",
+      "source_sha256": "29228feb8e32eedff3a25c8709d6183ac47ca44f77f0826d927a0ca16e958b8c",
+      "destination_path": "scripts/run_aat_v1_training.py",
+      "destination_sha256": "29228feb8e32eedff3a25c8709d6183ac47ca44f77f0826d927a0ca16e958b8c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_aat_v2_deepseek_flash_pilot.py",
+      "source_sha256": "bea1f90f5d8c00c3950293bdab15334b0a4bb2a5ca95d329e0256b67a1465da5",
+      "destination_path": "scripts/run_aat_v2_deepseek_flash_pilot.py",
+      "destination_sha256": "bea1f90f5d8c00c3950293bdab15334b0a4bb2a5ca95d329e0256b67a1465da5",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_aat_v2_ollama_local_training.py",
+      "source_sha256": "832b0e2522314b383414527f7491be4c0729d0c8c981f9eec0b11dfd084a7a16",
+      "destination_path": "scripts/run_aat_v2_ollama_local_training.py",
+      "destination_sha256": "832b0e2522314b383414527f7491be4c0729d0c8c981f9eec0b11dfd084a7a16",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_athena_earnings.py",
+      "source_sha256": "b18b5016b79ac3a0ab64eb0beac28c84958364490df9f71113f54c78878bca59",
+      "destination_path": "scripts/run_athena_earnings.py",
+      "destination_sha256": "b18b5016b79ac3a0ab64eb0beac28c84958364490df9f71113f54c78878bca59",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_athena_paper.py",
+      "source_sha256": "d0a6079d4d2f9d7da23529d9f88752e3dee0c67d50547bfaaf42ed6d0cf3becb",
+      "destination_path": "scripts/run_athena_paper.py",
+      "destination_sha256": "d0a6079d4d2f9d7da23529d9f88752e3dee0c67d50547bfaaf42ed6d0cf3becb",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_fixture_self_improve.py",
+      "source_sha256": "244be2a16a779d25343445f1cf861ae4b4f3942ca7c0556a27fb8ec46dc6edcf",
+      "destination_path": "scripts/run_fixture_self_improve.py",
+      "destination_sha256": "244be2a16a779d25343445f1cf861ae4b4f3942ca7c0556a27fb8ec46dc6edcf",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "scripts/run_orb_m_paper.py",
+      "source_sha256": "831ff3fff9b487cf1ae6ee9ffcb7ceb23b9a91d2b1ec635a0ea4b95343229836",
+      "destination_path": "scripts/run_orb_m_paper.py",
+      "destination_sha256": "831ff3fff9b487cf1ae6ee9ffcb7ceb23b9a91d2b1ec635a0ea4b95343229836",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/__init__.py",
+      "source_sha256": "29cf507f897215afb2852990f141d70cea4d127f4a376da8be64ffcd7b3bfe6a",
+      "destination_path": "docs/lineage/athena-trading/src/athena_trading/__init__.py",
+      "destination_sha256": "29cf507f897215afb2852990f141d70cea4d127f4a376da8be64ffcd7b3bfe6a",
+      "disposition": "preserved-lineage",
+      "note": "Historical source bytes preserved. Active entry points are the SuperAthena documents."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/__init__.py",
+      "source_sha256": "2e53f6d81e84e4929e03022b87a6b137493ceee817ed3d33a545f246bbf472bf",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/__init__.py",
+      "destination_sha256": "2e53f6d81e84e4929e03022b87a6b137493ceee817ed3d33a545f246bbf472bf",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/actor_canary.py",
+      "source_sha256": "f09ffa5b498110ae6e1a8031d1b3758d4dbc06a10770d4117aca6fd319bce5c2",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/actor_canary.py",
+      "destination_sha256": "f09ffa5b498110ae6e1a8031d1b3758d4dbc06a10770d4117aca6fd319bce5c2",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/amendment.py",
+      "source_sha256": "12411535767bd69daf18780020617c33dbfe34ac8e6d99285c7e5b9e5a727407",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/amendment.py",
+      "destination_sha256": "12411535767bd69daf18780020617c33dbfe34ac8e6d99285c7e5b9e5a727407",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/claim_contract.py",
+      "source_sha256": "218722ea570bd61ba4ca89727d56e2d34eb00a160b2effee13f517de806117fa",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/claim_contract.py",
+      "destination_sha256": "218722ea570bd61ba4ca89727d56e2d34eb00a160b2effee13f517de806117fa",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/four_arm.py",
+      "source_sha256": "ff81c3417e054a63baebb4e37f4d0afae6bd21a9ea2c884d3369556287502347",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/four_arm.py",
+      "destination_sha256": "ff81c3417e054a63baebb4e37f4d0afae6bd21a9ea2c884d3369556287502347",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/holdout_gate.py",
+      "source_sha256": "3528e68d133e107cd5191cf7b7afae323922feb4206d681c61730b65d1aa2548",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/holdout_gate.py",
+      "destination_sha256": "3528e68d133e107cd5191cf7b7afae323922feb4206d681c61730b65d1aa2548",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/lessons.py",
+      "source_sha256": "4fd24a853e19e17512ddfa6dcfb1dfa384dfa6f311c1c86c69e899d704fd9342",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/lessons.py",
+      "destination_sha256": "4fd24a853e19e17512ddfa6dcfb1dfa384dfa6f311c1c86c69e899d704fd9342",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/opportunities.py",
+      "source_sha256": "033c25b5db30aeae4a44340b43f2b6c633f2318b771238c3f3b0b4f0e161d258",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/opportunities.py",
+      "destination_sha256": "033c25b5db30aeae4a44340b43f2b6c633f2318b771238c3f3b0b4f0e161d258",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/outcomes.py",
+      "source_sha256": "bb3bc666442a719a413fd456ca5b7c06f371b6a8868403fff745055190afa676",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/outcomes.py",
+      "destination_sha256": "bb3bc666442a719a413fd456ca5b7c06f371b6a8868403fff745055190afa676",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/providers.py",
+      "source_sha256": "803ccac8239ef3ac03e65894db8415b0d174858a55431af0d69f40d6de931251",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/providers.py",
+      "destination_sha256": "803ccac8239ef3ac03e65894db8415b0d174858a55431af0d69f40d6de931251",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/readiness.py",
+      "source_sha256": "cbf0075d0179653fbe1151ef9bbc4505f38f3bdf18ab95e1150f07c8f6a429dc",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/readiness.py",
+      "destination_sha256": "cbf0075d0179653fbe1151ef9bbc4505f38f3bdf18ab95e1150f07c8f6a429dc",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/receipts.py",
+      "source_sha256": "11644fd4de798543c118642f4ecae5a0d71045c8270ab6b395e1f815eff2910f",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/receipts.py",
+      "destination_sha256": "11644fd4de798543c118642f4ecae5a0d71045c8270ab6b395e1f815eff2910f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v1/training.py",
+      "source_sha256": "bed2cda43cba09632a0acdba3148f2b4ea2ae48b70fbf6e8a427537b94237131",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v1/training.py",
+      "destination_sha256": "bed2cda43cba09632a0acdba3148f2b4ea2ae48b70fbf6e8a427537b94237131",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/__init__.py",
+      "source_sha256": "613129937e9270aab7ef4cf7592e29ccae5291ff459f4ce1515399835fccf7eb",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/__init__.py",
+      "destination_sha256": "613129937e9270aab7ef4cf7592e29ccae5291ff459f4ce1515399835fccf7eb",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/arms.py",
+      "source_sha256": "06716fbca26e8a369f11620e0d26ad639b4b2fade046529ddae4958529676381",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/arms.py",
+      "destination_sha256": "06716fbca26e8a369f11620e0d26ad639b4b2fade046529ddae4958529676381",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/assignment.py",
+      "source_sha256": "98a0f38d9e46288e70eb1279991e2c04bdef16024acc2cec161cb04cc1ca2e40",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/assignment.py",
+      "destination_sha256": "98a0f38d9e46288e70eb1279991e2c04bdef16024acc2cec161cb04cc1ca2e40",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/contract.py",
+      "source_sha256": "aea732177b5c974389dcaec83857d20a49a229aeb04e885ca3a92df009fb505c",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/contract.py",
+      "destination_sha256": "aea732177b5c974389dcaec83857d20a49a229aeb04e885ca3a92df009fb505c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/deepseek_pilot.py",
+      "source_sha256": "ecc6550739a77976773cac03733e8c9b1ad033df496fedbbdd1a72f8d5e0ad23",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/deepseek_pilot.py",
+      "destination_sha256": "ecc6550739a77976773cac03733e8c9b1ad033df496fedbbdd1a72f8d5e0ad23",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/deepseek_preflight.py",
+      "source_sha256": "6bb3ecaad1d812f23f03be1a8751d0b58c248eb82eddb25265ce8181af94238a",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/deepseek_preflight.py",
+      "destination_sha256": "6bb3ecaad1d812f23f03be1a8751d0b58c248eb82eddb25265ce8181af94238a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/deliberation.py",
+      "source_sha256": "23ff5e64d3ded0d183945655601044401c46221b2f165b1b8247c2d25f15666b",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/deliberation.py",
+      "destination_sha256": "23ff5e64d3ded0d183945655601044401c46221b2f165b1b8247c2d25f15666b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/identity.py",
+      "source_sha256": "4be3ee591d943a6786cad46fbc23cd88d1501816f368e8772c172d9e413e5efc",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/identity.py",
+      "destination_sha256": "3cbbe2ea2c8b2667aedd0edbe89fcfa85aaf3f391a35fd7c4471bd7c2aad83e4",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged. Installed imports do not require the checkout to be on sys.path."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/ollama_identity.py",
+      "source_sha256": "ea3d9d41368fd8bc9cdb7f633ea45641e3100ad606e785a28734651f37092c0a",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/ollama_identity.py",
+      "destination_sha256": "8b0daa5eaa68030737295d4de2a80d2f734486037389ac152a66369099005e29",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged. Installed imports do not require the checkout to be on sys.path."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/ollama_training.py",
+      "source_sha256": "8924ed744b4801938a2ae0c580ead11179ba0444ea33db188f3e3f9dfb4b2ceb",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/ollama_training.py",
+      "destination_sha256": "8924ed744b4801938a2ae0c580ead11179ba0444ea33db188f3e3f9dfb4b2ceb",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/ollama_transport.py",
+      "source_sha256": "b3c324264acbd9f7b0bc270c5a1567e5512d919f5d20eac7685e36fbd1616e03",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/ollama_transport.py",
+      "destination_sha256": "b3c324264acbd9f7b0bc270c5a1567e5512d919f5d20eac7685e36fbd1616e03",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/opportunities.py",
+      "source_sha256": "be32a78cbca212752210a15f162a33589364100dc7a8c436b75336a0254d1b9c",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/opportunities.py",
+      "destination_sha256": "be32a78cbca212752210a15f162a33589364100dc7a8c436b75336a0254d1b9c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/packet.py",
+      "source_sha256": "9ffc870edcb75ad7e83e0aa3be50a6b5758e0e58949799db78cd9c665f86fa52",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/packet.py",
+      "destination_sha256": "9ffc870edcb75ad7e83e0aa3be50a6b5758e0e58949799db78cd9c665f86fa52",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/protocol.py",
+      "source_sha256": "b9e0f3e3a194253b50b9d4fcded710f566d82b91b158d4f2c0f188855be961b0",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/protocol.py",
+      "destination_sha256": "b9e0f3e3a194253b50b9d4fcded710f566d82b91b158d4f2c0f188855be961b0",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/aat_v2/training_subsample.py",
+      "source_sha256": "c511c1d7ea4c90a6ca920bc913189fbfe7316705de5bb00143fc95f4b3432bee",
+      "destination_path": "strategies/custom/legacy-strategy-research/aat_v2/training_subsample.py",
+      "destination_sha256": "fe440af5a504cd3c5a38e36476d33c29ab49431f790f2eebf4e4a3b16cdb17b6",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged. Installed imports do not require the checkout to be on sys.path."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/athena_adapter/__init__.py",
+      "source_sha256": "6405faac09d3419408f361527ba5c64707fa19a6ab2fa06c2fe7456d86eac846",
+      "destination_path": "core/contracts/athena_adapter/__init__.py",
+      "destination_sha256": "6405faac09d3419408f361527ba5c64707fa19a6ab2fa06c2fe7456d86eac846",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/athena_adapter/contracts.py",
+      "source_sha256": "1ea08db2e08a7c8eeba8698e26d9a7cc927fcb45ebc93b98286b96c8a56d4c70",
+      "destination_path": "core/contracts/athena_adapter/contracts.py",
+      "destination_sha256": "1ea08db2e08a7c8eeba8698e26d9a7cc927fcb45ebc93b98286b96c8a56d4c70",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/athena_adapter/jev.py",
+      "source_sha256": "8b93b8acf328de107227bc1c98cb9b48f207846241665555cb63c09079845bdc",
+      "destination_path": "core/contracts/athena_adapter/jev.py",
+      "destination_sha256": "8b93b8acf328de107227bc1c98cb9b48f207846241665555cb63c09079845bdc",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/execution/__init__.py",
+      "source_sha256": "b1f2446012b26b978591e961524e02ca048857d73206a68c93f30e86f6cddc8a",
+      "destination_path": "core/execution/execution/__init__.py",
+      "destination_sha256": "b1f2446012b26b978591e961524e02ca048857d73206a68c93f30e86f6cddc8a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/execution/authority.py",
+      "source_sha256": "2693e48827f0caf2422757fa5f9877718b51322cbf7d9af17675ec9f48c6c113",
+      "destination_path": "core/execution/execution/authority.py",
+      "destination_sha256": "2693e48827f0caf2422757fa5f9877718b51322cbf7d9af17675ec9f48c6c113",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/execution/broker.py",
+      "source_sha256": "6f4f80eb02c2a53fbd5361aa5e4b426e2049be0fc41ca8c5babb97753cba4d1a",
+      "destination_path": "core/execution/execution/broker.py",
+      "destination_sha256": "6f4f80eb02c2a53fbd5361aa5e4b426e2049be0fc41ca8c5babb97753cba4d1a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/execution/intent.py",
+      "source_sha256": "ed1e9cd490d72ed1428c90d104034dc2895ada99d3f6f75a7a5bbcd55db7910c",
+      "destination_path": "core/execution/execution/intent.py",
+      "destination_sha256": "ed1e9cd490d72ed1428c90d104034dc2895ada99d3f6f75a7a5bbcd55db7910c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/__init__.py",
+      "source_sha256": "b3dd7a99a99dae8b4a2b1786fa0e340c8c23eb5cb391567b86e93d725682b4ba",
+      "destination_path": "data/ingestion/exogenous/__init__.py",
+      "destination_sha256": "b3dd7a99a99dae8b4a2b1786fa0e340c8c23eb5cb391567b86e93d725682b4ba",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/alfred.py",
+      "source_sha256": "1672ee4df1635eaa0f015a2f3c59411a419c4e7328cd61aa0719891c4da603ae",
+      "destination_path": "data/ingestion/exogenous/alfred.py",
+      "destination_sha256": "1672ee4df1635eaa0f015a2f3c59411a419c4e7328cd61aa0719891c4da603ae",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/analysts.py",
+      "source_sha256": "46ac6eb4f5993ff30d330da0b56869e8e6f004fb12074ead3eeee02ec35d126a",
+      "destination_path": "data/ingestion/exogenous/analysts.py",
+      "destination_sha256": "46ac6eb4f5993ff30d330da0b56869e8e6f004fb12074ead3eeee02ec35d126a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/buckets.py",
+      "source_sha256": "347953c811f24be74a6cb0d9e2c9e3f32db72fe70b47a94c2e13a9c959b13a35",
+      "destination_path": "data/ingestion/exogenous/buckets.py",
+      "destination_sha256": "347953c811f24be74a6cb0d9e2c9e3f32db72fe70b47a94c2e13a9c959b13a35",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/contracts.py",
+      "source_sha256": "1f4c871d9921b06aecd967bdbd6e27fda88790cbdf403c04eb7dca2103797f39",
+      "destination_path": "data/ingestion/exogenous/contracts.py",
+      "destination_sha256": "1f4c871d9921b06aecd967bdbd6e27fda88790cbdf403c04eb7dca2103797f39",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/gdelt.py",
+      "source_sha256": "8c14ffef6c54be98393fabf7490937ed2959dd0886c50508843e800abd3732e6",
+      "destination_path": "data/ingestion/exogenous/gdelt.py",
+      "destination_sha256": "8c14ffef6c54be98393fabf7490937ed2959dd0886c50508843e800abd3732e6",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/ingest.py",
+      "source_sha256": "46d40f203d3db87f206f7f1dc4ceda6d1ba4cb66fbbf2ffe0d6d9d76dfea0f82",
+      "destination_path": "data/ingestion/exogenous/ingest.py",
+      "destination_sha256": "46d40f203d3db87f206f7f1dc4ceda6d1ba4cb66fbbf2ffe0d6d9d76dfea0f82",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/exogenous/snapshot.py",
+      "source_sha256": "5f8961d4b569a0c5b74ff00ba9e1bd24267f0ca8818da606600d30ea738b9fb3",
+      "destination_path": "data/ingestion/exogenous/snapshot.py",
+      "destination_sha256": "5f8961d4b569a0c5b74ff00ba9e1bd24267f0ca8818da606600d30ea738b9fb3",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/market_data/__init__.py",
+      "source_sha256": "ec2da5b874359ce0332bb517caaa78475a016a7c4ef8e4bedc64f5cf13ecf68b",
+      "destination_path": "data/ingestion/market_data/__init__.py",
+      "destination_sha256": "ec2da5b874359ce0332bb517caaa78475a016a7c4ef8e4bedc64f5cf13ecf68b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/market_data/alpaca_corporate_actions.py",
+      "source_sha256": "82c92545d9e15ea154cd0ce5eefe028237cc1ce52032b64488f657e363104742",
+      "destination_path": "data/ingestion/market_data/alpaca_corporate_actions.py",
+      "destination_sha256": "82c92545d9e15ea154cd0ce5eefe028237cc1ce52032b64488f657e363104742",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/market_data/massive.py",
+      "source_sha256": "97ecb44a533bae94c7e8a0a6addf0c95ce01dd875143809cfec2c15545c6736d",
+      "destination_path": "data/ingestion/market_data/massive.py",
+      "destination_sha256": "97ecb44a533bae94c7e8a0a6addf0c95ce01dd875143809cfec2c15545c6736d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/__init__.py",
+      "source_sha256": "930fff51291b9c4d6131cddbd0b6a3752f0d62ddc990c8550e982e18e6583de3",
+      "destination_path": "strategies/momentum/orb-m/orb_m/__init__.py",
+      "destination_sha256": "930fff51291b9c4d6131cddbd0b6a3752f0d62ddc990c8550e982e18e6583de3",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/constitution.py",
+      "source_sha256": "52cb9b0bf8139eecf12699558e5a76c451b6bec7c036323bc4992cf3184270af",
+      "destination_path": "strategies/momentum/orb-m/orb_m/constitution.py",
+      "destination_sha256": "52cb9b0bf8139eecf12699558e5a76c451b6bec7c036323bc4992cf3184270af",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/deterioration.py",
+      "source_sha256": "332cd304d51d89a611bfc42bb35a1ab4dc9344da9411434b4e6421c970382762",
+      "destination_path": "strategies/momentum/orb-m/orb_m/deterioration.py",
+      "destination_sha256": "332cd304d51d89a611bfc42bb35a1ab4dc9344da9411434b4e6421c970382762",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/entry.py",
+      "source_sha256": "a2ac60de5d0f8f9c39e07abb7eeabe2add00d367b59568e02b95090628427b70",
+      "destination_path": "strategies/momentum/orb-m/orb_m/entry.py",
+      "destination_sha256": "a2ac60de5d0f8f9c39e07abb7eeabe2add00d367b59568e02b95090628427b70",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/execution.py",
+      "source_sha256": "1132b0d6e8756beb7c3e31da0c39bf9dbeead810d3eb4a53322e949250bc434e",
+      "destination_path": "strategies/momentum/orb-m/orb_m/execution.py",
+      "destination_sha256": "1132b0d6e8756beb7c3e31da0c39bf9dbeead810d3eb4a53322e949250bc434e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/management.py",
+      "source_sha256": "c147da18b2a886f23aa8aa98daa2671a186bfd9aacabd8d99e90b20824ff751c",
+      "destination_path": "strategies/momentum/orb-m/orb_m/management.py",
+      "destination_sha256": "c147da18b2a886f23aa8aa98daa2671a186bfd9aacabd8d99e90b20824ff751c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/market.py",
+      "source_sha256": "ea3ffbd26329df82adefac3855521157f44188a02ea1cc076786d6df13bfa72b",
+      "destination_path": "strategies/momentum/orb-m/orb_m/market.py",
+      "destination_sha256": "ea3ffbd26329df82adefac3855521157f44188a02ea1cc076786d6df13bfa72b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/quality.py",
+      "source_sha256": "314c6c0be55b66d5db6817f77eaa50909e62f71b342b578295eb3ce3e263b77e",
+      "destination_path": "strategies/momentum/orb-m/orb_m/quality.py",
+      "destination_sha256": "314c6c0be55b66d5db6817f77eaa50909e62f71b342b578295eb3ce3e263b77e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/session.py",
+      "source_sha256": "2dc11e50f0bd1d3109b6d7e11c30f9b4d6268605b889c773f243d056ef101192",
+      "destination_path": "strategies/momentum/orb-m/orb_m/session.py",
+      "destination_sha256": "2dc11e50f0bd1d3109b6d7e11c30f9b4d6268605b889c773f243d056ef101192",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/orb_m/universe.py",
+      "source_sha256": "0e55a26690cf7e059b8012464a017a64ebdd481c4c8984ed24b40f9c184c9654",
+      "destination_path": "strategies/momentum/orb-m/orb_m/universe.py",
+      "destination_sha256": "0e55a26690cf7e059b8012464a017a64ebdd481c4c8984ed24b40f9c184c9654",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/__init__.py",
+      "source_sha256": "b750e6262c0fc1d3b1c1da5fb4adc2d192908542536d476e703ad2e3570a8afd",
+      "destination_path": "operations/paper-trading/paper/__init__.py",
+      "destination_sha256": "b750e6262c0fc1d3b1c1da5fb4adc2d192908542536d476e703ad2e3570a8afd",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/alpaca.py",
+      "source_sha256": "93893d600378e122a50ec4ba1f7924e9c34c98b8fd0ff3aacd07deb65b31d6d5",
+      "destination_path": "core/broker-adapters/broker_adapters/alpaca.py",
+      "destination_sha256": "93893d600378e122a50ec4ba1f7924e9c34c98b8fd0ff3aacd07deb65b31d6d5",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/bars.py",
+      "source_sha256": "eba6641763d85c7689f24194abba0deb78a886bcebd3e42267392f28ce0f6eee",
+      "destination_path": "operations/paper-trading/paper/bars.py",
+      "destination_sha256": "8a90ac701d08d0bb9ecdda3a94bf796eebdbed498cae4b0c0469361acd20c128",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged. Installed imports do not require the checkout to be on sys.path."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/cloud.py",
+      "source_sha256": "0b45141dea16f29ac8462962724b716e8e62fd2d162e42bcd0a1d7cd702890ad",
+      "destination_path": "strategies/custom/predictive-intraday/intraday/cloud.py",
+      "destination_sha256": "8ac143ac732c7fd7329db70a1574b981c92198f6299f66e5ecce9b3419702a01",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/demo.py",
+      "source_sha256": "0211b63235f990dc8c22c4d8907560ffa45f930775964107c8db29f17b53e64c",
+      "destination_path": "operations/paper-trading/paper/demo.py",
+      "destination_sha256": "0211b63235f990dc8c22c4d8907560ffa45f930775964107c8db29f17b53e64c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/earnings.py",
+      "source_sha256": "57bdd59643a114c94c4c0addedae0447f9adbbdf1330a3a3479ebc43ca58e247",
+      "destination_path": "strategies/event-driven/earnings-adaptive/earnings/earnings.py",
+      "destination_sha256": "b3a9884e017af0bac775ddec63f5c8df4e6f8de7d962615c8262cbc3319dc690",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/earnings_calendar.py",
+      "source_sha256": "7cf3dd82da7cde40e35692d70110e6163c0e10571f9800ea168b0cdce0fce97e",
+      "destination_path": "strategies/event-driven/earnings-adaptive/earnings/earnings_calendar.py",
+      "destination_sha256": "7cf3dd82da7cde40e35692d70110e6163c0e10571f9800ea168b0cdce0fce97e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/earnings_cloud.py",
+      "source_sha256": "7b28c40787eb37cc4a830e5e994a647466106631d0867f017e9a04fac8d9f65b",
+      "destination_path": "strategies/event-driven/earnings-adaptive/earnings/earnings_cloud.py",
+      "destination_sha256": "4d800ce867fd87b603f5903ddfb707248ab8295cb0f257c9486e4755c93761ed",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/evaluation.py",
+      "source_sha256": "ebcd29a27ebb29430e6ac8f6b86cfa0d63f38020fbdfb54717073d978a9146d0",
+      "destination_path": "evaluation/backtesting/backtesting/evaluation.py",
+      "destination_sha256": "ebcd29a27ebb29430e6ac8f6b86cfa0d63f38020fbdfb54717073d978a9146d0",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/fixture.py",
+      "source_sha256": "743931cee7afb185a5456779d01d8a3bed7b986bb6d4cf313bac644a10091ceb",
+      "destination_path": "operations/paper-trading/paper/fixture.py",
+      "destination_sha256": "743931cee7afb185a5456779d01d8a3bed7b986bb6d4cf313bac644a10091ceb",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/funnel.py",
+      "source_sha256": "4698913b073ce02e222b7414dc934b65bcc068248deb29b4e1e09e52d4504126",
+      "destination_path": "operations/paper-trading/paper/funnel.py",
+      "destination_sha256": "4698913b073ce02e222b7414dc934b65bcc068248deb29b4e1e09e52d4504126",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/journal.py",
+      "source_sha256": "02b4d6979b00a34851b8329e3b105392a67d889ba65edf55ea306a9d5319cd3a",
+      "destination_path": "core/accounting/accounting/journal.py",
+      "destination_sha256": "02b4d6979b00a34851b8329e3b105392a67d889ba65edf55ea306a9d5319cd3a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/learning.py",
+      "source_sha256": "d831c63e0a25e87e78b10d511f1fb846def95895635c26727f7c1d81495677ff",
+      "destination_path": "operations/paper-trading/paper/learning.py",
+      "destination_sha256": "d831c63e0a25e87e78b10d511f1fb846def95895635c26727f7c1d81495677ff",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/live.py",
+      "source_sha256": "5d307be88b11682a7b30db36d5b1966cd9573d83d68c1cae5e3e8d155152bbf2",
+      "destination_path": "strategies/custom/predictive-intraday/intraday/live.py",
+      "destination_sha256": "1c18cb425506d50234e1adbf18ea4f01b3a029dd402288a6fe8563447a9d59f6",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/ownership.py",
+      "source_sha256": "0b1e9b47a831c5ac1abe4282d1261ee57a5d542c53e558e21c16050c17002d9e",
+      "destination_path": "operations/paper-trading/paper/ownership.py",
+      "destination_sha256": "0b1e9b47a831c5ac1abe4282d1261ee57a5d542c53e558e21c16050c17002d9e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/self_improve.py",
+      "source_sha256": "26034a864d66d1a014df698a9812ec757c652c83b0d5e4966dcfb41c8c254e43",
+      "destination_path": "operations/paper-trading/paper/self_improve.py",
+      "destination_sha256": "26034a864d66d1a014df698a9812ec757c652c83b0d5e4966dcfb41c8c254e43",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/session.py",
+      "source_sha256": "a5d47d53b74edeb18a4a17d7890e546de00a2f220ffaff0e1773b3b0b4ca400f",
+      "destination_path": "operations/paper-trading/paper/session.py",
+      "destination_sha256": "a5d47d53b74edeb18a4a17d7890e546de00a2f220ffaff0e1773b3b0b4ca400f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/shared_risk.py",
+      "source_sha256": "ecd77c8c3b6be76a290f4ca09172303b087a750414f75558707f38be1c13740f",
+      "destination_path": "core/portfolio/portfolio/shared_risk.py",
+      "destination_sha256": "bfda86eb7f878403a803372633190c2d410148aaee16826738958178d36cade3",
+      "disposition": "migrated-import-adjusted",
+      "note": "Import paths and checkout-root lookup only. Decision logic unchanged."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/paper/walk.py",
+      "source_sha256": "20ec92903304375af9e137592f7ca9ce3cec0a607d81394ac37c8e69a9e9a1ea",
+      "destination_path": "operations/paper-trading/paper/walk.py",
+      "destination_sha256": "20ec92903304375af9e137592f7ca9ce3cec0a607d81394ac37c8e69a9e9a1ea",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/position_management/__init__.py",
+      "source_sha256": "5f40d6ab85d3176e09428495be35d0395477cac5e5a4d65c9e17d8fe69c2ec8e",
+      "destination_path": "core/portfolio/position_management/__init__.py",
+      "destination_sha256": "5f40d6ab85d3176e09428495be35d0395477cac5e5a4d65c9e17d8fe69c2ec8e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/position_management/apde.py",
+      "source_sha256": "05a6e305e7ae8b48d5c07a70a0c53a8924ba184c86bccc663ae17da989a83c8a",
+      "destination_path": "core/portfolio/position_management/apde.py",
+      "destination_sha256": "05a6e305e7ae8b48d5c07a70a0c53a8924ba184c86bccc663ae17da989a83c8a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/risk/__init__.py",
+      "source_sha256": "d61f8d2177fd94537c4b5fb889bd395d39ff018003ea5d2370aa54a95792a7bb",
+      "destination_path": "core/risk/risk/__init__.py",
+      "destination_sha256": "d61f8d2177fd94537c4b5fb889bd395d39ff018003ea5d2370aa54a95792a7bb",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/risk/halt.py",
+      "source_sha256": "1cd7c7f5334487ff36580f44618c39518019b6b6fa14f0827635f94b4a20413d",
+      "destination_path": "core/risk/risk/halt.py",
+      "destination_sha256": "1cd7c7f5334487ff36580f44618c39518019b6b6fa14f0827635f94b4a20413d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/strategies/__init__.py",
+      "source_sha256": "efccf3889857e54677a958defa007021f0afd6205e5a9d3a568b0c0124dc5b5d",
+      "destination_path": "strategies/momentum/orb-m/strategies/__init__.py",
+      "destination_sha256": "efccf3889857e54677a958defa007021f0afd6205e5a9d3a568b0c0124dc5b5d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "src/athena_trading/strategies/orb_momentum.py",
+      "source_sha256": "2a935c548fafc7088429846aa2c91528f3ae542144ae11f9fe944567b204949f",
+      "destination_path": "strategies/momentum/orb-m/strategies/orb_momentum.py",
+      "destination_sha256": "2a935c548fafc7088429846aa2c91528f3ae542144ae11f9fe944567b204949f",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/conftest.py",
+      "source_sha256": "aeaba6dcc1ebc5bf8032afebe0ac9f3bab7338f368f4ad1db9a4d0b9dd6f831c",
+      "destination_path": "tests/conftest.py",
+      "destination_sha256": "aeaba6dcc1ebc5bf8032afebe0ac9f3bab7338f368f4ad1db9a4d0b9dd6f831c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_actor_canary.py",
+      "source_sha256": "a3885acad13d8e66bb4ef8a46b7b0754cec721c62d9a0cce02cb2463aca04426",
+      "destination_path": "tests/test_aat_v1_actor_canary.py",
+      "destination_sha256": "a3885acad13d8e66bb4ef8a46b7b0754cec721c62d9a0cce02cb2463aca04426",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_claim_contract.py",
+      "source_sha256": "e30034369d4a524ddea42b401cca707dcf5e59100bc0fcd7879966694aff8dea",
+      "destination_path": "tests/test_aat_v1_claim_contract.py",
+      "destination_sha256": "e30034369d4a524ddea42b401cca707dcf5e59100bc0fcd7879966694aff8dea",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_four_arm.py",
+      "source_sha256": "5dfeed7aa8c5e5c9ec8a132dabd080df93cebb62b170d32c346296977224a11b",
+      "destination_path": "tests/test_aat_v1_four_arm.py",
+      "destination_sha256": "5dfeed7aa8c5e5c9ec8a132dabd080df93cebb62b170d32c346296977224a11b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_holdout_gate.py",
+      "source_sha256": "052633861025b4410bcde16d10da3290306478d4bd1992578633071baa87de86",
+      "destination_path": "tests/test_aat_v1_holdout_gate.py",
+      "destination_sha256": "052633861025b4410bcde16d10da3290306478d4bd1992578633071baa87de86",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_identity_pinning.py",
+      "source_sha256": "eb8f6e894412ac77f4735d16840a37b618b5c39411385663bdecce9a07c981f9",
+      "destination_path": "tests/test_aat_v1_identity_pinning.py",
+      "destination_sha256": "eb8f6e894412ac77f4735d16840a37b618b5c39411385663bdecce9a07c981f9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_lessons.py",
+      "source_sha256": "fdef4b81d2d1a72f69ac906793bb7b0c21828cc2a5f28e4176f7e16f892e7669",
+      "destination_path": "tests/test_aat_v1_lessons.py",
+      "destination_sha256": "fdef4b81d2d1a72f69ac906793bb7b0c21828cc2a5f28e4176f7e16f892e7669",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_opportunities.py",
+      "source_sha256": "27f5c16053266bc0b6ca32dd930bf597d8982c0db7e4d22bf51584ba1bdef52b",
+      "destination_path": "tests/test_aat_v1_opportunities.py",
+      "destination_sha256": "27f5c16053266bc0b6ca32dd930bf597d8982c0db7e4d22bf51584ba1bdef52b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_outcomes.py",
+      "source_sha256": "973534c75dad45acd2aee68596608d56ddaf39eb6bb22e5e505d5188244dac61",
+      "destination_path": "tests/test_aat_v1_outcomes.py",
+      "destination_sha256": "973534c75dad45acd2aee68596608d56ddaf39eb6bb22e5e505d5188244dac61",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_providers.py",
+      "source_sha256": "9ce91b42acf34d5c11bc3c9ef6eab23cadbee87a18540adf8fe739555c550c00",
+      "destination_path": "tests/test_aat_v1_providers.py",
+      "destination_sha256": "9ce91b42acf34d5c11bc3c9ef6eab23cadbee87a18540adf8fe739555c550c00",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_readiness.py",
+      "source_sha256": "3159fbfc3894c0ec9f7b02940149f865debea98f52a4ab6e59b7b1d135976ac9",
+      "destination_path": "tests/test_aat_v1_readiness.py",
+      "destination_sha256": "3159fbfc3894c0ec9f7b02940149f865debea98f52a4ab6e59b7b1d135976ac9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_sufficiency_probe.py",
+      "source_sha256": "9284239fdd11b1555443a1a608636528f3dc4f3aaf90e93f733dd318441a3d0a",
+      "destination_path": "tests/test_aat_v1_sufficiency_probe.py",
+      "destination_sha256": "9284239fdd11b1555443a1a608636528f3dc4f3aaf90e93f733dd318441a3d0a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v1_training.py",
+      "source_sha256": "c9ed6b0c90e8ff977e1c5d74c2fa02f7e9fa6746f81d6c1ff6b3e02e6ce8e43a",
+      "destination_path": "tests/test_aat_v1_training.py",
+      "destination_sha256": "c9ed6b0c90e8ff977e1c5d74c2fa02f7e9fa6746f81d6c1ff6b3e02e6ce8e43a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_arms_and_packet.py",
+      "source_sha256": "e80b53604def97f3451df4205df0f13e2b4469db792b6df58c79f973b5857a52",
+      "destination_path": "tests/test_aat_v2_arms_and_packet.py",
+      "destination_sha256": "e80b53604def97f3451df4205df0f13e2b4469db792b6df58c79f973b5857a52",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_assignment.py",
+      "source_sha256": "aa49faaf6d6280c9c93b17d18a61c52bd8c4e47d0e40bce26fb2be3135cd47a8",
+      "destination_path": "tests/test_aat_v2_assignment.py",
+      "destination_sha256": "aa49faaf6d6280c9c93b17d18a61c52bd8c4e47d0e40bce26fb2be3135cd47a8",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_contract.py",
+      "source_sha256": "9232816e096973715297393887e6c5bce6b0f1e0d8e19ab2b8f6f333d6e4b1de",
+      "destination_path": "tests/test_aat_v2_contract.py",
+      "destination_sha256": "9232816e096973715297393887e6c5bce6b0f1e0d8e19ab2b8f6f333d6e4b1de",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_deepseek_identity.py",
+      "source_sha256": "864cf85381c8190bb7c2f079b9c113c74b867018b4379ea3122affabd0b3b3c4",
+      "destination_path": "tests/test_aat_v2_deepseek_identity.py",
+      "destination_sha256": "864cf85381c8190bb7c2f079b9c113c74b867018b4379ea3122affabd0b3b3c4",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_deepseek_pilot.py",
+      "source_sha256": "e4495b3ae97c707427c32bd988204b02be75742b1635e6688cf8126360feb615",
+      "destination_path": "tests/test_aat_v2_deepseek_pilot.py",
+      "destination_sha256": "e4495b3ae97c707427c32bd988204b02be75742b1635e6688cf8126360feb615",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_deepseek_preflight.py",
+      "source_sha256": "28f4ae8ed46b46003beb6b47433eefc9538bc9a1b6a688ce04d429254a844ee2",
+      "destination_path": "tests/test_aat_v2_deepseek_preflight.py",
+      "destination_sha256": "28f4ae8ed46b46003beb6b47433eefc9538bc9a1b6a688ce04d429254a844ee2",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_deliberation.py",
+      "source_sha256": "f5f2bbed1330c0efdfdc4ef67269700d3d2f631f9ac2c3c5e01422815b6fa5b7",
+      "destination_path": "tests/test_aat_v2_deliberation.py",
+      "destination_sha256": "f5f2bbed1330c0efdfdc4ef67269700d3d2f631f9ac2c3c5e01422815b6fa5b7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_ollama_identity.py",
+      "source_sha256": "ab6d8c90eb73ea763ec05df5e6083a6dc186bdfcdafc70d2af175befd31f4cf3",
+      "destination_path": "tests/test_aat_v2_ollama_identity.py",
+      "destination_sha256": "ab6d8c90eb73ea763ec05df5e6083a6dc186bdfcdafc70d2af175befd31f4cf3",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_ollama_runpod.py",
+      "source_sha256": "0059cc3a2be31279145e26fdea676d1fb14d71c169bdaf455354d0b2d121550a",
+      "destination_path": "tests/test_aat_v2_ollama_runpod.py",
+      "destination_sha256": "0059cc3a2be31279145e26fdea676d1fb14d71c169bdaf455354d0b2d121550a",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_ollama_training.py",
+      "source_sha256": "37f1b419c96dd71ba65be8d6252b8800ad4e84c84ed28f1b8ce885d493e0749b",
+      "destination_path": "tests/test_aat_v2_ollama_training.py",
+      "destination_sha256": "37f1b419c96dd71ba65be8d6252b8800ad4e84c84ed28f1b8ce885d493e0749b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_ollama_volume.py",
+      "source_sha256": "90fe44b11c7cf2e6e064c2f407e3990c80956c2e11293f08de6ecf7f2e8cba3e",
+      "destination_path": "tests/test_aat_v2_ollama_volume.py",
+      "destination_sha256": "90fe44b11c7cf2e6e064c2f407e3990c80956c2e11293f08de6ecf7f2e8cba3e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_opportunities.py",
+      "source_sha256": "9734291f513dbb5bdb1e8d1524865d2826550c959293e957ab9366720c1e12df",
+      "destination_path": "tests/test_aat_v2_opportunities.py",
+      "destination_sha256": "9734291f513dbb5bdb1e8d1524865d2826550c959293e957ab9366720c1e12df",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_protocol.py",
+      "source_sha256": "f10145e929f0d48e128f1f92f425bfb13479ec9ec89a8962fa5c4a52210dcf52",
+      "destination_path": "tests/test_aat_v2_protocol.py",
+      "destination_sha256": "f10145e929f0d48e128f1f92f425bfb13479ec9ec89a8962fa5c4a52210dcf52",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_aat_v2_training_subsample.py",
+      "source_sha256": "8eb68b455f436d8838f918eabeab48c60ee989173eed9e8fe2a381ca3150cb0b",
+      "destination_path": "tests/test_aat_v2_training_subsample.py",
+      "destination_sha256": "8eb68b455f436d8838f918eabeab48c60ee989173eed9e8fe2a381ca3150cb0b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_active_paper.py",
+      "source_sha256": "d18509415cc19997436e5906aaa88a9ce9c38eda068685aacece9ac599537634",
+      "destination_path": "tests/test_active_paper.py",
+      "destination_sha256": "d18509415cc19997436e5906aaa88a9ce9c38eda068685aacece9ac599537634",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_apde.py",
+      "source_sha256": "ec1b873b0b38721d060907cf89be8bcb98e19eacd736731b045d8cbb1502fa42",
+      "destination_path": "tests/test_apde.py",
+      "destination_sha256": "ec1b873b0b38721d060907cf89be8bcb98e19eacd736731b045d8cbb1502fa42",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_athena_adapter.py",
+      "source_sha256": "f2bf5cbc542b6adb1749e1b4d77352dfeb5485dab975c5d3fcba90f0dff0d70b",
+      "destination_path": "tests/test_athena_adapter.py",
+      "destination_sha256": "f2bf5cbc542b6adb1749e1b4d77352dfeb5485dab975c5d3fcba90f0dff0d70b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_build_pool_script.py",
+      "source_sha256": "e34323e03c8816f3eed3a9a5fecb37433a99839e8dc0a3d5272ca9b9d9bf7f92",
+      "destination_path": "tests/test_build_pool_script.py",
+      "destination_sha256": "e34323e03c8816f3eed3a9a5fecb37433a99839e8dc0a3d5272ca9b9d9bf7f92",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_cloud_paper.py",
+      "source_sha256": "d266477c514526c131eb4605abdc0783500ec68f25b3bfc9c98697975eef5a1c",
+      "destination_path": "tests/test_cloud_paper.py",
+      "destination_sha256": "d266477c514526c131eb4605abdc0783500ec68f25b3bfc9c98697975eef5a1c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_earnings_close_recovery.py",
+      "source_sha256": "b303e83340fe8733e2bd078c637a8eef240e2bd544b864056be16fcd732fd340",
+      "destination_path": "tests/test_earnings_close_recovery.py",
+      "destination_sha256": "b303e83340fe8733e2bd078c637a8eef240e2bd544b864056be16fcd732fd340",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_earnings_paper.py",
+      "source_sha256": "ebee012802758c115b7b1d09c632aabc38a24e912557969c1d6d85de52f1d2d1",
+      "destination_path": "tests/test_earnings_paper.py",
+      "destination_sha256": "ebee012802758c115b7b1d09c632aabc38a24e912557969c1d6d85de52f1d2d1",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_execution_intent.py",
+      "source_sha256": "79905efcc9f70f10136a17bbe7fd959133a6078aa523b3f8b2b0c652af7c715b",
+      "destination_path": "tests/test_execution_intent.py",
+      "destination_sha256": "79905efcc9f70f10136a17bbe7fd959133a6078aa523b3f8b2b0c652af7c715b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_alfred.py",
+      "source_sha256": "22abff2a98a83a0d5c8d078f9a2628a9ca4a7619a405749e18666c63d078897e",
+      "destination_path": "tests/test_exogenous_alfred.py",
+      "destination_sha256": "22abff2a98a83a0d5c8d078f9a2628a9ca4a7619a405749e18666c63d078897e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_analysts.py",
+      "source_sha256": "9f81494b3afc57612b66c3609d6463346c06edbb6d059a8103c0c7ab7b8e841c",
+      "destination_path": "tests/test_exogenous_analysts.py",
+      "destination_sha256": "9f81494b3afc57612b66c3609d6463346c06edbb6d059a8103c0c7ab7b8e841c",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_contracts.py",
+      "source_sha256": "8c1c5db45d9b081590f7db7ebc9f4d3f026e2a18a8937beee3d8b6ae99c1acf7",
+      "destination_path": "tests/test_exogenous_contracts.py",
+      "destination_sha256": "8c1c5db45d9b081590f7db7ebc9f4d3f026e2a18a8937beee3d8b6ae99c1acf7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_gdelt.py",
+      "source_sha256": "06c721e196925b6c3fa4a654b27c3b610fbe8a404ef0b36844fc8a7a3406d4f4",
+      "destination_path": "tests/test_exogenous_gdelt.py",
+      "destination_sha256": "06c721e196925b6c3fa4a654b27c3b610fbe8a404ef0b36844fc8a7a3406d4f4",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_ingest.py",
+      "source_sha256": "c33a17e74d484d981e5c337ee6191cf006e9876911e015cb4c4bc658a42cfdd9",
+      "destination_path": "tests/test_exogenous_ingest.py",
+      "destination_sha256": "c33a17e74d484d981e5c337ee6191cf006e9876911e015cb4c4bc658a42cfdd9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_exogenous_snapshot.py",
+      "source_sha256": "1bbb60e83630c116a66fef67788486565c8b229d56d5c484ad298359ac5ae14d",
+      "destination_path": "tests/test_exogenous_snapshot.py",
+      "destination_sha256": "1bbb60e83630c116a66fef67788486565c8b229d56d5c484ad298359ac5ae14d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_fixture_self_improve.py",
+      "source_sha256": "f206709246d83fb83072953a16c3d870ce1ece752b565a90e2ad45a385cd8479",
+      "destination_path": "tests/test_fixture_self_improve.py",
+      "destination_sha256": "f206709246d83fb83072953a16c3d870ce1ece752b565a90e2ad45a385cd8479",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_freeze_universe_script.py",
+      "source_sha256": "9ae1144b414ae1bd34b38c4f720b4f4c9e561efa47cb6e13e4174fec8db9ad57",
+      "destination_path": "tests/test_freeze_universe_script.py",
+      "destination_sha256": "9ae1144b414ae1bd34b38c4f720b4f4c9e561efa47cb6e13e4174fec8db9ad57",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_market_data.py",
+      "source_sha256": "a052ba3c1a497c09c52394313714c8207e496f80e5e7bbb07c3106f0202cbb66",
+      "destination_path": "tests/test_market_data.py",
+      "destination_sha256": "a052ba3c1a497c09c52394313714c8207e496f80e5e7bbb07c3106f0202cbb66",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_massive_retry.py",
+      "source_sha256": "43b1f286ca28fd194c3d63ed7ebe0b14a8cd1ddb70f9c3995d15d991bb7b23e0",
+      "destination_path": "tests/test_massive_retry.py",
+      "destination_sha256": "43b1f286ca28fd194c3d63ed7ebe0b14a8cd1ddb70f9c3995d15d991bb7b23e0",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_measure_exogenous_coverage.py",
+      "source_sha256": "ca381d9ea9b5d2a7271ef66b0e3f37137549ce7128960f5682d3e93ab0b2d415",
+      "destination_path": "tests/test_measure_exogenous_coverage.py",
+      "destination_sha256": "ca381d9ea9b5d2a7271ef66b0e3f37137549ce7128960f5682d3e93ab0b2d415",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_constitution.py",
+      "source_sha256": "9e2bebb110fd9fefca252cda2ea56339f69d9704c894962c6b629dd868046263",
+      "destination_path": "tests/test_orb_m_constitution.py",
+      "destination_sha256": "9e2bebb110fd9fefca252cda2ea56339f69d9704c894962c6b629dd868046263",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_deterioration.py",
+      "source_sha256": "3e9f90bbc62c66b26edb7f907ae140c693f4cbf247ad9b3f272242af19073c46",
+      "destination_path": "tests/test_orb_m_deterioration.py",
+      "destination_sha256": "3e9f90bbc62c66b26edb7f907ae140c693f4cbf247ad9b3f272242af19073c46",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_entry.py",
+      "source_sha256": "30efa46759e7a499a71fa7baa234a749fe6eb278113c26813a7e19a7b8a86881",
+      "destination_path": "tests/test_orb_m_entry.py",
+      "destination_sha256": "30efa46759e7a499a71fa7baa234a749fe6eb278113c26813a7e19a7b8a86881",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_execution.py",
+      "source_sha256": "22c6a1be52f8b4acccea5df951575a97cadc8ae6d5c6c35d39d6fcebf5da9885",
+      "destination_path": "tests/test_orb_m_execution.py",
+      "destination_sha256": "22c6a1be52f8b4acccea5df951575a97cadc8ae6d5c6c35d39d6fcebf5da9885",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_management.py",
+      "source_sha256": "105d9d1f8860d48f79e13508a2e7195e7829d77351873e3e6ac659c0d7c10072",
+      "destination_path": "tests/test_orb_m_management.py",
+      "destination_sha256": "105d9d1f8860d48f79e13508a2e7195e7829d77351873e3e6ac659c0d7c10072",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_market.py",
+      "source_sha256": "db8d77ea26bc93217914ebd9d57d28d312abd8a7bb2a1f7e1d1921f15004bef7",
+      "destination_path": "tests/test_orb_m_market.py",
+      "destination_sha256": "db8d77ea26bc93217914ebd9d57d28d312abd8a7bb2a1f7e1d1921f15004bef7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_quality.py",
+      "source_sha256": "2b0b48f36dffac5e0ff820c0ea98e5b2e0227fa3ba3f004bf34c610e7f2ef46d",
+      "destination_path": "tests/test_orb_m_quality.py",
+      "destination_sha256": "2b0b48f36dffac5e0ff820c0ea98e5b2e0227fa3ba3f004bf34c610e7f2ef46d",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_session.py",
+      "source_sha256": "ada9316fee732df2833447311e63538eb137082baf028e7ef1df0abda2584c69",
+      "destination_path": "tests/test_orb_m_session.py",
+      "destination_sha256": "ada9316fee732df2833447311e63538eb137082baf028e7ef1df0abda2584c69",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_m_universe.py",
+      "source_sha256": "dceb0a9f0fa301dcbb9ee3f2131605bec0b4327b5054e9cfe33742fbae7d07f1",
+      "destination_path": "tests/test_orb_m_universe.py",
+      "destination_sha256": "dceb0a9f0fa301dcbb9ee3f2131605bec0b4327b5054e9cfe33742fbae7d07f1",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_orb_momentum.py",
+      "source_sha256": "84af41ad8d7d1f4990c7280ce8108081f5a02abba819c44a1a5422c41e179528",
+      "destination_path": "tests/test_orb_momentum.py",
+      "destination_sha256": "84af41ad8d7d1f4990c7280ce8108081f5a02abba819c44a1a5422c41e179528",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_paper_broker.py",
+      "source_sha256": "35af1cb2e676cd3ad13d525e4383764f00ce9fa6be01d3a5359c8fddd61dc2c7",
+      "destination_path": "tests/test_paper_broker.py",
+      "destination_sha256": "35af1cb2e676cd3ad13d525e4383764f00ce9fa6be01d3a5359c8fddd61dc2c7",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_paper_learning.py",
+      "source_sha256": "2c602fbcc743fccb6b1ecaf9a0a0b472ea3ac94ad931ca2cf62325a12546ccf9",
+      "destination_path": "tests/test_paper_learning.py",
+      "destination_sha256": "2c602fbcc743fccb6b1ecaf9a0a0b472ea3ac94ad931ca2cf62325a12546ccf9",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_paper_session.py",
+      "source_sha256": "e087551382c4173df6abfdf52e9e25f4118329da2fd9d0775cd4a8ef0a32e35b",
+      "destination_path": "tests/test_paper_session.py",
+      "destination_sha256": "e087551382c4173df6abfdf52e9e25f4118329da2fd9d0775cd4a8ef0a32e35b",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_paper_walk.py",
+      "source_sha256": "d3fd0b597bbc35e743015d63ed06693a09236ff4d1d49cc8f27f58b9778f149e",
+      "destination_path": "tests/test_paper_walk.py",
+      "destination_sha256": "d3fd0b597bbc35e743015d63ed06693a09236ff4d1d49cc8f27f58b9778f149e",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_risk_halt.py",
+      "source_sha256": "06566222a3d341930bef482f437683d64bb8243b7f54f3000da5243e07ee4dd6",
+      "destination_path": "tests/test_risk_halt.py",
+      "destination_sha256": "06566222a3d341930bef482f437683d64bb8243b7f54f3000da5243e07ee4dd6",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_shared_entry_atomicity.py",
+      "source_sha256": "9036a43bd0769c1128a85b973d68f6224ddcafc3a302886a317b3656982c57ea",
+      "destination_path": "tests/test_shared_entry_atomicity.py",
+      "destination_sha256": "9036a43bd0769c1128a85b973d68f6224ddcafc3a302886a317b3656982c57ea",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    },
+    {
+      "source_repo": "nrsandoval1231-oss/athena-trading",
+      "source_commit": "8bd0e7289e0a4899ec7e12291ca02a2c883c583d",
+      "source_path": "tests/test_shared_risk_and_evaluation.py",
+      "source_sha256": "22ab1c4ccbf1da4353e3bac12902b0a330b8a91351b78dcf5137d438ab78d428",
+      "destination_path": "tests/test_shared_risk_and_evaluation.py",
+      "destination_sha256": "22ab1c4ccbf1da4353e3bac12902b0a330b8a91351b78dcf5137d438ab78d428",
+      "disposition": "migrated",
+      "note": "Byte-identical copy."
+    }
+  ],
+  "added": [
+    "operations/paper-trading/paper/live.py",
+    "operations/paper-trading/paper/cloud.py",
+    "operations/paper-trading/paper/earnings.py",
+    "operations/paper-trading/paper/earnings_calendar.py",
+    "operations/paper-trading/paper/earnings_cloud.py",
+    "operations/paper-trading/paper/journal.py",
+    "operations/paper-trading/paper/alpaca.py",
+    "operations/paper-trading/paper/shared_risk.py",
+    "operations/paper-trading/paper/evaluation.py",
+    "strategies/event-driven/earnings-adaptive/earnings/__init__.py",
+    "strategies/custom/predictive-intraday/intraday/__init__.py",
+    "core/accounting/accounting/__init__.py",
+    "core/broker-adapters/broker_adapters/__init__.py",
+    "core/portfolio/portfolio/__init__.py",
+    "evaluation/backtesting/backtesting/__init__.py",
+    "src/athena_trading/__init__.py",
+    "src/athena_trading/paths.py",
+    "core/strategy-registry/strategy_registry/__init__.py",
+    "core/strategy-registry/strategy_registry/registry.py"
+  ],
+  "symlinks": {
+    "src/athena_trading/orb_m": "../../strategies/momentum/orb-m/orb_m",
+    "src/athena_trading/strategies": "../../strategies/momentum/orb-m/strategies",
+    "src/athena_trading/aat_v1": "../../strategies/custom/legacy-strategy-research/aat_v1",
+    "src/athena_trading/aat_v2": "../../strategies/custom/legacy-strategy-research/aat_v2",
+    "src/athena_trading/athena_adapter": "../../core/contracts/athena_adapter",
+    "src/athena_trading/execution": "../../core/execution/execution",
+    "src/athena_trading/risk": "../../core/risk/risk",
+    "src/athena_trading/position_management": "../../core/portfolio/position_management",
+    "src/athena_trading/market_data": "../../data/ingestion/market_data",
+    "src/athena_trading/exogenous": "../../data/ingestion/exogenous",
+    "src/athena_trading/paper": "../../operations/paper-trading/paper",
+    "src/athena_trading/earnings": "../../strategies/event-driven/earnings-adaptive/earnings",
+    "src/athena_trading/intraday": "../../strategies/custom/predictive-intraday/intraday",
+    "src/athena_trading/accounting": "../../core/accounting/accounting",
+    "src/athena_trading/broker_adapters": "../../core/broker-adapters/broker_adapters",
+    "src/athena_trading/portfolio": "../../core/portfolio/portfolio",
+    "src/athena_trading/backtesting": "../../evaluation/backtesting/backtesting",
+    "src/athena_trading/strategy_registry": "../../core/strategy-registry/strategy_registry"
+  }
+}

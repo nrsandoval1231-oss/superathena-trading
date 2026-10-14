@@ -1,0 +1,21 @@
+{
+  "actor_arms": [
+    "B_MEMORYLESS",
+    "C_NAIVE_MEMORY",
+    "D_ATHENA"
+  ],
+  "call_ceiling": 1800,
+  "deterministic_arm": "A_DETERMINISTIC",
+  "deterministic_action": "ENTER_STANDARD",
+  "execution_authority": "ABSENT",
+  "lesson_inventory_hash": "9156aca7b76382a263cfa67a5fbca6bd61bf8e43710da320909c75121de2b2bc",
+  "maximum_attempts_per_decision": 2,
+  "model_id": "gpt-5.6-terra",
+  "opportunity_count": 300,
+  "prior_spend_upper_bound_usd": 0.095888,
+  "promotion_rule_hash": "49e9d73aa57f46018727a8c96d182be49f2f03cd9b67511b8c239d1ea4c4ef04",
+  "sealed_holdout_access": false,
+  "spend_ceiling_usd": 20.0,
+  "token_ceiling": 3500000,
+  "schema_version": "aat-v1-four-arm-training-run-v1"
+}

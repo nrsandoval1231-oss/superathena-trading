@@ -1,0 +1,72 @@
+{
+  "amendment_hash": "7e26ab20f5a192c4fa53d2fa73e3ece03c4aa96a4b3c0ea3d5693f2c76ad3425",
+  "amendment_kind": "NON_AUTHORIZING_PROTOCOL_NOTE",
+  "base_protocol_hash": "85d97d923f7b502dea20a936abe6334b57df64a677afdb6510376c5ea5b08027",
+  "claim_authorized": false,
+  "deliberation": {
+    "claims": [
+      "MACRO",
+      "PRICE",
+      "NONE"
+    ],
+    "decision_keys": [
+      "turn",
+      "action",
+      "confidence"
+    ],
+    "decision_turn": "RISK",
+    "deliberation_hash": "203742f341429b058f3f8f26f71e5f0ca109343535e380ade5236991bba2dc5f",
+    "json_schema_not_available_on_chat_completions": true,
+    "legal_actions": [
+      "PASS",
+      "ENTER_REDUCED",
+      "ENTER_STANDARD",
+      "ENTER_HIGH_CONVICTION"
+    ],
+    "per_turn_output_tokens": 64,
+    "prompt": "Fail-closed AAT-V2 arm-E turn. Return exactly one compact json object and nothing else: no markdown, no code fences, no commentary, no extra keys, no prose. Copy the EXAMPLE json OUTPUT shape for this turn. Never claim execution_authority. This is not TRAINING.",
+    "response_format": {
+      "type": "json_object"
+    },
+    "schema_version": "athena-aat-v2-e-arm-compact-schema-amendment-v1",
+    "single_call_output_tokens": 256,
+    "stance_keys": [
+      "turn",
+      "stance",
+      "confidence",
+      "claim"
+    ],
+    "stance_turns": [
+      "BULL",
+      "BEAR",
+      "TRADER"
+    ],
+    "stances": [
+      "IN",
+      "OUT"
+    ],
+    "turn_prompts": {
+      "BEAR": "Fail-closed AAT-V2 arm-E turn. Return exactly one compact json object and nothing else: no markdown, no code fences, no commentary, no extra keys, no prose. Copy the EXAMPLE json OUTPUT shape for this turn. Never claim execution_authority. This is not TRAINING. This turn is BEAR. Required keys: turn, stance, confidence, claim. turn must equal BEAR. stance must be IN or OUT. claim must be MACRO, PRICE, or NONE. confidence must be a number in [0, 1]. Do not emit action, horizon, invalidation, rationale, or extra keys. EXAMPLE json OUTPUT: {\"claim\":\"NONE\",\"confidence\":0.5,\"stance\":\"OUT\",\"turn\":\"BEAR\"}",
+      "BULL": "Fail-closed AAT-V2 arm-E turn. Return exactly one compact json object and nothing else: no markdown, no code fences, no commentary, no extra keys, no prose. Copy the EXAMPLE json OUTPUT shape for this turn. Never claim execution_authority. This is not TRAINING. This turn is BULL. Required keys: turn, stance, confidence, claim. turn must equal BULL. stance must be IN or OUT. claim must be MACRO, PRICE, or NONE. confidence must be a number in [0, 1]. Do not emit action, horizon, invalidation, rationale, or extra keys. EXAMPLE json OUTPUT: {\"claim\":\"NONE\",\"confidence\":0.5,\"stance\":\"OUT\",\"turn\":\"BULL\"}",
+      "RISK": "Fail-closed AAT-V2 arm-E turn. Return exactly one compact json object and nothing else: no markdown, no code fences, no commentary, no extra keys, no prose. Copy the EXAMPLE json OUTPUT shape for this turn. Never claim execution_authority. This is not TRAINING. This turn is RISK. Required keys: turn, action, confidence. turn must equal RISK. action must be one of PASS, ENTER_REDUCED, ENTER_STANDARD, ENTER_HIGH_CONVICTION. confidence must be a number in [0, 1]. Do not emit stance, claim, horizon, invalidation, rationale, or extra keys. EXAMPLE json OUTPUT: {\"action\":\"PASS\",\"confidence\":0.5,\"turn\":\"RISK\"}",
+      "TRADER": "Fail-closed AAT-V2 arm-E turn. Return exactly one compact json object and nothing else: no markdown, no code fences, no commentary, no extra keys, no prose. Copy the EXAMPLE json OUTPUT shape for this turn. Never claim execution_authority. This is not TRAINING. This turn is TRADER. Required keys: turn, stance, confidence, claim. turn must equal TRADER. stance must be IN or OUT. claim must be MACRO, PRICE, or NONE. confidence must be a number in [0, 1]. Do not emit action, horizon, invalidation, rationale, or extra keys. EXAMPLE json OUTPUT: {\"claim\":\"NONE\",\"confidence\":0.5,\"stance\":\"OUT\",\"turn\":\"TRADER\"}"
+    },
+    "turn_roles": [
+      "BULL",
+      "BEAR",
+      "TRADER",
+      "RISK"
+    ],
+    "turns": 4,
+    "unbounded_text_fields": false
+  },
+  "execution_authority": "ABSENT",
+  "execution_authorized": false,
+  "purpose": "Fit arm-E compact closed-enum JSON into the registered 4x64 budget without raising TRAINING spend. Harden Flash deliberation prompts with per-turn example json after a live pilot showed schema mismatches, not compact-schema overflow. Chat Completions cannot pin json_schema.",
+  "registration_status": "REGISTERED_NOT_AUTHORIZED",
+  "rewrites_registered_protocol": false,
+  "schema_version": "athena-aat-v2-e-arm-compact-schema-amendment-v1",
+  "sealed_holdout_consumed": false,
+  "source_document": "docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+  "training_spend_unchanged": true
+}

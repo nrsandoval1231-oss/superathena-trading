@@ -1,0 +1,14 @@
+{
+  "schema_version": "orb-momentum-v1",
+  "opening_range_minutes": 15,
+  "trigger_bar_minutes": 1,
+  "trigger": "CLOSE_BEYOND_RANGE",
+  "opening_candle_color_gate": false,
+  "max_initial_attempts_per_direction": 1,
+  "max_reentries_per_direction": 1,
+  "atr_stop_multiple": 1.0,
+  "reentry_impulse_reference": "ENTRY_TO_PEAK_MFE",
+  "early_momentum_window_minutes": 8,
+  "peak_profit_retention_target": 0.65,
+  "overnight_positions": false
+}

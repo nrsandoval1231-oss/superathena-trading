@@ -1,0 +1,68 @@
+{
+  "deliberation_responses": {
+    "BEAR": {
+      "created_at": "2026-09-14T00:00:00Z",
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 16,
+      "message": {
+        "content": "{\"claim\":\"PRICE\",\"confidence\":0.6,\"stance\":\"OUT\",\"turn\":\"BEAR\"}",
+        "role": "assistant"
+      },
+      "model": "qwen3.5:9b",
+      "prompt_eval_count": 80
+    },
+    "BULL": {
+      "created_at": "2026-09-14T00:00:00Z",
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 16,
+      "message": {
+        "content": "{\"claim\":\"MACRO\",\"confidence\":0.7,\"stance\":\"IN\",\"turn\":\"BULL\"}",
+        "role": "assistant"
+      },
+      "model": "qwen3.5:9b",
+      "prompt_eval_count": 80
+    },
+    "RISK": {
+      "created_at": "2026-09-14T00:00:00Z",
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 12,
+      "message": {
+        "content": "{\"action\":\"PASS\",\"confidence\":0.5,\"turn\":\"RISK\"}",
+        "role": "assistant"
+      },
+      "model": "qwen3.5:9b",
+      "prompt_eval_count": 80
+    },
+    "TRADER": {
+      "created_at": "2026-09-14T00:00:00Z",
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 16,
+      "message": {
+        "content": "{\"claim\":\"MACRO\",\"confidence\":0.55,\"stance\":\"IN\",\"turn\":\"TRADER\"}",
+        "role": "assistant"
+      },
+      "model": "qwen3.5:9b",
+      "prompt_eval_count": 80
+    }
+  },
+  "execution_authority": "ABSENT",
+  "model_id": "qwen3.5:9b",
+  "note": "Synthetic Ollama chat response. Not a vendor dump, not holdout evidence, not a live TRAINING receipt. Compact E-arm turns fit the registered 64-token budget.",
+  "response": {
+    "created_at": "2026-09-14T00:00:00Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 24,
+    "message": {
+      "content": "{\"action\":\"PASS\",\"confidence\":0.4,\"horizon\":\"session\",\"invalidation\":\"range break\",\"rationale\":\"macro only smoke\"}",
+      "role": "assistant"
+    },
+    "model": "qwen3.5:9b",
+    "prompt_eval_count": 80
+  },
+  "schema_version": "athena-aat-v2-ollama-qwen-training-fixture-v1"
+}

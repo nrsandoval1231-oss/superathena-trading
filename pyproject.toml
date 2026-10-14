@@ -1,8 +1,29 @@
 [project]
 name = "superathena-trading"
-version = "0.1.0"
+version = "0.2.0"
 requires-python = ">=3.11"
-dependencies = []
+description = "Canonical SuperAthena trading system"
+dependencies = [
+    # Pool builder reads grouped daily aggregates. PyArrow requires NumPy 2.
+    "pyarrow",
+    "numpy>=2",
+    # Session boundaries use America/New_York. Windows has no system tzdata.
+    "tzdata>=2025.2; platform_system == 'Windows'",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests", "strategies"]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["F", "E9", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401", "F403", "F405"]

@@ -1,0 +1,14 @@
+{
+  "additional_call_ceiling": 1,
+  "base_config_hash": "11b2d2b99b3bbf7d5e0cff7cb996d4d2a51849bd3e2e401efa37bcddc43ea6fa",
+  "blocked_result_hash": "a716be999b5954df6c87a036e675d057b8468a693decf40e6153ab505acea5f0",
+  "execution_authority": "ABSENT",
+  "failed_arm": "B_MEMORYLESS",
+  "failed_opportunity_id": "333fece25419e29d7af8747449ba2f66913fae8c182dd0fb670bf4c5edef0722",
+  "ledger_sha256": "69bb466ea8df09bc615871777e9ed85665ef100454cf56890eb4f3897b271c00",
+  "observed_attempt_count": 917,
+  "same_actor_inference_required": true,
+  "schema_version": "aat-v1-four-arm-training-recovery-v1",
+  "sealed_holdout_access": false,
+  "spend_ceiling_usd": 20.0
+}

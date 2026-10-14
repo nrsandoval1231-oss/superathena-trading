@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets/data
+.env
+paper.env
+*.sqlite*
+build/
+# Bars and intermediate pulls are large and regenerable. The frozen universe
+# manifest under data/universe/ and the statistics that produced it are
+# neither: together they are the campaign's dataset identity and the record
+# of how it was derived. Both are tracked deliberately despite living here.
+data/
+artifacts/
+
+# Build artifacts
+*.egg-info/

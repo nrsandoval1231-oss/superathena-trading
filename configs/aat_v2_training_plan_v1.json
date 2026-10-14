@@ -1,0 +1,20 @@
+{
+  "actor_arms": ["B_MEMORYLESS", "C_NAIVE_MEMORY", "D_ATHENA", "E_DELIBERATION"],
+  "claim_authorized": false,
+  "dataset_hash": "179e6f21f583bd40a5afff9acc1bfc7690155def18a1375e5535b9a6ebbe7a9a",
+  "dry_run": true,
+  "execution_authority": "ABSENT",
+  "execution_authorized": false,
+  "input_byte_ceiling": 85379212,
+  "max_output_tokens_per_call": 256,
+  "output_token_ceiling": 17105920,
+  "partition": "TRAINING",
+  "plan_hash": "f1adcc92a5142ab93de670f79af190b49c4fef2aa15cb9c3f388178927362f08",
+  "planned_calls": 66820,
+  "pricing_config": "configs/openai_gpt_5_6_terra_pricing_2026-09-03.json",
+  "protocol_hash": "85d97d923f7b502dea20a936abe6334b57df64a677afdb6510376c5ea5b08027",
+  "row_count": 16705,
+  "schema_version": "athena-aat-v2-training-plan-v1",
+  "snapshot_hash": "3240a4fab192a2b718fe199c3a033cced564ff5a58e4b911f30981f5c46faf00",
+  "worst_case_cost_usd": 376.029464
+}

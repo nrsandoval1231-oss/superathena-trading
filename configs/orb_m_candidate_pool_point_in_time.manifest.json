@@ -1,0 +1,772 @@
+{
+  "adv_min": 1000000,
+  "campaign_start": "2024-01-02",
+  "carries_survivorship_bias": false,
+  "funnel": {
+    "passing_price_and_adv_floors": 942,
+    "tickers_seen": 11768,
+    "typed_common_stock": 4841,
+    "with_session_coverage": 9333,
+    "written_to_pool": 400
+  },
+  "generated_at": "2026-09-03T13:16:30.730219+00:00",
+  "grouped_corpus_sha256": "0a7358fb70a234ab9ce9127df731fa0405dcc0c5ef10ad55f2ca798469633ed3",
+  "grouped_sources": [
+    {
+      "file": "2023-08-31.parquet",
+      "sha256": "f70cad5fbbea0b5829268c4380e7137f0c034815f42e8fb88396f9050d800595"
+    },
+    {
+      "file": "2023-09-01.parquet",
+      "sha256": "6af879668896e56976a07f623c957b3774cc6e505a57db7648e1a53d5687dbb4"
+    },
+    {
+      "file": "2023-09-05.parquet",
+      "sha256": "d696863d740efdde16bb13fad2d4fac7622e2d82eea9b3a603a92153fdf40c46"
+    },
+    {
+      "file": "2023-09-06.parquet",
+      "sha256": "10ed8cfc88f089927c30c6277dfb8f139117a5c920216045a994cfdd773da647"
+    },
+    {
+      "file": "2023-09-07.parquet",
+      "sha256": "bd45478a65473cbdbb9d336f275dd0dcdae4e76b0d3207af27e4a8ddd3f66712"
+    },
+    {
+      "file": "2023-09-08.parquet",
+      "sha256": "e0b8bc64845c599132fb43176fd325c7ece205d2a997bd5771c991f41391030f"
+    },
+    {
+      "file": "2023-09-11.parquet",
+      "sha256": "11295076ea2d8ee6505387e5aa3884b56895dcc86ea7595efd4f49a70e80994f"
+    },
+    {
+      "file": "2023-09-12.parquet",
+      "sha256": "b9a0e2a34375a8aaa7a9e884c0fd1c11e985bd1e6a2b4a96165cb72fd6980cae"
+    },
+    {
+      "file": "2023-09-13.parquet",
+      "sha256": "a5302920b1f7107a8548b6036f25adb7c904e7b527d2a9cb69553ff473a7d5fb"
+    },
+    {
+      "file": "2023-09-14.parquet",
+      "sha256": "8aff6c1be29b8dabf4945c99d51ebec530ffaa648254480a2aa18228a597a121"
+    },
+    {
+      "file": "2023-09-15.parquet",
+      "sha256": "356d016594807b5af359000fad305f847f124e169420a434f2e36e1d310ea1d4"
+    },
+    {
+      "file": "2023-09-18.parquet",
+      "sha256": "5bc8837b43a05a0515caf359448c045c3070cf3cec889cefed58efaa62f26b6d"
+    },
+    {
+      "file": "2023-09-19.parquet",
+      "sha256": "5f43ac83c90e9be9d7327ec70f6a6cbcb307c7f8e9e7d13207b8641c8e010f7f"
+    },
+    {
+      "file": "2023-09-20.parquet",
+      "sha256": "07ae616ad87ecce54a40c29a716d4ac788509708e48c66869d35b146c3935a27"
+    },
+    {
+      "file": "2023-09-21.parquet",
+      "sha256": "448b6d1a489bfb2bacd1aa60a801633bb5c4625723a389a859de7f1898fb38a1"
+    },
+    {
+      "file": "2023-09-22.parquet",
+      "sha256": "82c308c090bcc58480fb078782e82bafa157d7afc46248a0f34803fff56dc6f6"
+    },
+    {
+      "file": "2023-09-25.parquet",
+      "sha256": "ff133fdbb715fb98d3674ecb34371cbfe6b2153f175d5f6dc94404b4568b4fa8"
+    },
+    {
+      "file": "2023-09-26.parquet",
+      "sha256": "9ad5fc5c5259774f25997d23652de1cc136f900f750db1ad727db27ca286998d"
+    },
+    {
+      "file": "2023-09-27.parquet",
+      "sha256": "c4577bc1cc4f57ce42496bc7f392ef4731aaac9739f22f18353b7a7da7e5b867"
+    },
+    {
+      "file": "2023-09-28.parquet",
+      "sha256": "910396a59fce04db4b8970326c8f7db178468ebb3770a739443a574eee294200"
+    },
+    {
+      "file": "2023-09-29.parquet",
+      "sha256": "1fa61085a2d9709041df22698bbce6e90880655edc894e8c5a43be586f0f853b"
+    },
+    {
+      "file": "2023-10-02.parquet",
+      "sha256": "83dc54f2c5154a5f3cc0363596c5dafebe05ccb46e624dcfb876c1c921510b16"
+    },
+    {
+      "file": "2023-10-03.parquet",
+      "sha256": "1caf3e495a3c6ca907929925a079a7522beec19975c81a80ae5a48ccc885a7ce"
+    },
+    {
+      "file": "2023-10-04.parquet",
+      "sha256": "c3bbffa2219c233d68c238c23eead3fcb44e92061e2b0b92a849717df1f2f0a0"
+    },
+    {
+      "file": "2023-10-05.parquet",
+      "sha256": "dd25c0befd0f2f0dda0b811a237535ab9f8484c067302e965d16ccdaf00b69d5"
+    },
+    {
+      "file": "2023-10-06.parquet",
+      "sha256": "b5fbd2f82253c16d22ae7e41faa74b616ee25c3edc2d4927dcc6bf14fab1b692"
+    },
+    {
+      "file": "2023-10-09.parquet",
+      "sha256": "e1d4f01912890b16e7fa7fef60d4f8b24ed8747db50b0db77fd468d71f377753"
+    },
+    {
+      "file": "2023-10-10.parquet",
+      "sha256": "df12e5f2ce663a63eaeb54a07ac9bf5c01d82a8f3b104edefdda9df31335295f"
+    },
+    {
+      "file": "2023-10-11.parquet",
+      "sha256": "7b2444b139aa389a0281dc949aebcc0e7e68c4078447da646253ac5dc0840697"
+    },
+    {
+      "file": "2023-10-12.parquet",
+      "sha256": "f922ad278ee244db132a20da8cbe4cf0faf2b0bf3e998856f9d2cffaf0fb41ff"
+    },
+    {
+      "file": "2023-10-13.parquet",
+      "sha256": "8c796017681ee6dd29fe3c3973139f408a283188670be2d40ecab2fc7275afe9"
+    },
+    {
+      "file": "2023-10-16.parquet",
+      "sha256": "20930c9ef621e0ce544437c3f9d33ecc12579cd5c4e3783e9e694306d5a1cf91"
+    },
+    {
+      "file": "2023-10-17.parquet",
+      "sha256": "875bd6a42cb0f4923b282ef280271f5a1d67111780755c6fb2969960dc74a3fa"
+    },
+    {
+      "file": "2023-10-18.parquet",
+      "sha256": "d771dc94aa2c9f1560838c517431ba5e00f59c03a626ac80299f7f7479686b34"
+    },
+    {
+      "file": "2023-10-19.parquet",
+      "sha256": "f3f950dcca7f9cbd023f1bdecf1f4dfbc0180adc4cca7a9e5a917cd55791f0f5"
+    },
+    {
+      "file": "2023-10-20.parquet",
+      "sha256": "24745eba2e29fd3d7a4d7b3b5a49b98fc4a312f9865dd0c77f1c2e1f96ebeddb"
+    },
+    {
+      "file": "2023-10-23.parquet",
+      "sha256": "e59828a790af59536fccf2f081b8321a6ef463d3647e7fbaabcd9ff7c9490d6e"
+    },
+    {
+      "file": "2023-10-24.parquet",
+      "sha256": "1118ced4940c2f3ced19e7304f19923ba3cc8c3106ed535476d80053fa609a82"
+    },
+    {
+      "file": "2023-10-25.parquet",
+      "sha256": "2225757dc4a928df9d867e8645868a373c6599878cd15ae5ed2ba87fb14efa91"
+    },
+    {
+      "file": "2023-10-26.parquet",
+      "sha256": "df32dcc851ba79799553f69c8020fdb29c610f6f1ce29cbb6da1340d12db2182"
+    },
+    {
+      "file": "2023-10-27.parquet",
+      "sha256": "aa1e9f93891532cddf62134ae8e16480ac123ff61b9ba96874ece0a9bbb88b0c"
+    },
+    {
+      "file": "2023-10-30.parquet",
+      "sha256": "1d5d70d55f8f0e6293aac312d5dd55043ffe5a8ea61f5f593afccc48eb7dad01"
+    },
+    {
+      "file": "2023-10-31.parquet",
+      "sha256": "1cc4c3b4e5a97d8138eee0e383537c4d91a3969815db46bdc616efbad762faf0"
+    },
+    {
+      "file": "2023-11-01.parquet",
+      "sha256": "b47f07b3ba138b84601d3814e43d2da522cc092e42d8afedf439890fccd7fc10"
+    },
+    {
+      "file": "2023-11-02.parquet",
+      "sha256": "c2c61be77dd24359481c192a89c3745658f8efd5e33cd058fca5877693be65e1"
+    },
+    {
+      "file": "2023-11-03.parquet",
+      "sha256": "e66d97e2e3006cd019ab8389a99d56331654443948079935ed50d16385cece56"
+    },
+    {
+      "file": "2023-11-06.parquet",
+      "sha256": "32efafd6c287e12da45a5a5b87df84ae5b538d346fcb4cc82d9e4599ab493856"
+    },
+    {
+      "file": "2023-11-07.parquet",
+      "sha256": "503bc1206e58395eed95e1cc6a85ce613bd753200eba265c8d08dc04c4ac75d2"
+    },
+    {
+      "file": "2023-11-08.parquet",
+      "sha256": "7ebd7a88a037a356446131c2bd757b32969247696833016c5372c2cce2f8b821"
+    },
+    {
+      "file": "2023-11-09.parquet",
+      "sha256": "3fed781615c26b4818171a5458debb9beaee7e71f3e6a4796af7e2308eb728ee"
+    },
+    {
+      "file": "2023-11-10.parquet",
+      "sha256": "c1a846225dece95856a5ff7bf942e13050f046dc680788feed365edbe911b7f2"
+    },
+    {
+      "file": "2023-11-13.parquet",
+      "sha256": "b378fc2c1c090d38eba779757c193ff9fb3f600fde4d67e5613af26726132a3c"
+    },
+    {
+      "file": "2023-11-14.parquet",
+      "sha256": "9d07d4874106fe61493f8347ff0200c377494b3bac758c9d0073fffbd7043dc2"
+    },
+    {
+      "file": "2023-11-15.parquet",
+      "sha256": "e1d56ad4fd6bcbd7b3b406c5fb01525ad7c1803cae0d5d7f2fe066df1a5226e1"
+    },
+    {
+      "file": "2023-11-16.parquet",
+      "sha256": "01d9f56aac72bd8ecc8c2de49d38c395891a2fdad5fc63c172ab3db58126a8ee"
+    },
+    {
+      "file": "2023-11-17.parquet",
+      "sha256": "583d08860fd3e366274551dec214eb668da85f45367e336cefe21cb1a51b7b1b"
+    },
+    {
+      "file": "2023-11-20.parquet",
+      "sha256": "725232a512bb8629d5b48668d4e244c04dd6eafbef20e21679bae87b1120ed24"
+    },
+    {
+      "file": "2023-11-21.parquet",
+      "sha256": "1b84388a257527f0e4f64f5b2c5d2f3742b1ea02cdbaef0705dd8e3a44346534"
+    },
+    {
+      "file": "2023-11-22.parquet",
+      "sha256": "b2c0e5910254408195958e8c05ca3700dc4f0508b6cc534604e58ff39dbb82d7"
+    },
+    {
+      "file": "2023-11-24.parquet",
+      "sha256": "e8fd56a4b9f83c8aa9c9c560fe734d48fe39039183d5d9c6089a1acd6de80fb9"
+    },
+    {
+      "file": "2023-11-27.parquet",
+      "sha256": "672adb3d6cff81dc22d5cd7cddca7f4e9d51a94331883fafde4a9afa9b22f8db"
+    },
+    {
+      "file": "2023-11-28.parquet",
+      "sha256": "80fbe48959d9caaa224794a4392e6bbb38601692c2910d501b07244537f9f48a"
+    },
+    {
+      "file": "2023-11-29.parquet",
+      "sha256": "93590c9c2a7da4101d902364cf16db9d091637c49f2cee10c691e2b638fe739a"
+    },
+    {
+      "file": "2023-11-30.parquet",
+      "sha256": "3266061cc6c3712c963c66d8aeaa4e13ee292f0a3576763da6cf0319a43f3be7"
+    },
+    {
+      "file": "2023-12-01.parquet",
+      "sha256": "65b29d7f57d759df47555a31af2079c3bf4aaa377fe71fb99b15c332a0255a3b"
+    },
+    {
+      "file": "2023-12-04.parquet",
+      "sha256": "0650c53d8b5934c68e5770e6b0ab8cf551a457450540f79e56c57099fc9fbbea"
+    },
+    {
+      "file": "2023-12-05.parquet",
+      "sha256": "1041e4ad39265f18fdced18808ca0facb203b11b595c6992c75e2619f6f1dee8"
+    },
+    {
+      "file": "2023-12-06.parquet",
+      "sha256": "5a9b71d8caf28503fd091942e8bb1b39e9581ac2fbe30c67bd98c97cc43f8285"
+    },
+    {
+      "file": "2023-12-07.parquet",
+      "sha256": "f0c26c7c2cdbda9ca034b45b5dd7ca69f845ffb45df1818d0922c8aea26adbda"
+    },
+    {
+      "file": "2023-12-08.parquet",
+      "sha256": "bf640f394d18e1990eca186ea4dd9b4925a968f095e82eb926ff60e822994847"
+    },
+    {
+      "file": "2023-12-11.parquet",
+      "sha256": "d14f090ba65be297e869127a01849d5e306d2e6a9e263fcc7cd048b45cb3b406"
+    },
+    {
+      "file": "2023-12-12.parquet",
+      "sha256": "56940700526456d3945041d6e7148c33129db141faf8920f7c966b0136d73a2c"
+    },
+    {
+      "file": "2023-12-13.parquet",
+      "sha256": "438234d8c089d71c796133a8bf52cf9a59e59125c974256b587461b09fefdb4e"
+    },
+    {
+      "file": "2023-12-14.parquet",
+      "sha256": "a3c362d5bd8823eec195db32dc98a4384f75d8297bc8d36586c48c13903e9ade"
+    },
+    {
+      "file": "2023-12-15.parquet",
+      "sha256": "62322cb7bc5f809aa3477f3419dc2bbe5ee746930e60d992407d56f6a39a33be"
+    },
+    {
+      "file": "2023-12-18.parquet",
+      "sha256": "c59db92f05dafde5472e718d7a986ec0cebada1b46e944c6048bda30aa2e1038"
+    },
+    {
+      "file": "2023-12-19.parquet",
+      "sha256": "ff9f37fa29538f5c5627990aa95b48158ef5ec87b54039b808ba0ddbe900efb2"
+    },
+    {
+      "file": "2023-12-20.parquet",
+      "sha256": "f9284b3e66dbfb3b075cce128e36b354ba02d8adc3b4f75b8457cd3f6279bcba"
+    },
+    {
+      "file": "2023-12-21.parquet",
+      "sha256": "c48e395d1552ddf9fdf9b8fe0248534322eaa67ef2016492cad7b328e3d38faa"
+    },
+    {
+      "file": "2023-12-22.parquet",
+      "sha256": "61822c09f863fb08a2d64cbead80b3ee4b046be5c545ee453be17832d6db2705"
+    },
+    {
+      "file": "2023-12-26.parquet",
+      "sha256": "8559e88af8ac7944fe3108008bfa239a783bc514fdb9eaefaca2dd9b8227d4e9"
+    },
+    {
+      "file": "2023-12-27.parquet",
+      "sha256": "a8ff7ecd7bdbab09a4ad2e3994c4c0f409f3761cb5a471d2afa95db48a5c329d"
+    },
+    {
+      "file": "2023-12-28.parquet",
+      "sha256": "8bc16891436c88af1fda26f9e0d3e8ddf3779ff0d73459ab0349cd42e30d8908"
+    },
+    {
+      "file": "2023-12-29.parquet",
+      "sha256": "ae6a37086de25fd26048d160edd4f2d59b3978d8acebbe97d39c0d7ef356312f"
+    }
+  ],
+  "lookback_end": "2023-12-29",
+  "lookback_start": "2023-08-31",
+  "members": [
+    "TSLA",
+    "NVDA",
+    "AAPL",
+    "MSFT",
+    "AMZN",
+    "META",
+    "AMD",
+    "GOOGL",
+    "GOOG",
+    "AVGO",
+    "XOM",
+    "NFLX",
+    "LLY",
+    "INTC",
+    "ADBE",
+    "UNH",
+    "CVX",
+    "V",
+    "JPM",
+    "BAC",
+    "BRK.B",
+    "JNJ",
+    "DIS",
+    "BA",
+    "COST",
+    "MA",
+    "CRM",
+    "UBER",
+    "PFE",
+    "PLTR",
+    "PG",
+    "QCOM",
+    "HD",
+    "WMT",
+    "MU",
+    "PEP",
+    "CSCO",
+    "NKE",
+    "PYPL",
+    "ORCL",
+    "KO",
+    "SMCI",
+    "CMCSA",
+    "TMO",
+    "PANW",
+    "TXN",
+    "AMAT",
+    "COIN",
+    "MCD",
+    "MRK",
+    "INTU",
+    "C",
+    "NEE",
+    "VZ",
+    "BMY",
+    "CAT",
+    "NOW",
+    "WFC",
+    "ABBV",
+    "AMGN",
+    "ABNB",
+    "RTX",
+    "SNOW",
+    "RIVN",
+    "SBUX",
+    "MS",
+    "TMUS",
+    "COP",
+    "DHR",
+    "ACN",
+    "SHOP",
+    "GS",
+    "SQ",
+    "IBM",
+    "LIN",
+    "OXY",
+    "ADI",
+    "LULU",
+    "LOW",
+    "F",
+    "DE",
+    "T",
+    "HUM",
+    "SCHW",
+    "ABT",
+    "LMT",
+    "CRWD",
+    "UNP",
+    "UPS",
+    "GM",
+    "PXD",
+    "TGT",
+    "HON",
+    "MDT",
+    "GE",
+    "ELV",
+    "CVS",
+    "AXP",
+    "ISRG",
+    "ON",
+    "MPC",
+    "ENPH",
+    "MDLZ",
+    "ROKU",
+    "TJX",
+    "FDX",
+    "SLB",
+    "SPGI",
+    "MRVL",
+    "NEM",
+    "MDB",
+    "VLO",
+    "AAL",
+    "GILD",
+    "DXCM",
+    "BX",
+    "DG",
+    "VRTX",
+    "DVN",
+    "AMT",
+    "KVUE",
+    "SYK",
+    "NXPI",
+    "CCL",
+    "CSX",
+    "PM",
+    "ETN",
+    "CI",
+    "FCX",
+    "ALB",
+    "EOG",
+    "BSX",
+    "USB",
+    "PLD",
+    "ANET",
+    "MARA",
+    "SHW",
+    "CB",
+    "HES",
+    "FSLR",
+    "ADP",
+    "CCI",
+    "PSX",
+    "MCHP",
+    "DAL",
+    "PGR",
+    "MO",
+    "AFRM",
+    "DDOG",
+    "DKNG",
+    "WDAY",
+    "MRNA",
+    "MMM",
+    "RBLX",
+    "BDX",
+    "MAR",
+    "CDNS",
+    "CME",
+    "DASH",
+    "FI",
+    "U",
+    "CVNA",
+    "FTNT",
+    "DELL",
+    "O",
+    "HCA",
+    "TFC",
+    "DUK",
+    "SPLK",
+    "EL",
+    "CL",
+    "SO",
+    "MMC",
+    "ZS",
+    "GIS",
+    "ICE",
+    "MNST",
+    "RCL",
+    "ZTS",
+    "FANG",
+    "DHI",
+    "UAL",
+    "TTD",
+    "PINS",
+    "D",
+    "HSY",
+    "EW",
+    "MRO",
+    "FIS",
+    "ILMN",
+    "PNC",
+    "DLTR",
+    "WBA",
+    "OKE",
+    "HLT",
+    "HAL",
+    "GOLD",
+    "EMR",
+    "ADSK",
+    "AEP",
+    "PCG",
+    "KHC",
+    "TEAM",
+    "JCI",
+    "STZ",
+    "SPOT",
+    "ROST",
+    "EA",
+    "SOFI",
+    "TT",
+    "BKR",
+    "SEDG",
+    "XEL",
+    "DLR",
+    "EXC",
+    "ETSY",
+    "VRT",
+    "EXPE",
+    "KDP",
+    "TSCO",
+    "WM",
+    "LNG",
+    "IQV",
+    "CRH",
+    "NSC",
+    "LEN",
+    "SNAP",
+    "KMI",
+    "COF",
+    "CARR",
+    "HPQ",
+    "RIOT",
+    "MET",
+    "EBAY",
+    "A",
+    "WELL",
+    "COR",
+    "AI",
+    "NCLH",
+    "LHX",
+    "WBD",
+    "TRV",
+    "KKR",
+    "CNC",
+    "APH",
+    "RMD",
+    "ADM",
+    "LVS",
+    "ZM",
+    "KMB",
+    "NUE",
+    "VEEV",
+    "NET",
+    "DOW",
+    "SRE",
+    "WMB",
+    "PAYX",
+    "CELH",
+    "TTWO",
+    "APO",
+    "CCJ",
+    "CNQ",
+    "PWR",
+    "EQT",
+    "CTSH",
+    "CLX",
+    "AIG",
+    "CEG",
+    "LUV",
+    "BLDR",
+    "YUM",
+    "FERG",
+    "MGM",
+    "PCAR",
+    "JBL",
+    "PODD",
+    "NU",
+    "BK",
+    "DD",
+    "CTVA",
+    "KR",
+    "PPG",
+    "CPRT",
+    "W",
+    "APTV",
+    "FAST",
+    "ZBH",
+    "CAH",
+    "BURL",
+    "OKTA",
+    "TEL",
+    "VICI",
+    "SPG",
+    "SYY",
+    "IR",
+    "WDC",
+    "ET",
+    "WYNN",
+    "AFL",
+    "ALL",
+    "PHM",
+    "DFS",
+    "MTCH",
+    "ED",
+    "ENB",
+    "GEHC",
+    "RSG",
+    "CF",
+    "BILL",
+    "LYB",
+    "KEYS",
+    "GPN",
+    "STX",
+    "PEG",
+    "X",
+    "AMC",
+    "BBY",
+    "CTRA",
+    "CP",
+    "LW",
+    "KEY",
+    "PARA",
+    "HPE",
+    "ES",
+    "CVE",
+    "SJM",
+    "UPST",
+    "PPL",
+    "BAX",
+    "HBAN",
+    "LYV",
+    "SU",
+    "SWKS",
+    "DOCU",
+    "AKAM",
+    "OTIS",
+    "DKS",
+    "EXR",
+    "AA",
+    "ETR",
+    "WEC",
+    "TD",
+    "CHWY",
+    "RF",
+    "K",
+    "DTE",
+    "VST",
+    "PLUG",
+    "EXPD",
+    "TER",
+    "NI",
+    "FND",
+    "CMS",
+    "RUN",
+    "AWK",
+    "ACGL",
+    "TROW",
+    "LYFT",
+    "FITB",
+    "XYL",
+    "VFC",
+    "ELF",
+    "CFG",
+    "EIX",
+    "CLF",
+    "APA",
+    "STLD",
+    "CSGP",
+    "STM",
+    "CNP",
+    "M",
+    "AVTR",
+    "TWLO",
+    "AEE",
+    "PRU",
+    "NRG",
+    "TOST",
+    "GDDY",
+    "IFF",
+    "TRGP",
+    "CHD",
+    "CNI",
+    "TSN",
+    "STLA",
+    "AGNC",
+    "CZR",
+    "KMX",
+    "SYF",
+    "FE",
+    "MOS",
+    "FTV",
+    "LSCC",
+    "CHK",
+    "ALLY",
+    "AEM",
+    "HOLX",
+    "Z",
+    "STT",
+    "IONQ",
+    "TECK"
+  ],
+  "min_session_coverage": 0.95,
+  "pool_size_requested": 400,
+  "price_min": 5.0,
+  "provenance": "POINT_IN_TIME",
+  "ranking_metric": "median daily close * share volume, unadjusted",
+  "reference": {
+    "as_of": "2023-12-29",
+    "filters": {
+      "market": "stocks",
+      "type": "CS"
+    },
+    "source": "polygon_v3_reference_tickers",
+    "symbols_returned": 5338
+  },
+  "schema_version": "athena-orb-m-candidate-pool-v1",
+  "sessions_observed": 84
+}
