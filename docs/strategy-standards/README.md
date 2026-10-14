@@ -2,14 +2,16 @@
 
 A strategy directory contains the implementation, a `strategy.yaml`, a hypothesis, and a README. Tests for the migrated code stay in `tests/` so the original suite remains one run.
 
-`strategy.yaml` is a flat `key: value` manifest. Required fields:
+A runtime `strategy.yaml` is a flat `key: value` manifest. Required fields:
 
 - `id`, `version`, `status`, `entrypoint`
 - `promotion` (`not-promoted` until a separate human promotion)
 - `overnight` (`forbidden` for every current strategy)
 - `authority` (`PAPER-or-ABSENT`)
 
-`athena_trading.strategy_registry.discover` loads these files and skips `strategies/_template`. `load_entrypoint` imports the declared module. Registration does not submit an order.
+A research archive may set `status: research-specification-only`, `entrypoint: null`, and `execution_enabled: false`. Nested blocks under that manifest are not runtime fields. `discover` records the archive and does not import it.
+
+`athena_trading.strategy_registry.discover` loads these files and skips `strategies/_template`. `load_entrypoint` imports a runtime module and refuses a null entrypoint. Registration does not submit an order.
 
 Rules:
 

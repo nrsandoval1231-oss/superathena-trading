@@ -6,7 +6,7 @@ from pathlib import Path
 
 from athena_trading.execution.authority import AuthorityError, ExecutionAuthority, parse_authority
 from athena_trading.position_management.apde import APDEState, ORDER
-from athena_trading.strategy_registry import discover, load_entrypoint
+from athena_trading.strategy_registry import discover, load_entrypoint, specification_only
 
 ROOT = Path(__file__).resolve().parents[1]
 PRODUCT_ROOTS = (
@@ -40,12 +40,27 @@ def _banned(name: str) -> bool:
 def test_strategy_manifests_register_real_entrypoints():
     manifests = discover(ROOT)
     assert [item.id for item in manifests] == [
+        "athena-retention-geometry",
         "legacy-strategy-research",
         "predictive-intraday",
         "earnings-adaptive",
         "orb-momentum",
     ]
+    archive = manifests[0]
+    assert specification_only(archive.fields)
+    assert archive.fields["status"] == "research-specification-only"
+    assert archive.fields["entrypoint"] == "null"
+    assert archive.fields["execution_enabled"] == "false"
+    assert archive.fields["archive_only"] == "true"
+    try:
+        load_entrypoint(archive)
+    except ValueError as exc:
+        assert archive.id in str(exc)
+    else:
+        raise AssertionError("archive entrypoint was imported")
     for manifest in manifests:
+        if specification_only(manifest.fields):
+            continue
         assert manifest.fields["promotion"] == "not-promoted"
         assert manifest.fields["overnight"] == "forbidden"
         assert manifest.fields["authority"] == "PAPER-or-ABSENT"

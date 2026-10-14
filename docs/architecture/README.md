@@ -24,6 +24,7 @@ Each product or research family has one directory under `strategies/`. Import pa
 - `strategies/custom/predictive-intraday` — Jev paper runner and its supervisor
 - `strategies/event-driven/earnings-adaptive` — earnings paper book
 - `strategies/custom/legacy-strategy-research` — historical experiments (`aat_v1`, `aat_v2`)
+- `strategies/athena-retention-geometry` — research specification only; execution disabled; not a runtime module
 
 The predictive-intraday runner calls ORB-M for the opening-range candidate. That is shared component use, not a second engine.
 
