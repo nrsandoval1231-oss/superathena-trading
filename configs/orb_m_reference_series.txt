@@ -1,0 +1,18 @@
+# Reference series for ORB-M market and sector alignment.
+# These are NOT tradeable candidates -- they supply the broad-market and sector
+# context terms of the Breakout Quality Score and must be pulled alongside the
+# universe, not ranked with it.
+SPY
+QQQ
+IWM
+XLK
+XLF
+XLV
+XLE
+XLI
+XLY
+XLP
+XLU
+XLB
+XLRE
+XLC

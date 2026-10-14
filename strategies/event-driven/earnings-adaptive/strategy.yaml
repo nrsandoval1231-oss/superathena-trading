@@ -1,0 +1,10 @@
+id: earnings-adaptive
+version: 1.0.0
+status: paper
+promotion: not-promoted
+asset_class: us-equity
+timeframe: event
+entrypoint: athena_trading.earnings.earnings
+risk_profile: approved-dollar-caps-unchanged
+overnight: forbidden
+authority: PAPER-or-ABSENT

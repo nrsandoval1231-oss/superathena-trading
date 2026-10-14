@@ -1,0 +1,29 @@
+{
+  "bootstrap_resamples": 4096,
+  "bootstrap_seed": 20260905,
+  "claim_id": "AAT_V1_MEMORY_IMPROVES_DECISION_QUALITY",
+  "confidence_level": 0.95,
+  "decision_arm": "D_ATHENA",
+  "execution_authority": "ABSENT",
+  "four_arm_training_audit_hash": "6df8e9105acbbcdd496809e39fe931c4222ed2d739e1d64a1cbb3ed3a3200452",
+  "four_arm_training_result_hash": "aa0bb85683fc7b0062f97143bcdb9d996257625ef805d595e2dbec13cdaf7702",
+  "maximum_drawdown_regression_r": 0.1,
+  "minimum_effect_r": 0.01,
+  "minimum_opportunity_count": 300,
+  "minimum_regime_support": 100,
+  "primary_comparator": "B_MEMORYLESS",
+  "protocol_hash": "84934cad53c9c888cc3a048c80935ae027a06144419a4a74c48a6e7ffc5f7ee8",
+  "provider_model_limitation": "PROVIDER_MODEL_MUTABILITY",
+  "required_partition": "SEALED_HOLDOUT",
+  "required_regimes": [
+    "LONG",
+    "SHORT"
+  ],
+  "schema_version": "aat-v1-final-claim-contract-v1",
+  "secondary_comparator": "C_NAIVE_MEMORY",
+  "separate_holdout_authorization_required": true,
+  "single_use_holdout": true,
+  "success_requires_all_comparators": true,
+  "supported_outcome": "CLAIM_SUPPORTED",
+  "unsuccessful_outcome": "CLAIM_NOT_SUPPORTED"
+}

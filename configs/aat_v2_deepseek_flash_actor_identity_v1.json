@@ -1,0 +1,34 @@
+{
+  "action_schema_hash": "852c32a80b5f4187ea6629270bfaf14162779e1a742690716a337eb107a26b3c",
+  "bound_to_registered_protocol": false,
+  "claim_authorized": false,
+  "consulted_terra_protocol_hash": "85d97d923f7b502dea20a936abe6334b57df64a677afdb6510376c5ea5b08027",
+  "deliberation_hash": "203742f341429b058f3f8f26f71e5f0ca109343535e380ade5236991bba2dc5f",
+  "execution_authority": "ABSENT",
+  "execution_authorized": false,
+  "identity_hash": "ee1133be82fd4a1bc20a03adb00685187a5a44aa10957312eaa6991eb42b33cd",
+  "identity_status": "CANDIDATE_PILOT",
+  "inference": {
+    "endpoint": "chat.completions",
+    "max_output_tokens": 512,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false,
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "inference_hash": "a7424ce9fcd22701721825ed16188eea784b5bab582bb95da50e6dd5b750566e",
+  "model_hash": "fb29a56e6339dcb78992aa27c81639302223941cb19b65c020ee2c081720bf24",
+  "model_id": "deepseek-flash",
+  "pilot_is_not_training": true,
+  "prompt": "You are a fail-closed AAT-V2 DeepSeek Flash Actor. Use only the supplied opaque features. Return exactly one JSON object and nothing else: no markdown, no code fences, no commentary, no extra keys. Required keys: action, confidence, horizon, invalidation, rationale. action must be one of PASS, ENTER_REDUCED, ENTER_STANDARD, ENTER_HIGH_CONVICTION. confidence must be a number in [0, 1]. horizon, invalidation, and rationale must be non-empty strings. Never claim execution_authority. This is PILOT_NOT_TRAINING, not TRAINING.",
+  "prompt_hash": "77529c560194500af75602952634685fdc10e311105a01f07ac540fdcd2af734",
+  "provider": "deepseek",
+  "rewrites_registered_protocol": false,
+  "schema_version": "athena-aat-v2-deepseek-flash-actor-identity-v1",
+  "sealed_holdout_consumed": false,
+  "source_document": "docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+  "terra_protocol_not_reused": true
+}

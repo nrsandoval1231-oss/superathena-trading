@@ -1,0 +1,11 @@
+id: legacy-strategy-research
+version: 1.0.0
+status: historical
+promotion: not-promoted
+asset_class: us-equity
+timeframe: research
+entrypoint: athena_trading.aat_v1
+secondary_entrypoint: athena_trading.aat_v2
+risk_profile: execution-authority-absent
+overnight: forbidden
+authority: PAPER-or-ABSENT

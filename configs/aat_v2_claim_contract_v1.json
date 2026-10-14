@@ -1,0 +1,30 @@
+{
+  "actor_identity": {
+    "action_schema_hash": "852c32a80b5f4187ea6629270bfaf14162779e1a742690716a337eb107a26b3c",
+    "inference_hash": "2c1cc91e081dd2f02283a520b0d01a226e9fc8320844e2126f95099de2b68633",
+    "model_hash": "9c4aaaa136ed098624bee45f5f75d0654f4d56ea526fc4cc51a1f3f3bf1ae5db",
+    "model_id": "gpt-5.6-terra",
+    "prompt_hash": "b7fa5ec9928d3ec22225bd757aa25b408ffdc9a5d3897bf8717a9d7d44bca88a",
+    "provider": "openai"
+  },
+  "arms": {
+    "actor_arms": ["B_MEMORYLESS", "C_NAIVE_MEMORY", "D_ATHENA", "E_DELIBERATION"],
+    "arms": ["A_DETERMINISTIC", "B_MEMORYLESS", "C_NAIVE_MEMORY", "D_ATHENA", "E_DELIBERATION"],
+    "arms_hash": "b869867146efc7d500a11583a8fb0102fa0f5c7f80af7d8064eecb40d1afda1a",
+    "deliberation": {"arms": ["E_DELIBERATION"], "per_turn_output_tokens": 64, "single_call_output_tokens": 256, "turns": 4},
+    "exogenous_arms": ["B_MEMORYLESS", "C_NAIVE_MEMORY", "D_ATHENA", "E_DELIBERATION"],
+    "memory_arms": ["C_NAIVE_MEMORY", "D_ATHENA", "E_DELIBERATION"]
+  },
+  "assignment_hash": "46f25ba0f64c5088add6d37a72752d6fbe156de6c33e8b8d7d4415e160f5e731",
+  "claim_authorized": false,
+  "compressor_identity_hash": "deea2292391932262590a14781038d902f00e9bea86119d512d7194c4e50ce9d",
+  "contract_hash": "d41d17982495305f341930c6ac15e9e0680eba554f6e6c650df7fd888638b813",
+  "coverage_floor": 0.9,
+  "execution_authority": "ABSENT",
+  "measured_coverage": {"fundamentals": 0.0, "macro": 1.0, "news": 0.0, "prediction_market": 0.0, "sentiment": 0.0},
+  "minimum_opportunity_count": 16705,
+  "partition": "TRAINING_THEN_ONE_TIME_SEALED_HOLDOUT",
+  "required_sources": ["macro"],
+  "schema_version": "athena-aat-v2-claim-contract-v1",
+  "scoring_hash": "1a594f625cb3a119b3b305e4d625f0834d1ac8a9e14b36f14177a7bca2177efa"
+}

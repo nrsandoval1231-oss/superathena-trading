@@ -1,0 +1,9 @@
+{
+  "schema_version": "athena-paper-risk-v1",
+  "environment": "PAPER",
+  "max_open_positions": 3,
+  "max_loss_fraction_per_trade": 0.02,
+  "max_daily_loss_fraction": 0.06,
+  "execution_authority": "ABSENT",
+  "migration_status": "HISTORICAL_NOT_ORB_V1_AUTHORITY"
+}

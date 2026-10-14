@@ -1,0 +1,10 @@
+id: predictive-intraday
+version: 1.0.0
+status: paper-pilot
+promotion: not-promoted
+asset_class: us-equity
+timeframe: 1m
+entrypoint: athena_trading.intraday.live
+risk_profile: one-share-pilot-caps-unchanged
+overnight: forbidden
+authority: PAPER-or-ABSENT

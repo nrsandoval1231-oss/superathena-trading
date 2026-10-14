@@ -1,0 +1,19 @@
+{
+  "action_multipliers": {
+    "ENTER_HIGH_CONVICTION": 2.0,
+    "ENTER_REDUCED": 0.5,
+    "ENTER_STANDARD": 1.0,
+    "PASS": 0.0
+  },
+  "evidence_surface": "macro_only",
+  "legal_actions": [
+    "PASS",
+    "ENTER_REDUCED",
+    "ENTER_STANDARD",
+    "ENTER_HIGH_CONVICTION"
+  ],
+  "metric": "normalized_r",
+  "regret": "best_legal_action_score_minus_actual_action_score",
+  "schema_version": "athena-aat-v2-action-scoring-v1",
+  "scoring_hash": "1a594f625cb3a119b3b305e4d625f0834d1ac8a9e14b36f14177a7bca2177efa"
+}

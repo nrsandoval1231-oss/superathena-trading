@@ -1,0 +1,2810 @@
+{
+  "campaign_end": "2025-12-31",
+  "campaign_start": "2024-01-02",
+  "lookback_end": "2023-12-29",
+  "lookback_start": "2023-08-31",
+  "pool_size": 400,
+  "schema_version": "athena-orb-m-universe-stats-v1",
+  "statistics": [
+    {
+      "median_dollar_volume": 27523535356.913754,
+      "median_opening_volume": 10874417.5,
+      "median_price": 245.52587499999998,
+      "sessions_observed": 84,
+      "symbol": "TSLA"
+    },
+    {
+      "median_dollar_volume": 17251714273.568092,
+      "median_opening_volume": 3942624.0,
+      "median_price": 460.2,
+      "sessions_observed": 84,
+      "symbol": "NVDA"
+    },
+    {
+      "median_dollar_volume": 7704845765.622456,
+      "median_opening_volume": 4078500.0,
+      "median_price": 180.1175,
+      "sessions_observed": 84,
+      "symbol": "AAPL"
+    },
+    {
+      "median_dollar_volume": 6120965823.381501,
+      "median_opening_volume": 1907768.5,
+      "median_price": 339.55129999999997,
+      "sessions_observed": 84,
+      "symbol": "MSFT"
+    },
+    {
+      "median_dollar_volume": 5436078354.130248,
+      "median_opening_volume": 4585213.0,
+      "median_price": 140.31875,
+      "sessions_observed": 84,
+      "symbol": "AMZN"
+    },
+    {
+      "median_dollar_volume": 4801268551.314899,
+      "median_opening_volume": 1468084.5,
+      "median_price": 317.7785,
+      "sessions_observed": 84,
+      "symbol": "META"
+    },
+    {
+      "median_dollar_volume": 5106160967.191498,
+      "median_opening_volume": 4660578.5,
+      "median_price": 109.22999999999999,
+      "sessions_observed": 84,
+      "symbol": "AMD"
+    },
+    {
+      "median_dollar_volume": 2776913648.6513977,
+      "median_opening_volume": 2070218.5,
+      "median_price": 135.534425,
+      "sessions_observed": 84,
+      "symbol": "GOOGL"
+    },
+    {
+      "median_dollar_volume": 2205794815.293351,
+      "median_opening_volume": 1633913.0,
+      "median_price": 136.57999999999998,
+      "sessions_observed": 84,
+      "symbol": "GOOG"
+    },
+    {
+      "median_dollar_volume": 1563567562.3807502,
+      "median_opening_volume": 141974.0,
+      "median_price": 885.184375,
+      "sessions_observed": 84,
+      "symbol": "AVGO"
+    },
+    {
+      "median_dollar_volume": 1708181185.1161509,
+      "median_opening_volume": 1257371.5,
+      "median_price": 106.535,
+      "sessions_observed": 84,
+      "symbol": "XOM"
+    },
+    {
+      "median_dollar_volume": 1455282307.3154001,
+      "median_opening_volume": 309162.5,
+      "median_price": 436.92409999999995,
+      "sessions_observed": 84,
+      "symbol": "NFLX"
+    },
+    {
+      "median_dollar_volume": 1322184523.09025,
+      "median_opening_volume": 214523.0,
+      "median_price": 582.5799999999999,
+      "sessions_observed": 84,
+      "symbol": "LLY"
+    },
+    {
+      "median_dollar_volume": 1106380817.6337998,
+      "median_opening_volume": 2153175.0,
+      "median_price": 38.068749999999994,
+      "sessions_observed": 84,
+      "symbol": "INTC"
+    },
+    {
+      "median_dollar_volume": 1109586919.02075,
+      "median_opening_volume": 180472.5,
+      "median_price": 562.2012500000001,
+      "sessions_observed": 84,
+      "symbol": "ADBE"
+    },
+    {
+      "median_dollar_volume": 1005565467.5857502,
+      "median_opening_volume": 156211.5,
+      "median_price": 527.19,
+      "sessions_observed": 84,
+      "symbol": "UNH"
+    },
+    {
+      "median_dollar_volume": 1105951223.3158495,
+      "median_opening_volume": 585103.0,
+      "median_price": 152.1775,
+      "sessions_observed": 84,
+      "symbol": "CVX"
+    },
+    {
+      "median_dollar_volume": 939489622.29865,
+      "median_opening_volume": 294951.5,
+      "median_price": 244.695,
+      "sessions_observed": 84,
+      "symbol": "V"
+    },
+    {
+      "median_dollar_volume": 962120754.1050998,
+      "median_opening_volume": 492129.5,
+      "median_price": 147.431875,
+      "sessions_observed": 84,
+      "symbol": "JPM"
+    },
+    {
+      "median_dollar_volume": 954326613.1637001,
+      "median_opening_volume": 2457292.0,
+      "median_price": 28.5625,
+      "sessions_observed": 84,
+      "symbol": "BAC"
+    },
+    {
+      "median_dollar_volume": 794949159.5826498,
+      "median_opening_volume": 172841.5,
+      "median_price": 356.36249999999995,
+      "sessions_observed": 84,
+      "symbol": "BRK.B"
+    },
+    {
+      "median_dollar_volume": 753609607.3015,
+      "median_opening_volume": 336110.0,
+      "median_price": 155.74255,
+      "sessions_observed": 84,
+      "symbol": "JNJ"
+    },
+    {
+      "median_dollar_volume": 846636356.9858999,
+      "median_opening_volume": 821004.0,
+      "median_price": 84.8775,
+      "sessions_observed": 84,
+      "symbol": "DIS"
+    },
+    {
+      "median_dollar_volume": 845038215.1564494,
+      "median_opening_volume": 384290.0,
+      "median_price": 206.9275,
+      "sessions_observed": 84,
+      "symbol": "BA"
+    },
+    {
+      "median_dollar_volume": 699162341.4900503,
+      "median_opening_volume": 93087.0,
+      "median_price": 568.895,
+      "sessions_observed": 84,
+      "symbol": "COST"
+    },
+    {
+      "median_dollar_volume": 671000674.7150998,
+      "median_opening_volume": 119429.0,
+      "median_price": 404.43875,
+      "sessions_observed": 84,
+      "symbol": "MA"
+    },
+    {
+      "median_dollar_volume": 761441483.9696,
+      "median_opening_volume": 268294.0,
+      "median_price": 217.24875,
+      "sessions_observed": 84,
+      "symbol": "CRM"
+    },
+    {
+      "median_dollar_volume": 813664338.9864504,
+      "median_opening_volume": 1252708.5,
+      "median_price": 47.836875000000006,
+      "sessions_observed": 84,
+      "symbol": "UBER"
+    },
+    {
+      "median_dollar_volume": 772955355.2134999,
+      "median_opening_volume": 1852367.5,
+      "median_price": 30.685475,
+      "sessions_observed": 84,
+      "symbol": "PFE"
+    },
+    {
+      "median_dollar_volume": 847495266.7668,
+      "median_opening_volume": 5251433.5,
+      "median_price": 17.476575,
+      "sessions_observed": 84,
+      "symbol": "PLTR"
+    },
+    {
+      "median_dollar_volume": 629413415.0052998,
+      "median_opening_volume": 342264.5,
+      "median_price": 149.68875,
+      "sessions_observed": 84,
+      "symbol": "PG"
+    },
+    {
+      "median_dollar_volume": 653129361.8020003,
+      "median_opening_volume": 460867.0,
+      "median_price": 114.7625,
+      "sessions_observed": 84,
+      "symbol": "QCOM"
+    },
+    {
+      "median_dollar_volume": 663770170.5359997,
+      "median_opening_volume": 149480.0,
+      "median_price": 307.30625,
+      "sessions_observed": 84,
+      "symbol": "HD"
+    },
+    {
+      "median_dollar_volume": 695195445.9503,
+      "median_opening_volume": 316474.5,
+      "median_price": 160.643225,
+      "sessions_observed": 84,
+      "symbol": "WMT"
+    },
+    {
+      "median_dollar_volume": 668432013.1114501,
+      "median_opening_volume": 900890.0,
+      "median_price": 70.863175,
+      "sessions_observed": 84,
+      "symbol": "MU"
+    },
+    {
+      "median_dollar_volume": 591329950.6527998,
+      "median_opening_volume": 259738.0,
+      "median_price": 167.73125,
+      "sessions_observed": 84,
+      "symbol": "PEP"
+    },
+    {
+      "median_dollar_volume": 603459132.8888998,
+      "median_opening_volume": 848289.5,
+      "median_price": 52.7475,
+      "sessions_observed": 84,
+      "symbol": "CSCO"
+    },
+    {
+      "median_dollar_volume": 667776448.7343999,
+      "median_opening_volume": 540316.0,
+      "median_price": 103.83500000000001,
+      "sessions_observed": 84,
+      "symbol": "NKE"
+    },
+    {
+      "median_dollar_volume": 661970358.5365999,
+      "median_opening_volume": 1030622.5,
+      "median_price": 58.074999999999996,
+      "sessions_observed": 84,
+      "symbol": "PYPL"
+    },
+    {
+      "median_dollar_volume": 650460299.1298496,
+      "median_opening_volume": 383774.5,
+      "median_price": 109.675,
+      "sessions_observed": 84,
+      "symbol": "ORCL"
+    },
+    {
+      "median_dollar_volume": 582362411.13965,
+      "median_opening_volume": 815302.5,
+      "median_price": 57.7375,
+      "sessions_observed": 84,
+      "symbol": "KO"
+    },
+    {
+      "median_dollar_volume": 729851866.5198005,
+      "median_opening_volume": 284864.0,
+      "median_price": 272.55875000000003,
+      "sessions_observed": 84,
+      "symbol": "SMCI"
+    },
+    {
+      "median_dollar_volume": 575711788.0148504,
+      "median_opening_volume": 803634.5,
+      "median_price": 43.5175,
+      "sessions_observed": 84,
+      "symbol": "CMCSA"
+    },
+    {
+      "median_dollar_volume": 605752006.4961998,
+      "median_opening_volume": 89283.5,
+      "median_price": 494.91499999999996,
+      "sessions_observed": 84,
+      "symbol": "TMO"
+    },
+    {
+      "median_dollar_volume": 631591835.8728001,
+      "median_opening_volume": 213721.0,
+      "median_price": 251.16085,
+      "sessions_observed": 84,
+      "symbol": "PANW"
+    },
+    {
+      "median_dollar_volume": 495145332.93990004,
+      "median_opening_volume": 175374.5,
+      "median_price": 157.12265,
+      "sessions_observed": 84,
+      "symbol": "TXN"
+    },
+    {
+      "median_dollar_volume": 562030672.1911,
+      "median_opening_volume": 290509.0,
+      "median_price": 146.1175,
+      "sessions_observed": 84,
+      "symbol": "AMAT"
+    },
+    {
+      "median_dollar_volume": 648143544.3434504,
+      "median_opening_volume": 983178.0,
+      "median_price": 82.709675,
+      "sessions_observed": 84,
+      "symbol": "COIN"
+    },
+    {
+      "median_dollar_volume": 549201284.8635501,
+      "median_opening_volume": 142158.5,
+      "median_price": 276.03999999999996,
+      "sessions_observed": 84,
+      "symbol": "MCD"
+    },
+    {
+      "median_dollar_volume": 502519092.9035002,
+      "median_opening_volume": 328722.5,
+      "median_price": 104.0975,
+      "sessions_observed": 84,
+      "symbol": "MRK"
+    },
+    {
+      "median_dollar_volume": 532401429.72504985,
+      "median_opening_volume": 62141.5,
+      "median_price": 542.0387499999999,
+      "sessions_observed": 84,
+      "symbol": "INTU"
+    },
+    {
+      "median_dollar_volume": 565519285.0074997,
+      "median_opening_volume": 938680.0,
+      "median_price": 41.97,
+      "sessions_observed": 84,
+      "symbol": "C"
+    },
+    {
+      "median_dollar_volume": 556188909.8702002,
+      "median_opening_volume": 579273.0,
+      "median_price": 58.733125,
+      "sessions_observed": 84,
+      "symbol": "NEE"
+    },
+    {
+      "median_dollar_volume": 572345459.2693,
+      "median_opening_volume": 1193952.0,
+      "median_price": 34.995000000000005,
+      "sessions_observed": 84,
+      "symbol": "VZ"
+    },
+    {
+      "median_dollar_volume": 501323243.5021,
+      "median_opening_volume": 552049.5,
+      "median_price": 52.755325,
+      "sessions_observed": 84,
+      "symbol": "BMY"
+    },
+    {
+      "median_dollar_volume": 521327959.16130024,
+      "median_opening_volume": 159811.0,
+      "median_price": 265.59749999999997,
+      "sessions_observed": 84,
+      "symbol": "CAT"
+    },
+    {
+      "median_dollar_volume": 520744557.65074986,
+      "median_opening_volume": 60167.5,
+      "median_price": 598.6125,
+      "sessions_observed": 84,
+      "symbol": "NOW"
+    },
+    {
+      "median_dollar_volume": 509911115.5809002,
+      "median_opening_volume": 702032.0,
+      "median_price": 41.764975,
+      "sessions_observed": 84,
+      "symbol": "WFC"
+    },
+    {
+      "median_dollar_volume": 453487878.50545037,
+      "median_opening_volume": 189540.5,
+      "median_price": 147.72,
+      "sessions_observed": 84,
+      "symbol": "ABBV"
+    },
+    {
+      "median_dollar_volume": 441006992.7443,
+      "median_opening_volume": 106985.0,
+      "median_price": 269.59125,
+      "sessions_observed": 84,
+      "symbol": "AMGN"
+    },
+    {
+      "median_dollar_volume": 535548022.05824995,
+      "median_opening_volume": 347984.5,
+      "median_price": 131.71375,
+      "sessions_observed": 84,
+      "symbol": "ABNB"
+    },
+    {
+      "median_dollar_volume": 507125896.5602502,
+      "median_opening_volume": 385155.0,
+      "median_price": 79.91,
+      "sessions_observed": 84,
+      "symbol": "RTX"
+    },
+    {
+      "median_dollar_volume": 522042013.02525,
+      "median_opening_volume": 272908.0,
+      "median_price": 161.31687499999998,
+      "sessions_observed": 84,
+      "symbol": "SNOW"
+    },
+    {
+      "median_dollar_volume": 578284887.9310997,
+      "median_opening_volume": 2651479.5,
+      "median_price": 19.06,
+      "sessions_observed": 84,
+      "symbol": "RIVN"
+    },
+    {
+      "median_dollar_volume": 473639924.6174499,
+      "median_opening_volume": 358407.0,
+      "median_price": 95.99875,
+      "sessions_observed": 84,
+      "symbol": "SBUX"
+    },
+    {
+      "median_dollar_volume": 490015980.63799983,
+      "median_opening_volume": 335815.0,
+      "median_price": 80.22999999999999,
+      "sessions_observed": 84,
+      "symbol": "MS"
+    },
+    {
+      "median_dollar_volume": 441901737.15960014,
+      "median_opening_volume": 157531.5,
+      "median_price": 143.425,
+      "sessions_observed": 84,
+      "symbol": "TMUS"
+    },
+    {
+      "median_dollar_volume": 468923192.0932498,
+      "median_opening_volume": 251081.5,
+      "median_price": 118.1,
+      "sessions_observed": 84,
+      "symbol": "COP"
+    },
+    {
+      "median_dollar_volume": 477845198.3498,
+      "median_opening_volume": 129905.5,
+      "median_price": 220.12505,
+      "sessions_observed": 84,
+      "symbol": "DHR"
+    },
+    {
+      "median_dollar_volume": 432518354.4037999,
+      "median_opening_volume": 98094.0,
+      "median_price": 316.8075,
+      "sessions_observed": 84,
+      "symbol": "ACN"
+    },
+    {
+      "median_dollar_volume": 557541851.9742497,
+      "median_opening_volume": 834180.0,
+      "median_price": 62.721875,
+      "sessions_observed": 84,
+      "symbol": "SHOP"
+    },
+    {
+      "median_dollar_volume": 424291169.57514983,
+      "median_opening_volume": 86925.5,
+      "median_price": 327.995,
+      "sessions_observed": 84,
+      "symbol": "GS"
+    },
+    {
+      "median_dollar_volume": 513282223.96275026,
+      "median_opening_volume": 810710.5,
+      "median_price": 53.1275,
+      "sessions_observed": 84,
+      "symbol": "SQ"
+    },
+    {
+      "median_dollar_volume": 442531393.52655,
+      "median_opening_volume": 198919.5,
+      "median_price": 147.9375,
+      "sessions_observed": 84,
+      "symbol": "IBM"
+    },
+    {
+      "median_dollar_volume": 389163399.8245001,
+      "median_opening_volume": 70655.5,
+      "median_price": 389.03,
+      "sessions_observed": 84,
+      "symbol": "LIN"
+    },
+    {
+      "median_dollar_volume": 491029619.33010006,
+      "median_opening_volume": 706431.0,
+      "median_price": 61.959649999999996,
+      "sessions_observed": 84,
+      "symbol": "OXY"
+    },
+    {
+      "median_dollar_volume": 388568818.1421499,
+      "median_opening_volume": 109315.5,
+      "median_price": 177.515,
+      "sessions_observed": 84,
+      "symbol": "ADI"
+    },
+    {
+      "median_dollar_volume": 459053259.6766499,
+      "median_opening_volume": 73105.0,
+      "median_price": 404.825,
+      "sessions_observed": 84,
+      "symbol": "LULU"
+    },
+    {
+      "median_dollar_volume": 440790762.06315005,
+      "median_opening_volume": 117047.5,
+      "median_price": 204.81535,
+      "sessions_observed": 84,
+      "symbol": "LOW"
+    },
+    {
+      "median_dollar_volume": 475038761.47295004,
+      "median_opening_volume": 2650372.0,
+      "median_price": 11.885024999999999,
+      "sessions_observed": 84,
+      "symbol": "F"
+    },
+    {
+      "median_dollar_volume": 449323142.57534987,
+      "median_opening_volume": 76039.5,
+      "median_price": 380.457475,
+      "sessions_observed": 84,
+      "symbol": "DE"
+    },
+    {
+      "median_dollar_volume": 431846839.89384997,
+      "median_opening_volume": 1901178.5,
+      "median_price": 15.537500000000001,
+      "sessions_observed": 84,
+      "symbol": "T"
+    },
+    {
+      "median_dollar_volume": 384083055.73175,
+      "median_opening_volume": 50009.0,
+      "median_price": 491.55625,
+      "sessions_observed": 84,
+      "symbol": "HUM"
+    },
+    {
+      "median_dollar_volume": 414616171.63125014,
+      "median_opening_volume": 479636.5,
+      "median_price": 56.120000000000005,
+      "sessions_observed": 84,
+      "symbol": "SCHW"
+    },
+    {
+      "median_dollar_volume": 397849714.11974996,
+      "median_opening_volume": 258892.5,
+      "median_price": 100.156925,
+      "sessions_observed": 84,
+      "symbol": "ABT"
+    },
+    {
+      "median_dollar_volume": 392555581.47204983,
+      "median_opening_volume": 57808.0,
+      "median_price": 445.78125,
+      "sessions_observed": 84,
+      "symbol": "LMT"
+    },
+    {
+      "median_dollar_volume": 462171079.3368498,
+      "median_opening_volume": 232252.5,
+      "median_price": 186.9454,
+      "sessions_observed": 84,
+      "symbol": "CRWD"
+    },
+    {
+      "median_dollar_volume": 372678824.07925,
+      "median_opening_volume": 80365.5,
+      "median_price": 212.655,
+      "sessions_observed": 84,
+      "symbol": "UNP"
+    },
+    {
+      "median_dollar_volume": 398068798.07220024,
+      "median_opening_volume": 135127.5,
+      "median_price": 154.7353,
+      "sessions_observed": 84,
+      "symbol": "UPS"
+    },
+    {
+      "median_dollar_volume": 404210401.17659986,
+      "median_opening_volume": 902727.0,
+      "median_price": 32.057475,
+      "sessions_observed": 84,
+      "symbol": "GM"
+    },
+    {
+      "median_dollar_volume": 389538408.58884984,
+      "median_opening_volume": 127550.0,
+      "median_price": 235.14499999999998,
+      "sessions_observed": 84,
+      "symbol": "PXD"
+    },
+    {
+      "median_dollar_volume": 393563983.82725,
+      "median_opening_volume": 207183.5,
+      "median_price": 121.95625000000001,
+      "sessions_observed": 84,
+      "symbol": "TGT"
+    },
+    {
+      "median_dollar_volume": 359986728.2296999,
+      "median_opening_volume": 104272.0,
+      "median_price": 189.1525,
+      "sessions_observed": 84,
+      "symbol": "HON"
+    },
+    {
+      "median_dollar_volume": 389221175.18079984,
+      "median_opening_volume": 307606.0,
+      "median_price": 78.785,
+      "sessions_observed": 84,
+      "symbol": "MDT"
+    },
+    {
+      "median_dollar_volume": 384067201.25705,
+      "median_opening_volume": 214957.5,
+      "median_price": 114.054025,
+      "sessions_observed": 84,
+      "symbol": "GE"
+    },
+    {
+      "median_dollar_volume": 335213860.3266499,
+      "median_opening_volume": 35233.5,
+      "median_price": 454.195,
+      "sessions_observed": 84,
+      "symbol": "ELV"
+    },
+    {
+      "median_dollar_volume": 388737312.74395,
+      "median_opening_volume": 345312.5,
+      "median_price": 69.99652499999999,
+      "sessions_observed": 84,
+      "symbol": "CVS"
+    },
+    {
+      "median_dollar_volume": 345452663.0104001,
+      "median_opening_volume": 130054.5,
+      "median_price": 158.10375,
+      "sessions_observed": 84,
+      "symbol": "AXP"
+    },
+    {
+      "median_dollar_volume": 323158586.5409002,
+      "median_opening_volume": 79070.5,
+      "median_price": 298.050025,
+      "sessions_observed": 84,
+      "symbol": "ISRG"
+    },
+    {
+      "median_dollar_volume": 325138318.49525,
+      "median_opening_volume": 257250.5,
+      "median_price": 84.7125,
+      "sessions_observed": 84,
+      "symbol": "ON"
+    },
+    {
+      "median_dollar_volume": 362009199.1346499,
+      "median_opening_volume": 144576.5,
+      "median_price": 149.491175,
+      "sessions_observed": 84,
+      "symbol": "MPC"
+    },
+    {
+      "median_dollar_volume": 381129761.30129987,
+      "median_opening_volume": 341234.5,
+      "median_price": 117.2699,
+      "sessions_observed": 84,
+      "symbol": "ENPH"
+    },
+    {
+      "median_dollar_volume": 319726186.16190004,
+      "median_opening_volume": 292155.5,
+      "median_price": 70.15625,
+      "sessions_observed": 84,
+      "symbol": "MDLZ"
+    },
+    {
+      "median_dollar_volume": 411354925.2299001,
+      "median_opening_volume": 457626.5,
+      "median_price": 82.459825,
+      "sessions_observed": 84,
+      "symbol": "ROKU"
+    },
+    {
+      "median_dollar_volume": 307308565.28084993,
+      "median_opening_volume": 206629.0,
+      "median_price": 89.6225,
+      "sessions_observed": 84,
+      "symbol": "TJX"
+    },
+    {
+      "median_dollar_volume": 343999140.82755,
+      "median_opening_volume": 80637.5,
+      "median_price": 254.4975,
+      "sessions_observed": 84,
+      "symbol": "FDX"
+    },
+    {
+      "median_dollar_volume": 364405480.52224964,
+      "median_opening_volume": 469698.0,
+      "median_price": 55.81875,
+      "sessions_observed": 84,
+      "symbol": "SLB"
+    },
+    {
+      "median_dollar_volume": 328468979.3103001,
+      "median_opening_volume": 53478.0,
+      "median_price": 390.735,
+      "sessions_observed": 84,
+      "symbol": "SPGI"
+    },
+    {
+      "median_dollar_volume": 346576878.3549502,
+      "median_opening_volume": 448170.0,
+      "median_price": 54.34375,
+      "sessions_observed": 84,
+      "symbol": "MRVL"
+    },
+    {
+      "median_dollar_volume": 325408124.8916999,
+      "median_opening_volume": 723636.0,
+      "median_price": 38.845,
+      "sessions_observed": 84,
+      "symbol": "NEM"
+    },
+    {
+      "median_dollar_volume": 346541092.15910006,
+      "median_opening_volume": 79150.0,
+      "median_price": 374.815,
+      "sessions_observed": 84,
+      "symbol": "MDB"
+    },
+    {
+      "median_dollar_volume": 356505492.69680005,
+      "median_opening_volume": 196135.5,
+      "median_price": 128.662525,
+      "sessions_observed": 84,
+      "symbol": "VLO"
+    },
+    {
+      "median_dollar_volume": 391955167.4663999,
+      "median_opening_volume": 1889578.5,
+      "median_price": 12.806650000000001,
+      "sessions_observed": 84,
+      "symbol": "AAL"
+    },
+    {
+      "median_dollar_volume": 290056767.20694995,
+      "median_opening_volume": 224813.5,
+      "median_price": 76.83500000000001,
+      "sessions_observed": 84,
+      "symbol": "GILD"
+    },
+    {
+      "median_dollar_volume": 322126976.1561998,
+      "median_opening_volume": 213019.5,
+      "median_price": 99.505,
+      "sessions_observed": 84,
+      "symbol": "DXCM"
+    },
+    {
+      "median_dollar_volume": 335985455.58225,
+      "median_opening_volume": 166852.0,
+      "median_price": 106.8625,
+      "sessions_observed": 84,
+      "symbol": "BX"
+    },
+    {
+      "median_dollar_volume": 344063617.86489993,
+      "median_opening_volume": 141565.0,
+      "median_price": 120.41999999999999,
+      "sessions_observed": 84,
+      "symbol": "DG"
+    },
+    {
+      "median_dollar_volume": 293534742.8199499,
+      "median_opening_volume": 48995.0,
+      "median_price": 355.85875,
+      "sessions_observed": 84,
+      "symbol": "VRTX"
+    },
+    {
+      "median_dollar_volume": 337992483.81945026,
+      "median_opening_volume": 568675.0,
+      "median_price": 46.1325,
+      "sessions_observed": 84,
+      "symbol": "DVN"
+    },
+    {
+      "median_dollar_volume": 302384962.59264994,
+      "median_opening_volume": 84716.0,
+      "median_price": 181.23395,
+      "sessions_observed": 84,
+      "symbol": "AMT"
+    },
+    {
+      "median_dollar_volume": 317256792.1501001,
+      "median_opening_volume": 707653.5,
+      "median_price": 20.189999999999998,
+      "sessions_observed": 84,
+      "symbol": "KVUE"
+    },
+    {
+      "median_dollar_volume": 296085850.2071999,
+      "median_opening_volume": 42647.5,
+      "median_price": 286.4825,
+      "sessions_observed": 84,
+      "symbol": "SYK"
+    },
+    {
+      "median_dollar_volume": 260186192.15474975,
+      "median_opening_volume": 64988.0,
+      "median_price": 200.265,
+      "sessions_observed": 84,
+      "symbol": "NXPI"
+    },
+    {
+      "median_dollar_volume": 344885952.4975001,
+      "median_opening_volume": 2264078.0,
+      "median_price": 14.588875,
+      "sessions_observed": 84,
+      "symbol": "CCL"
+    },
+    {
+      "median_dollar_volume": 277638604.8702501,
+      "median_opening_volume": 493124.0,
+      "median_price": 31.0375,
+      "sessions_observed": 84,
+      "symbol": "CSX"
+    },
+    {
+      "median_dollar_volume": 271313192.2106,
+      "median_opening_volume": 163049.5,
+      "median_price": 92.87875,
+      "sessions_observed": 84,
+      "symbol": "PM"
+    },
+    {
+      "median_dollar_volume": 307868575.0657999,
+      "median_opening_volume": 75118.5,
+      "median_price": 222.0275,
+      "sessions_observed": 84,
+      "symbol": "ETN"
+    },
+    {
+      "median_dollar_volume": 274892001.8004,
+      "median_opening_volume": 44338.5,
+      "median_price": 290.52625,
+      "sessions_observed": 84,
+      "symbol": "CI"
+    },
+    {
+      "median_dollar_volume": 313560647.6014999,
+      "median_opening_volume": 587240.5,
+      "median_price": 36.938875,
+      "sessions_observed": 84,
+      "symbol": "FCX"
+    },
+    {
+      "median_dollar_volume": 307056279.3807498,
+      "median_opening_volume": 191338.5,
+      "median_price": 146.55284999999998,
+      "sessions_observed": 84,
+      "symbol": "ALB"
+    },
+    {
+      "median_dollar_volume": 288939429.53085,
+      "median_opening_volume": 130746.0,
+      "median_price": 124.59,
+      "sessions_observed": 84,
+      "symbol": "EOG"
+    },
+    {
+      "median_dollar_volume": 295441635.21720004,
+      "median_opening_volume": 304515.5,
+      "median_price": 53.667500000000004,
+      "sessions_observed": 84,
+      "symbol": "BSX"
+    },
+    {
+      "median_dollar_volume": 288712550.24785006,
+      "median_opening_volume": 449815.0,
+      "median_price": 35.5,
+      "sessions_observed": 84,
+      "symbol": "USB"
+    },
+    {
+      "median_dollar_volume": 251627348.32060006,
+      "median_opening_volume": 124271.5,
+      "median_price": 111.82,
+      "sessions_observed": 84,
+      "symbol": "PLD"
+    },
+    {
+      "median_dollar_volume": 285743173.51020014,
+      "median_opening_volume": 111399.5,
+      "median_price": 197.92875,
+      "sessions_observed": 84,
+      "symbol": "ANET"
+    },
+    {
+      "median_dollar_volume": 340406376.13510025,
+      "median_opening_volume": 3786062.5,
+      "median_price": 9.725,
+      "sessions_observed": 84,
+      "symbol": "MARA"
+    },
+    {
+      "median_dollar_volume": 260440398.96794993,
+      "median_opening_volume": 40592.5,
+      "median_price": 264.63334999999995,
+      "sessions_observed": 84,
+      "symbol": "SHW"
+    },
+    {
+      "median_dollar_volume": 247972703.5144999,
+      "median_opening_volume": 51414.5,
+      "median_price": 216.01749999999998,
+      "sessions_observed": 84,
+      "symbol": "CB"
+    },
+    {
+      "median_dollar_volume": 281920467.39989996,
+      "median_opening_volume": 96357.5,
+      "median_price": 146.945,
+      "sessions_observed": 84,
+      "symbol": "HES"
+    },
+    {
+      "median_dollar_volume": 301799273.15495026,
+      "median_opening_volume": 129897.0,
+      "median_price": 156.06560000000002,
+      "sessions_observed": 84,
+      "symbol": "FSLR"
+    },
+    {
+      "median_dollar_volume": 225558725.54480004,
+      "median_opening_volume": 48403.0,
+      "median_price": 234.965,
+      "sessions_observed": 84,
+      "symbol": "ADP"
+    },
+    {
+      "median_dollar_volume": 254763659.95574993,
+      "median_opening_volume": 134351.5,
+      "median_price": 98.455,
+      "sessions_observed": 84,
+      "symbol": "CCI"
+    },
+    {
+      "median_dollar_volume": 247988444.56809998,
+      "median_opening_volume": 115301.5,
+      "median_price": 118.14500000000001,
+      "sessions_observed": 84,
+      "symbol": "PSX"
+    },
+    {
+      "median_dollar_volume": 234784473.11629987,
+      "median_opening_volume": 155308.0,
+      "median_price": 79.2202,
+      "sessions_observed": 84,
+      "symbol": "MCHP"
+    },
+    {
+      "median_dollar_volume": 277061619.0501001,
+      "median_opening_volume": 625735.0,
+      "median_price": 36.785,
+      "sessions_observed": 84,
+      "symbol": "DAL"
+    },
+    {
+      "median_dollar_volume": 227558772.7077999,
+      "median_opening_volume": 70974.0,
+      "median_price": 156.65375,
+      "sessions_observed": 84,
+      "symbol": "PGR"
+    },
+    {
+      "median_dollar_volume": 263376049.42570007,
+      "median_opening_volume": 441191.0,
+      "median_price": 41.8725,
+      "sessions_observed": 84,
+      "symbol": "MO"
+    },
+    {
+      "median_dollar_volume": 301264427.5446999,
+      "median_opening_volume": 1176340.0,
+      "median_price": 22.69,
+      "sessions_observed": 84,
+      "symbol": "AFRM"
+    },
+    {
+      "median_dollar_volume": 280013773.0359,
+      "median_opening_volume": 223326.5,
+      "median_price": 97.7475,
+      "sessions_observed": 84,
+      "symbol": "DDOG"
+    },
+    {
+      "median_dollar_volume": 297876348.9584502,
+      "median_opening_volume": 758062.5,
+      "median_price": 31.34835,
+      "sessions_observed": 84,
+      "symbol": "DKNG"
+    },
+    {
+      "median_dollar_volume": 259868503.56285,
+      "median_opening_volume": 50228.0,
+      "median_price": 234.19,
+      "sessions_observed": 84,
+      "symbol": "WDAY"
+    },
+    {
+      "median_dollar_volume": 271243485.345,
+      "median_opening_volume": 251233.0,
+      "median_price": 86.85675,
+      "sessions_observed": 84,
+      "symbol": "MRNA"
+    },
+    {
+      "median_dollar_volume": 242084826.9628498,
+      "median_opening_volume": 179168.0,
+      "median_price": 95.57499999999999,
+      "sessions_observed": 84,
+      "symbol": "MMM"
+    },
+    {
+      "median_dollar_volume": 255251361.67115003,
+      "median_opening_volume": 515809.0,
+      "median_price": 31.885,
+      "sessions_observed": 84,
+      "symbol": "RBLX"
+    },
+    {
+      "median_dollar_volume": 239503607.16525006,
+      "median_opening_volume": 44444.0,
+      "median_price": 256.37874999999997,
+      "sessions_observed": 84,
+      "symbol": "BDX"
+    },
+    {
+      "median_dollar_volume": 250844373.20779997,
+      "median_opening_volume": 65056.0,
+      "median_price": 201.562475,
+      "sessions_observed": 84,
+      "symbol": "MAR"
+    },
+    {
+      "median_dollar_volume": 232862065.04724997,
+      "median_opening_volume": 58870.5,
+      "median_price": 249.98000000000002,
+      "sessions_observed": 84,
+      "symbol": "CDNS"
+    },
+    {
+      "median_dollar_volume": 234509871.0531,
+      "median_opening_volume": 56634.0,
+      "median_price": 212.25125,
+      "sessions_observed": 84,
+      "symbol": "CME"
+    },
+    {
+      "median_dollar_volume": 258607331.53049996,
+      "median_opening_volume": 171648.5,
+      "median_price": 84.0325,
+      "sessions_observed": 84,
+      "symbol": "DASH"
+    },
+    {
+      "median_dollar_volume": 240345239.40884995,
+      "median_opening_volume": 82468.0,
+      "median_price": 121.66749999999999,
+      "sessions_observed": 84,
+      "symbol": "FI"
+    },
+    {
+      "median_dollar_volume": 282381122.83015,
+      "median_opening_volume": 816281.5,
+      "median_price": 30.6125,
+      "sessions_observed": 84,
+      "symbol": "U"
+    },
+    {
+      "median_dollar_volume": 283908952.24715,
+      "median_opening_volume": 698101.0,
+      "median_price": 38.144999999999996,
+      "sessions_observed": 84,
+      "symbol": "CVNA"
+    },
+    {
+      "median_dollar_volume": 250409311.81435004,
+      "median_opening_volume": 286506.5,
+      "median_price": 57.57375,
+      "sessions_observed": 84,
+      "symbol": "FTNT"
+    },
+    {
+      "median_dollar_volume": 243485881.58965015,
+      "median_opening_volume": 212317.5,
+      "median_price": 69.685025,
+      "sessions_observed": 84,
+      "symbol": "DELL"
+    },
+    {
+      "median_dollar_volume": 235562820.47594988,
+      "median_opening_volume": 306079.0,
+      "median_price": 53.085049999999995,
+      "sessions_observed": 84,
+      "symbol": "O"
+    },
+    {
+      "median_dollar_volume": 245756950.71185005,
+      "median_opening_volume": 43405.5,
+      "median_price": 250.79874999999998,
+      "sessions_observed": 84,
+      "symbol": "HCA"
+    },
+    {
+      "median_dollar_volume": 223384262.83945006,
+      "median_opening_volume": 430587.0,
+      "median_price": 29.769624999999998,
+      "sessions_observed": 84,
+      "symbol": "TFC"
+    },
+    {
+      "median_dollar_volume": 236929198.7823,
+      "median_opening_volume": 133901.5,
+      "median_price": 90.095,
+      "sessions_observed": 84,
+      "symbol": "DUK"
+    },
+    {
+      "median_dollar_volume": 239279672.63990003,
+      "median_opening_volume": 140721.5,
+      "median_price": 147.44,
+      "sessions_observed": 84,
+      "symbol": "SPLK"
+    },
+    {
+      "median_dollar_volume": 242203329.86180007,
+      "median_opening_volume": 128332.0,
+      "median_price": 139.865,
+      "sessions_observed": 84,
+      "symbol": "EL"
+    },
+    {
+      "median_dollar_volume": 206722292.66684997,
+      "median_opening_volume": 183489.0,
+      "median_price": 74.30125,
+      "sessions_observed": 84,
+      "symbol": "CL"
+    },
+    {
+      "median_dollar_volume": 221964234.80595002,
+      "median_opening_volume": 174393.5,
+      "median_price": 69.0175,
+      "sessions_observed": 84,
+      "symbol": "SO"
+    },
+    {
+      "median_dollar_volume": 181416245.71765,
+      "median_opening_volume": 48667.0,
+      "median_price": 194.148,
+      "sessions_observed": 84,
+      "symbol": "MMC"
+    },
+    {
+      "median_dollar_volume": 235499051.65734994,
+      "median_opening_volume": 111482.0,
+      "median_price": 171.57125,
+      "sessions_observed": 84,
+      "symbol": "ZS"
+    },
+    {
+      "median_dollar_volume": 224791603.18415007,
+      "median_opening_volume": 220547.0,
+      "median_price": 65.05625,
+      "sessions_observed": 84,
+      "symbol": "GIS"
+    },
+    {
+      "median_dollar_volume": 202218996.18275,
+      "median_opening_volume": 89685.5,
+      "median_price": 112.21,
+      "sessions_observed": 84,
+      "symbol": "ICE"
+    },
+    {
+      "median_dollar_volume": 211050720.1775999,
+      "median_opening_volume": 200956.5,
+      "median_price": 54.9925,
+      "sessions_observed": 84,
+      "symbol": "MNST"
+    },
+    {
+      "median_dollar_volume": 242964429.85415,
+      "median_opening_volume": 151818.5,
+      "median_price": 97.36,
+      "sessions_observed": 84,
+      "symbol": "RCL"
+    },
+    {
+      "median_dollar_volume": 217998226.40754992,
+      "median_opening_volume": 64410.5,
+      "median_price": 176.76,
+      "sessions_observed": 84,
+      "symbol": "ZTS"
+    },
+    {
+      "median_dollar_volume": 226112381.76099998,
+      "median_opening_volume": 67266.0,
+      "median_price": 156.33505000000002,
+      "sessions_observed": 84,
+      "symbol": "FANG"
+    },
+    {
+      "median_dollar_volume": 204617159.70015,
+      "median_opening_volume": 106736.5,
+      "median_price": 117.735,
+      "sessions_observed": 84,
+      "symbol": "DHI"
+    },
+    {
+      "median_dollar_volume": 247201035.0903499,
+      "median_opening_volume": 507536.0,
+      "median_price": 40.8007,
+      "sessions_observed": 84,
+      "symbol": "UAL"
+    },
+    {
+      "median_dollar_volume": 223632856.07785007,
+      "median_opening_volume": 217552.0,
+      "median_price": 75.695,
+      "sessions_observed": 84,
+      "symbol": "TTD"
+    },
+    {
+      "median_dollar_volume": 229675484.44010004,
+      "median_opening_volume": 446568.5,
+      "median_price": 29.1525,
+      "sessions_observed": 84,
+      "symbol": "PINS"
+    },
+    {
+      "median_dollar_volume": 208990531.6414001,
+      "median_opening_volume": 226477.5,
+      "median_price": 46.4025,
+      "sessions_observed": 84,
+      "symbol": "D"
+    },
+    {
+      "median_dollar_volume": 218727552.90654996,
+      "median_opening_volume": 56780.5,
+      "median_price": 191.225,
+      "sessions_observed": 84,
+      "symbol": "HSY"
+    },
+    {
+      "median_dollar_volume": 219717640.19875002,
+      "median_opening_volume": 174037.5,
+      "median_price": 69.83875,
+      "sessions_observed": 84,
+      "symbol": "EW"
+    },
+    {
+      "median_dollar_volume": 229278349.2848,
+      "median_opening_volume": 547506.0,
+      "median_price": 25.86045,
+      "sessions_observed": 84,
+      "symbol": "MRO"
+    },
+    {
+      "median_dollar_volume": 181829760.11779997,
+      "median_opening_volume": 129311.5,
+      "median_price": 55.33,
+      "sessions_observed": 84,
+      "symbol": "FIS"
+    },
+    {
+      "median_dollar_volume": 199379177.12344986,
+      "median_opening_volume": 98314.0,
+      "median_price": 129.01999999999998,
+      "sessions_observed": 84,
+      "symbol": "ILMN"
+    },
+    {
+      "median_dollar_volume": 215681061.25964993,
+      "median_opening_volume": 84699.5,
+      "median_price": 122.92500000000001,
+      "sessions_observed": 84,
+      "symbol": "PNC"
+    },
+    {
+      "median_dollar_volume": 187172578.44544992,
+      "median_opening_volume": 69836.0,
+      "median_price": 114.99549999999999,
+      "sessions_observed": 84,
+      "symbol": "DLTR"
+    },
+    {
+      "median_dollar_volume": 200940956.28895003,
+      "median_opening_volume": 694371.0,
+      "median_price": 21.915,
+      "sessions_observed": 84,
+      "symbol": "WBA"
+    },
+    {
+      "median_dollar_volume": 199390780.20795003,
+      "median_opening_volume": 159126.5,
+      "median_price": 66.67750000000001,
+      "sessions_observed": 84,
+      "symbol": "OKE"
+    },
+    {
+      "median_dollar_volume": 197510375.35245,
+      "median_opening_volume": 56404.0,
+      "median_price": 155.31375,
+      "sessions_observed": 84,
+      "symbol": "HLT"
+    },
+    {
+      "median_dollar_volume": 206372496.83274996,
+      "median_opening_volume": 376669.0,
+      "median_price": 39.2,
+      "sessions_observed": 84,
+      "symbol": "HAL"
+    },
+    {
+      "median_dollar_volume": 232688815.86074978,
+      "median_opening_volume": 943503.5,
+      "median_price": 16.22,
+      "sessions_observed": 84,
+      "symbol": "GOLD"
+    },
+    {
+      "median_dollar_volume": 198318139.60605004,
+      "median_opening_volume": 123797.0,
+      "median_price": 94.6275,
+      "sessions_observed": 84,
+      "symbol": "EMR"
+    },
+    {
+      "median_dollar_volume": 188625174.43830016,
+      "median_opening_volume": 49042.5,
+      "median_price": 213.0275,
+      "sessions_observed": 84,
+      "symbol": "ADSK"
+    },
+    {
+      "median_dollar_volume": 191459274.10979998,
+      "median_opening_volume": 134890.5,
+      "median_price": 77.735,
+      "sessions_observed": 84,
+      "symbol": "AEP"
+    },
+    {
+      "median_dollar_volume": 198866280.15410006,
+      "median_opening_volume": 554420.0,
+      "median_price": 16.9625,
+      "sessions_observed": 84,
+      "symbol": "PCG"
+    },
+    {
+      "median_dollar_volume": 192612475.59770006,
+      "median_opening_volume": 401655.0,
+      "median_price": 33.60357499999999,
+      "sessions_observed": 84,
+      "symbol": "KHC"
+    },
+    {
+      "median_dollar_volume": 199360627.4256999,
+      "median_opening_volume": 58252.0,
+      "median_price": 195.26375000000002,
+      "sessions_observed": 84,
+      "symbol": "TEAM"
+    },
+    {
+      "median_dollar_volume": 180191913.09085,
+      "median_opening_volume": 149427.0,
+      "median_price": 52.769375,
+      "sessions_observed": 84,
+      "symbol": "JCI"
+    },
+    {
+      "median_dollar_volume": 185626993.69065,
+      "median_opening_volume": 29872.0,
+      "median_price": 239.31,
+      "sessions_observed": 84,
+      "symbol": "STZ"
+    },
+    {
+      "median_dollar_volume": 211609649.30449992,
+      "median_opening_volume": 82078.5,
+      "median_price": 164.8245,
+      "sessions_observed": 84,
+      "symbol": "SPOT"
+    },
+    {
+      "median_dollar_volume": 180607001.74724996,
+      "median_opening_volume": 63728.0,
+      "median_price": 119.93,
+      "sessions_observed": 84,
+      "symbol": "ROST"
+    },
+    {
+      "median_dollar_volume": 159949445.4601001,
+      "median_opening_volume": 70942.0,
+      "median_price": 129.845,
+      "sessions_observed": 84,
+      "symbol": "EA"
+    },
+    {
+      "median_dollar_volume": 223931032.09284997,
+      "median_opening_volume": 2654920.5,
+      "median_price": 7.9607,
+      "sessions_observed": 84,
+      "symbol": "SOFI"
+    },
+    {
+      "median_dollar_volume": 190124785.23135,
+      "median_opening_volume": 34034.0,
+      "median_price": 209.7575,
+      "sessions_observed": 84,
+      "symbol": "TT"
+    },
+    {
+      "median_dollar_volume": 184041178.74475005,
+      "median_opening_volume": 270829.5,
+      "median_price": 34.6475,
+      "sessions_observed": 84,
+      "symbol": "BKR"
+    },
+    {
+      "median_dollar_volume": 213988572.0713501,
+      "median_opening_volume": 154906.0,
+      "median_price": 95.91499999999999,
+      "sessions_observed": 84,
+      "symbol": "SEDG"
+    },
+    {
+      "median_dollar_volume": 181855103.17180008,
+      "median_opening_volume": 157061.0,
+      "median_price": 59.48125,
+      "sessions_observed": 84,
+      "symbol": "XEL"
+    },
+    {
+      "median_dollar_volume": 178876431.30804992,
+      "median_opening_volume": 60453.5,
+      "median_price": 129.57999999999998,
+      "sessions_observed": 84,
+      "symbol": "DLR"
+    },
+    {
+      "median_dollar_volume": 175659189.73609996,
+      "median_opening_volume": 236967.5,
+      "median_price": 39.27125,
+      "sessions_observed": 84,
+      "symbol": "EXC"
+    },
+    {
+      "median_dollar_volume": 199288577.6775001,
+      "median_opening_volume": 190525.0,
+      "median_price": 66.315,
+      "sessions_observed": 84,
+      "symbol": "ETSY"
+    },
+    {
+      "median_dollar_volume": 197913071.23820004,
+      "median_opening_volume": 290568.0,
+      "median_price": 40.334975,
+      "sessions_observed": 84,
+      "symbol": "VRT"
+    },
+    {
+      "median_dollar_volume": 177496393.53695002,
+      "median_opening_volume": 89206.0,
+      "median_price": 109.285,
+      "sessions_observed": 84,
+      "symbol": "EXPE"
+    },
+    {
+      "median_dollar_volume": 170832534.63524997,
+      "median_opening_volume": 261638.5,
+      "median_price": 31.95,
+      "sessions_observed": 84,
+      "symbol": "KDP"
+    },
+    {
+      "median_dollar_volume": 192808887.13454995,
+      "median_opening_volume": 44111.5,
+      "median_price": 205.3525,
+      "sessions_observed": 84,
+      "symbol": "TSCO"
+    },
+    {
+      "median_dollar_volume": 169382969.65945005,
+      "median_opening_volume": 64286.0,
+      "median_price": 163.7025,
+      "sessions_observed": 84,
+      "symbol": "WM"
+    },
+    {
+      "median_dollar_volume": 186966370.39915007,
+      "median_opening_volume": 53801.0,
+      "median_price": 170.745,
+      "sessions_observed": 84,
+      "symbol": "LNG"
+    },
+    {
+      "median_dollar_volume": 182661545.82855004,
+      "median_opening_volume": 35853.5,
+      "median_price": 205.55,
+      "sessions_observed": 84,
+      "symbol": "IQV"
+    },
+    {
+      "median_dollar_volume": 177975756.6660499,
+      "median_opening_volume": 192612.0,
+      "median_price": 57.9025,
+      "sessions_observed": 84,
+      "symbol": "CRH"
+    },
+    {
+      "median_dollar_volume": 186558405.94685,
+      "median_opening_volume": 38136.0,
+      "median_price": 203.0875,
+      "sessions_observed": 84,
+      "symbol": "NSC"
+    },
+    {
+      "median_dollar_volume": 184378064.8898999,
+      "median_opening_volume": 77574.5,
+      "median_price": 118.7775,
+      "sessions_observed": 84,
+      "symbol": "LEN"
+    },
+    {
+      "median_dollar_volume": 190962915.1162,
+      "median_opening_volume": 1106799.0,
+      "median_price": 10.3747,
+      "sessions_observed": 84,
+      "symbol": "SNAP"
+    },
+    {
+      "median_dollar_volume": 183230152.27100003,
+      "median_opening_volume": 583214.0,
+      "median_price": 16.990000000000002,
+      "sessions_observed": 84,
+      "symbol": "KMI"
+    },
+    {
+      "median_dollar_volume": 183163774.86340004,
+      "median_opening_volume": 80290.0,
+      "median_price": 103.0675,
+      "sessions_observed": 84,
+      "symbol": "COF"
+    },
+    {
+      "median_dollar_volume": 181296640.20785004,
+      "median_opening_volume": 171170.5,
+      "median_price": 53.367975,
+      "sessions_observed": 84,
+      "symbol": "CARR"
+    },
+    {
+      "median_dollar_volume": 170825038.02640006,
+      "median_opening_volume": 319756.5,
+      "median_price": 27.7275,
+      "sessions_observed": 84,
+      "symbol": "HPQ"
+    },
+    {
+      "median_dollar_volume": 208392767.686,
+      "median_opening_volume": 2112617.0,
+      "median_price": 10.723749999999999,
+      "sessions_observed": 84,
+      "symbol": "RIOT"
+    },
+    {
+      "median_dollar_volume": 171757771.77045003,
+      "median_opening_volume": 132712.5,
+      "median_price": 63.247600000000006,
+      "sessions_observed": 84,
+      "symbol": "MET"
+    },
+    {
+      "median_dollar_volume": 172919577.2246,
+      "median_opening_volume": 211310.0,
+      "median_price": 42.2,
+      "sessions_observed": 84,
+      "symbol": "EBAY"
+    },
+    {
+      "median_dollar_volume": 173171836.20704997,
+      "median_opening_volume": 64861.0,
+      "median_price": 113.03999999999999,
+      "sessions_observed": 84,
+      "symbol": "A"
+    },
+    {
+      "median_dollar_volume": 171392553.88435006,
+      "median_opening_volume": 76932.5,
+      "median_price": 85.5425,
+      "sessions_observed": 84,
+      "symbol": "WELL"
+    },
+    {
+      "median_dollar_volume": 159656264.83749995,
+      "median_opening_volume": 32300.5,
+      "median_price": 189.4675,
+      "sessions_observed": 84,
+      "symbol": "COR"
+    },
+    {
+      "median_dollar_volume": 200038834.15034997,
+      "median_opening_volume": 843418.0,
+      "median_price": 27.47,
+      "sessions_observed": 84,
+      "symbol": "AI"
+    },
+    {
+      "median_dollar_volume": 194207145.00454992,
+      "median_opening_volume": 869352.5,
+      "median_price": 16.2275,
+      "sessions_observed": 84,
+      "symbol": "NCLH"
+    },
+    {
+      "median_dollar_volume": 172115823.37639993,
+      "median_opening_volume": 37117.5,
+      "median_price": 179.18,
+      "sessions_observed": 84,
+      "symbol": "LHX"
+    },
+    {
+      "median_dollar_volume": 174153819.17190003,
+      "median_opening_volume": 955959.5,
+      "median_price": 10.8925,
+      "sessions_observed": 84,
+      "symbol": "WBD"
+    },
+    {
+      "median_dollar_volume": 140073568.97740006,
+      "median_opening_volume": 31214.0,
+      "median_price": 168.55,
+      "sessions_observed": 84,
+      "symbol": "TRV"
+    },
+    {
+      "median_dollar_volume": 190011612.6963002,
+      "median_opening_volume": 109769.5,
+      "median_price": 63.185,
+      "sessions_observed": 84,
+      "symbol": "KKR"
+    },
+    {
+      "median_dollar_volume": 166197972.97604996,
+      "median_opening_volume": 88433.5,
+      "median_price": 71.0555,
+      "sessions_observed": 84,
+      "symbol": "CNC"
+    },
+    {
+      "median_dollar_volume": 150274344.23465002,
+      "median_opening_volume": 93320.0,
+      "median_price": 86.32,
+      "sessions_observed": 84,
+      "symbol": "APH"
+    },
+    {
+      "median_dollar_volume": 171557945.37939996,
+      "median_opening_volume": 54955.5,
+      "median_price": 148.98000000000002,
+      "sessions_observed": 84,
+      "symbol": "RMD"
+    },
+    {
+      "median_dollar_volume": 154310863.5067001,
+      "median_opening_volume": 113610.0,
+      "median_price": 73.92,
+      "sessions_observed": 84,
+      "symbol": "ADM"
+    },
+    {
+      "median_dollar_volume": 178113139.58850002,
+      "median_opening_volume": 215841.0,
+      "median_price": 47.8425,
+      "sessions_observed": 84,
+      "symbol": "LVS"
+    },
+    {
+      "median_dollar_volume": 174033722.60535002,
+      "median_opening_volume": 162334.0,
+      "median_price": 67.72505,
+      "sessions_observed": 84,
+      "symbol": "ZM"
+    },
+    {
+      "median_dollar_volume": 143847720.66300005,
+      "median_opening_volume": 58833.0,
+      "median_price": 121.4425,
+      "sessions_observed": 84,
+      "symbol": "KMB"
+    },
+    {
+      "median_dollar_volume": 160257936.02144998,
+      "median_opening_volume": 55789.5,
+      "median_price": 157.06,
+      "sessions_observed": 84,
+      "symbol": "NUE"
+    },
+    {
+      "median_dollar_volume": 174906943.3489001,
+      "median_opening_volume": 35292.0,
+      "median_price": 193.98000000000002,
+      "sessions_observed": 84,
+      "symbol": "VEEV"
+    },
+    {
+      "median_dollar_volume": 175721972.39215,
+      "median_opening_volume": 180850.5,
+      "median_price": 64.52875,
+      "sessions_observed": 84,
+      "symbol": "NET"
+    },
+    {
+      "median_dollar_volume": 153470680.93299997,
+      "median_opening_volume": 198553.5,
+      "median_price": 51.2725,
+      "sessions_observed": 84,
+      "symbol": "DOW"
+    },
+    {
+      "median_dollar_volume": 141066491.10435,
+      "median_opening_volume": 82366.0,
+      "median_price": 71.815,
+      "sessions_observed": 84,
+      "symbol": "SRE"
+    },
+    {
+      "median_dollar_volume": 160019637.5045,
+      "median_opening_volume": 219579.0,
+      "median_price": 34.802499999999995,
+      "sessions_observed": 84,
+      "symbol": "WMB"
+    },
+    {
+      "median_dollar_volume": 135913715.24255002,
+      "median_opening_volume": 50342.5,
+      "median_price": 118.44295,
+      "sessions_observed": 84,
+      "symbol": "PAYX"
+    },
+    {
+      "median_dollar_volume": 170898957.75950003,
+      "median_opening_volume": 94271.5,
+      "median_price": 161.70250000000001,
+      "sessions_observed": 84,
+      "symbol": "CELH"
+    },
+    {
+      "median_dollar_volume": 155062473.79744995,
+      "median_opening_volume": 51740.5,
+      "median_price": 144.14499999999998,
+      "sessions_observed": 84,
+      "symbol": "TTWO"
+    },
+    {
+      "median_dollar_volume": 167983796.72174996,
+      "median_opening_volume": 65640.0,
+      "median_price": 89.62375,
+      "sessions_observed": 84,
+      "symbol": "APO"
+    },
+    {
+      "median_dollar_volume": 181075092.03829992,
+      "median_opening_volume": 330375.5,
+      "median_price": 40.84375,
+      "sessions_observed": 84,
+      "symbol": "CCJ"
+    },
+    {
+      "median_dollar_volume": 141763350.1745,
+      "median_opening_volume": 132015.5,
+      "median_price": 64.775,
+      "sessions_observed": 84,
+      "symbol": "CNQ"
+    },
+    {
+      "median_dollar_volume": 156893570.76,
+      "median_opening_volume": 35239.5,
+      "median_price": 185.39499999999998,
+      "sessions_observed": 84,
+      "symbol": "PWR"
+    },
+    {
+      "median_dollar_volume": 156714447.75999993,
+      "median_opening_volume": 185568.0,
+      "median_price": 40.33,
+      "sessions_observed": 84,
+      "symbol": "EQT"
+    },
+    {
+      "median_dollar_volume": 128490634.05559993,
+      "median_opening_volume": 92284.5,
+      "median_price": 69.70750000000001,
+      "sessions_observed": 84,
+      "symbol": "CTSH"
+    },
+    {
+      "median_dollar_volume": 151450124.66609988,
+      "median_opening_volume": 47439.0,
+      "median_price": 138.48000000000002,
+      "sessions_observed": 84,
+      "symbol": "CLX"
+    },
+    {
+      "median_dollar_volume": 139294159.8556,
+      "median_opening_volume": 109341.0,
+      "median_price": 62.735,
+      "sessions_observed": 84,
+      "symbol": "AIG"
+    },
+    {
+      "median_dollar_volume": 142206925.24510002,
+      "median_opening_volume": 54527.5,
+      "median_price": 114.60499999999999,
+      "sessions_observed": 84,
+      "symbol": "CEG"
+    },
+    {
+      "median_dollar_volume": 164251908.38959998,
+      "median_opening_volume": 401930.5,
+      "median_price": 26.963749999999997,
+      "sessions_observed": 84,
+      "symbol": "LUV"
+    },
+    {
+      "median_dollar_volume": 150631589.88959992,
+      "median_opening_volume": 52276.0,
+      "median_price": 130.35125,
+      "sessions_observed": 84,
+      "symbol": "BLDR"
+    },
+    {
+      "median_dollar_volume": 128767127.27040005,
+      "median_opening_volume": 40770.5,
+      "median_price": 125.6925,
+      "sessions_observed": 84,
+      "symbol": "YUM"
+    },
+    {
+      "median_dollar_volume": 143327006.34304994,
+      "median_opening_volume": 48666.5,
+      "median_price": 163.175,
+      "sessions_observed": 84,
+      "symbol": "FERG"
+    },
+    {
+      "median_dollar_volume": 152244986.50160003,
+      "median_opening_volume": 218583.5,
+      "median_price": 39.49625,
+      "sessions_observed": 84,
+      "symbol": "MGM"
+    },
+    {
+      "median_dollar_volume": 131706983.33575007,
+      "median_opening_volume": 87632.0,
+      "median_price": 86.225,
+      "sessions_observed": 84,
+      "symbol": "PCAR"
+    },
+    {
+      "median_dollar_volume": 153899783.68125,
+      "median_opening_volume": 46578.0,
+      "median_price": 126.16499999999999,
+      "sessions_observed": 84,
+      "symbol": "JBL"
+    },
+    {
+      "median_dollar_volume": 149780400.72445,
+      "median_opening_volume": 47702.5,
+      "median_price": 171.605,
+      "sessions_observed": 84,
+      "symbol": "PODD"
+    },
+    {
+      "median_dollar_volume": 163577837.68925005,
+      "median_opening_volume": 1220990.5,
+      "median_price": 8.1125,
+      "sessions_observed": 84,
+      "symbol": "NU"
+    },
+    {
+      "median_dollar_volume": 134422747.59155,
+      "median_opening_volume": 148304.5,
+      "median_price": 45.17125,
+      "sessions_observed": 84,
+      "symbol": "BK"
+    },
+    {
+      "median_dollar_volume": 131744641.94194998,
+      "median_opening_volume": 72228.5,
+      "median_price": 73.32499999999999,
+      "sessions_observed": 84,
+      "symbol": "DD"
+    },
+    {
+      "median_dollar_volume": 131027271.41264999,
+      "median_opening_volume": 126924.0,
+      "median_price": 48.855000000000004,
+      "sessions_observed": 84,
+      "symbol": "CTVA"
+    },
+    {
+      "median_dollar_volume": 142266897.60635,
+      "median_opening_volume": 182803.5,
+      "median_price": 44.69,
+      "sessions_observed": 84,
+      "symbol": "KR"
+    },
+    {
+      "median_dollar_volume": 134252165.49330002,
+      "median_opening_volume": 39976.5,
+      "median_price": 133.54,
+      "sessions_observed": 84,
+      "symbol": "PPG"
+    },
+    {
+      "median_dollar_volume": 125181076.13465008,
+      "median_opening_volume": 152012.5,
+      "median_price": 45.864999999999995,
+      "sessions_observed": 84,
+      "symbol": "CPRT"
+    },
+    {
+      "median_dollar_volume": 160546779.99695006,
+      "median_opening_volume": 207281.0,
+      "median_price": 56.068749999999994,
+      "sessions_observed": 84,
+      "symbol": "W"
+    },
+    {
+      "median_dollar_volume": 137229402.4413,
+      "median_opening_volume": 67542.0,
+      "median_price": 89.4825,
+      "sessions_observed": 84,
+      "symbol": "APTV"
+    },
+    {
+      "median_dollar_volume": 136292777.17635006,
+      "median_opening_volume": 129824.5,
+      "median_price": 59.337500000000006,
+      "sessions_observed": 84,
+      "symbol": "FAST"
+    },
+    {
+      "median_dollar_volume": 139436449.33365002,
+      "median_opening_volume": 47238.0,
+      "median_price": 113.54875000000001,
+      "sessions_observed": 84,
+      "symbol": "ZBH"
+    },
+    {
+      "median_dollar_volume": 129982211.73889998,
+      "median_opening_volume": 52289.5,
+      "median_price": 93.2325,
+      "sessions_observed": 84,
+      "symbol": "CAH"
+    },
+    {
+      "median_dollar_volume": 142644297.5045,
+      "median_opening_volume": 29894.0,
+      "median_price": 138.3625,
+      "sessions_observed": 84,
+      "symbol": "BURL"
+    },
+    {
+      "median_dollar_volume": 151585855.2018,
+      "median_opening_volume": 117669.0,
+      "median_price": 80.00999999999999,
+      "sessions_observed": 84,
+      "symbol": "OKTA"
+    },
+    {
+      "median_dollar_volume": 129188482.36165002,
+      "median_opening_volume": 32701.0,
+      "median_price": 127.39,
+      "sessions_observed": 84,
+      "symbol": "TEL"
+    },
+    {
+      "median_dollar_volume": 126439329.30845003,
+      "median_opening_volume": 186708.0,
+      "median_price": 29.32875,
+      "sessions_observed": 84,
+      "symbol": "VICI"
+    },
+    {
+      "median_dollar_volume": 132647762.8443,
+      "median_opening_volume": 58160.5,
+      "median_price": 114.8325,
+      "sessions_observed": 84,
+      "symbol": "SPG"
+    },
+    {
+      "median_dollar_volume": 136016504.60125005,
+      "median_opening_volume": 77717.5,
+      "median_price": 69.7,
+      "sessions_observed": 84,
+      "symbol": "SYY"
+    },
+    {
+      "median_dollar_volume": 130968163.65720002,
+      "median_opening_volume": 70169.5,
+      "median_price": 67.695,
+      "sessions_observed": 84,
+      "symbol": "IR"
+    },
+    {
+      "median_dollar_volume": 137888375.88050002,
+      "median_opening_volume": 195634.5,
+      "median_price": 45.6813,
+      "sessions_observed": 84,
+      "symbol": "WDC"
+    },
+    {
+      "median_dollar_volume": 159992998.25729996,
+      "median_opening_volume": 687698.5,
+      "median_price": 13.69375,
+      "sessions_observed": 84,
+      "symbol": "ET"
+    },
+    {
+      "median_dollar_volume": 138157173.43965006,
+      "median_opening_volume": 103739.0,
+      "median_price": 90.505,
+      "sessions_observed": 84,
+      "symbol": "WYNN"
+    },
+    {
+      "median_dollar_volume": 121184108.13489997,
+      "median_opening_volume": 89078.0,
+      "median_price": 80.43,
+      "sessions_observed": 84,
+      "symbol": "AFL"
+    },
+    {
+      "median_dollar_volume": 121330613.56140006,
+      "median_opening_volume": 40435.5,
+      "median_price": 127.9425,
+      "sessions_observed": 84,
+      "symbol": "ALL"
+    },
+    {
+      "median_dollar_volume": 131719595.82040012,
+      "median_opening_volume": 86715.5,
+      "median_price": 81.35249999999999,
+      "sessions_observed": 84,
+      "symbol": "PHM"
+    },
+    {
+      "median_dollar_volume": 124641064.85574996,
+      "median_opening_volume": 52125.5,
+      "median_price": 89.155,
+      "sessions_observed": 84,
+      "symbol": "DFS"
+    },
+    {
+      "median_dollar_volume": 124617146.86674997,
+      "median_opening_volume": 204561.5,
+      "median_price": 35.325,
+      "sessions_observed": 84,
+      "symbol": "MTCH"
+    },
+    {
+      "median_dollar_volume": 120483765.59885004,
+      "median_opening_volume": 51643.0,
+      "median_price": 89.91499999999999,
+      "sessions_observed": 84,
+      "symbol": "ED"
+    },
+    {
+      "median_dollar_volume": 137383526.8139,
+      "median_opening_volume": 249546.5,
+      "median_price": 33.8425,
+      "sessions_observed": 84,
+      "symbol": "ENB"
+    },
+    {
+      "median_dollar_volume": 129307365.39009996,
+      "median_opening_volume": 91199.5,
+      "median_price": 68.08935,
+      "sessions_observed": 84,
+      "symbol": "GEHC"
+    },
+    {
+      "median_dollar_volume": 119087148.08174995,
+      "median_opening_volume": 35974.5,
+      "median_price": 150.41625,
+      "sessions_observed": 84,
+      "symbol": "RSG"
+    },
+    {
+      "median_dollar_volume": 133176273.75114997,
+      "median_opening_volume": 89773.0,
+      "median_price": 80.54249999999999,
+      "sessions_observed": 84,
+      "symbol": "CF"
+    },
+    {
+      "median_dollar_volume": 141115097.5071499,
+      "median_opening_volume": 81851.5,
+      "median_price": 89.73,
+      "sessions_observed": 84,
+      "symbol": "BILL"
+    },
+    {
+      "median_dollar_volume": 115638011.28804997,
+      "median_opening_volume": 54431.5,
+      "median_price": 94.375,
+      "sessions_observed": 84,
+      "symbol": "LYB"
+    },
+    {
+      "median_dollar_volume": 126808859.77894998,
+      "median_opening_volume": 40959.0,
+      "median_price": 132.6159,
+      "sessions_observed": 84,
+      "symbol": "KEYS"
+    },
+    {
+      "median_dollar_volume": 120786088.15829997,
+      "median_opening_volume": 39187.5,
+      "median_price": 116.0775,
+      "sessions_observed": 84,
+      "symbol": "GPN"
+    },
+    {
+      "median_dollar_volume": 129798233.95570002,
+      "median_opening_volume": 103167.0,
+      "median_price": 70.9375,
+      "sessions_observed": 84,
+      "symbol": "STX"
+    },
+    {
+      "median_dollar_volume": 120969486.30889994,
+      "median_opening_volume": 92162.5,
+      "median_price": 61.13,
+      "sessions_observed": 84,
+      "symbol": "PEG"
+    },
+    {
+      "median_dollar_volume": 141778332.558,
+      "median_opening_volume": 299787.5,
+      "median_price": 33.761250000000004,
+      "sessions_observed": 84,
+      "symbol": "X"
+    },
+    {
+      "median_dollar_volume": 149606787.33354995,
+      "median_opening_volume": 1847120.0,
+      "median_price": 7.99,
+      "sessions_observed": 84,
+      "symbol": "AMC"
+    },
+    {
+      "median_dollar_volume": 125011938.11320002,
+      "median_opening_volume": 96414.0,
+      "median_price": 70.4175,
+      "sessions_observed": 84,
+      "symbol": "BBY"
+    },
+    {
+      "median_dollar_volume": 132231881.67825004,
+      "median_opening_volume": 271615.5,
+      "median_price": 27.052500000000002,
+      "sessions_observed": 84,
+      "symbol": "CTRA"
+    },
+    {
+      "median_dollar_volume": 141048309.7151,
+      "median_opening_volume": 89710.0,
+      "median_price": 73.525,
+      "sessions_observed": 84,
+      "symbol": "CP"
+    },
+    {
+      "median_dollar_volume": 119299841.75915006,
+      "median_opening_volume": 35251.5,
+      "median_price": 96.6025,
+      "sessions_observed": 84,
+      "symbol": "LW"
+    },
+    {
+      "median_dollar_volume": 133064547.27615002,
+      "median_opening_volume": 653972.5,
+      "median_price": 11.295,
+      "sessions_observed": 84,
+      "symbol": "KEY"
+    },
+    {
+      "median_dollar_volume": 138808685.1112501,
+      "median_opening_volume": 732602.0,
+      "median_price": 13.3875,
+      "sessions_observed": 84,
+      "symbol": "PARA"
+    },
+    {
+      "median_dollar_volume": 123267001.43649998,
+      "median_opening_volume": 304419.0,
+      "median_price": 16.802425,
+      "sessions_observed": 84,
+      "symbol": "HPE"
+    },
+    {
+      "median_dollar_volume": 115242233.87529995,
+      "median_opening_volume": 77532.5,
+      "median_price": 59.235,
+      "sessions_observed": 84,
+      "symbol": "ES"
+    },
+    {
+      "median_dollar_volume": 135184421.75609994,
+      "median_opening_volume": 379292.0,
+      "median_price": 19.19,
+      "sessions_observed": 84,
+      "symbol": "CVE"
+    },
+    {
+      "median_dollar_volume": 118746755.41944996,
+      "median_opening_volume": 42327.5,
+      "median_price": 117.53999999999999,
+      "sessions_observed": 84,
+      "symbol": "SJM"
+    },
+    {
+      "median_dollar_volume": 143440310.91714996,
+      "median_opening_volume": 604023.5,
+      "median_price": 28.3031,
+      "sessions_observed": 84,
+      "symbol": "UPST"
+    },
+    {
+      "median_dollar_volume": 112356486.86005002,
+      "median_opening_volume": 212240.0,
+      "median_price": 25.369999999999997,
+      "sessions_observed": 84,
+      "symbol": "PPL"
+    },
+    {
+      "median_dollar_volume": 124359772.35155001,
+      "median_opening_volume": 128449.0,
+      "median_price": 36.4525,
+      "sessions_observed": 84,
+      "symbol": "BAX"
+    },
+    {
+      "median_dollar_volume": 130969044.91895,
+      "median_opening_volume": 562018.5,
+      "median_price": 10.684999999999999,
+      "sessions_observed": 84,
+      "symbol": "HBAN"
+    },
+    {
+      "median_dollar_volume": 117116590.17054999,
+      "median_opening_volume": 53858.5,
+      "median_price": 84.53999999999999,
+      "sessions_observed": 84,
+      "symbol": "LYV"
+    },
+    {
+      "median_dollar_volume": 120343371.04664996,
+      "median_opening_volume": 203066.0,
+      "median_price": 33.355000000000004,
+      "sessions_observed": 84,
+      "symbol": "SU"
+    },
+    {
+      "median_dollar_volume": 102621276.43384998,
+      "median_opening_volume": 58144.0,
+      "median_price": 97.10967500000001,
+      "sessions_observed": 84,
+      "symbol": "SWKS"
+    },
+    {
+      "median_dollar_volume": 117072191.24845001,
+      "median_opening_volume": 154123.0,
+      "median_price": 42.650000000000006,
+      "sessions_observed": 84,
+      "symbol": "DOCU"
+    },
+    {
+      "median_dollar_volume": 109219202.48409998,
+      "median_opening_volume": 49179.0,
+      "median_price": 107.805,
+      "sessions_observed": 84,
+      "symbol": "AKAM"
+    },
+    {
+      "median_dollar_volume": 107221228.76724997,
+      "median_opening_volume": 54652.0,
+      "median_price": 81.8075,
+      "sessions_observed": 84,
+      "symbol": "OTIS"
+    },
+    {
+      "median_dollar_volume": 132296546.80250004,
+      "median_opening_volume": 58185.5,
+      "median_price": 112.33500000000001,
+      "sessions_observed": 84,
+      "symbol": "DKS"
+    },
+    {
+      "median_dollar_volume": 111234340.24945,
+      "median_opening_volume": 32649.5,
+      "median_price": 126.2475,
+      "sessions_observed": 84,
+      "symbol": "EXR"
+    },
+    {
+      "median_dollar_volume": 130445756.93990013,
+      "median_opening_volume": 339504.0,
+      "median_price": 26.844275,
+      "sessions_observed": 84,
+      "symbol": "AA"
+    },
+    {
+      "median_dollar_volume": 108997308.45030004,
+      "median_opening_volume": 40587.0,
+      "median_price": 97.545,
+      "sessions_observed": 84,
+      "symbol": "ETR"
+    },
+    {
+      "median_dollar_volume": 115988851.859,
+      "median_opening_volume": 51781.0,
+      "median_price": 82.7888,
+      "sessions_observed": 84,
+      "symbol": "WEC"
+    },
+    {
+      "median_dollar_volume": 114367661.90765004,
+      "median_opening_volume": 114657.5,
+      "median_price": 60.4,
+      "sessions_observed": 84,
+      "symbol": "TD"
+    },
+    {
+      "median_dollar_volume": 133332957.29355,
+      "median_opening_volume": 467789.5,
+      "median_price": 19.4,
+      "sessions_observed": 84,
+      "symbol": "CHWY"
+    },
+    {
+      "median_dollar_volume": 115772554.62314996,
+      "median_opening_volume": 308284.5,
+      "median_price": 16.747500000000002,
+      "sessions_observed": 84,
+      "symbol": "RF"
+    },
+    {
+      "median_dollar_volume": 110098531.34124997,
+      "median_opening_volume": 109337.0,
+      "median_price": 53.015,
+      "sessions_observed": 84,
+      "symbol": "K"
+    },
+    {
+      "median_dollar_volume": 102126708.8017,
+      "median_opening_volume": 28070.0,
+      "median_price": 102.9725,
+      "sessions_observed": 84,
+      "symbol": "DTE"
+    },
+    {
+      "median_dollar_volume": 108397250.81495002,
+      "median_opening_volume": 139929.0,
+      "median_price": 33.97475,
+      "sessions_observed": 84,
+      "symbol": "VST"
+    },
+    {
+      "median_dollar_volume": 129313540.19295006,
+      "median_opening_volume": 2081469.0,
+      "median_price": 6.175,
+      "sessions_observed": 84,
+      "symbol": "PLUG"
+    },
+    {
+      "median_dollar_volume": 99977294.16390003,
+      "median_opening_volume": 31811.0,
+      "median_price": 116.9075,
+      "sessions_observed": 84,
+      "symbol": "EXPD"
+    },
+    {
+      "median_dollar_volume": 87733450.83054999,
+      "median_opening_volume": 40283.5,
+      "median_price": 96.2875,
+      "sessions_observed": 84,
+      "symbol": "TER"
+    },
+    {
+      "median_dollar_volume": 107579175.16634995,
+      "median_opening_volume": 182305.0,
+      "median_price": 26.05,
+      "sessions_observed": 84,
+      "symbol": "NI"
+    },
+    {
+      "median_dollar_volume": 113670633.89250001,
+      "median_opening_volume": 42318.0,
+      "median_price": 91.1,
+      "sessions_observed": 84,
+      "symbol": "FND"
+    },
+    {
+      "median_dollar_volume": 104919690.0626,
+      "median_opening_volume": 64378.0,
+      "median_price": 56.2325,
+      "sessions_observed": 84,
+      "symbol": "CMS"
+    },
+    {
+      "median_dollar_volume": 125609585.25654997,
+      "median_opening_volume": 878005.0,
+      "median_price": 12.318750000000001,
+      "sessions_observed": 84,
+      "symbol": "RUN"
+    },
+    {
+      "median_dollar_volume": 96799320.26825002,
+      "median_opening_volume": 41622.0,
+      "median_price": 131.01,
+      "sessions_observed": 84,
+      "symbol": "AWK"
+    },
+    {
+      "median_dollar_volume": 107555481.23379998,
+      "median_opening_volume": 58458.0,
+      "median_price": 81.6475,
+      "sessions_observed": 84,
+      "symbol": "ACGL"
+    },
+    {
+      "median_dollar_volume": 105002699.95739993,
+      "median_opening_volume": 49994.0,
+      "median_price": 101.215,
+      "sessions_observed": 84,
+      "symbol": "TROW"
+    },
+    {
+      "median_dollar_volume": 128081762.83550006,
+      "median_opening_volume": 794068.0,
+      "median_price": 10.7525,
+      "sessions_observed": 84,
+      "symbol": "LYFT"
+    },
+    {
+      "median_dollar_volume": 111793390.76409999,
+      "median_opening_volume": 242685.5,
+      "median_price": 26.5775,
+      "sessions_observed": 84,
+      "symbol": "FITB"
+    },
+    {
+      "median_dollar_volume": 100573216.09034994,
+      "median_opening_volume": 47738.5,
+      "median_price": 96.74000000000001,
+      "sessions_observed": 84,
+      "symbol": "XYL"
+    },
+    {
+      "median_dollar_volume": 112907428.15519994,
+      "median_opening_volume": 374603.0,
+      "median_price": 17.677500000000002,
+      "sessions_observed": 84,
+      "symbol": "VFC"
+    },
+    {
+      "median_dollar_volume": 117819605.84909993,
+      "median_opening_volume": 70663.0,
+      "median_price": 112.285,
+      "sessions_observed": 84,
+      "symbol": "ELF"
+    },
+    {
+      "median_dollar_volume": 106131564.82064998,
+      "median_opening_volume": 217511.0,
+      "median_price": 26.9575,
+      "sessions_observed": 84,
+      "symbol": "CFG"
+    },
+    {
+      "median_dollar_volume": 102148784.87740004,
+      "median_opening_volume": 57931.0,
+      "median_price": 66.02125,
+      "sessions_observed": 84,
+      "symbol": "EIX"
+    },
+    {
+      "median_dollar_volume": 119930731.54035005,
+      "median_opening_volume": 539761.5,
+      "median_price": 16.332749999999997,
+      "sessions_observed": 84,
+      "symbol": "CLF"
+    },
+    {
+      "median_dollar_volume": 113954143.50024998,
+      "median_opening_volume": 184362.0,
+      "median_price": 39.035,
+      "sessions_observed": 84,
+      "symbol": "APA"
+    },
+    {
+      "median_dollar_volume": 106580425.85390002,
+      "median_opening_volume": 53822.5,
+      "median_price": 108.275,
+      "sessions_observed": 84,
+      "symbol": "STLD"
+    },
+    {
+      "median_dollar_volume": 95002081.5232,
+      "median_opening_volume": 42012.0,
+      "median_price": 81.55875,
+      "sessions_observed": 84,
+      "symbol": "CSGP"
+    },
+    {
+      "median_dollar_volume": 106182022.33685,
+      "median_opening_volume": 177959.5,
+      "median_price": 44.24,
+      "sessions_observed": 84,
+      "symbol": "STM"
+    },
+    {
+      "median_dollar_volume": 99521387.58614999,
+      "median_opening_volume": 177580.5,
+      "median_price": 27.7625,
+      "sessions_observed": 84,
+      "symbol": "CNP"
+    },
+    {
+      "median_dollar_volume": 116143571.74864998,
+      "median_opening_volume": 652001.5,
+      "median_price": 11.8325,
+      "sessions_observed": 84,
+      "symbol": "M"
+    },
+    {
+      "median_dollar_volume": 107340570.31045002,
+      "median_opening_volume": 187704.0,
+      "median_price": 20.862499999999997,
+      "sessions_observed": 84,
+      "symbol": "AVTR"
+    },
+    {
+      "median_dollar_volume": 116482141.40610003,
+      "median_opening_volume": 107590.5,
+      "median_price": 61.6225,
+      "sessions_observed": 84,
+      "symbol": "TWLO"
+    },
+    {
+      "median_dollar_volume": 102455477.83205001,
+      "median_opening_volume": 38986.5,
+      "median_price": 77.3175,
+      "sessions_observed": 84,
+      "symbol": "AEE"
+    },
+    {
+      "median_dollar_volume": 96216671.95439997,
+      "median_opening_volume": 51919.5,
+      "median_price": 95.28999999999999,
+      "sessions_observed": 84,
+      "symbol": "PRU"
+    },
+    {
+      "median_dollar_volume": 97264400.53730005,
+      "median_opening_volume": 71863.5,
+      "median_price": 42.15,
+      "sessions_observed": 84,
+      "symbol": "NRG"
+    },
+    {
+      "median_dollar_volume": 112045401.37779999,
+      "median_opening_volume": 349200.0,
+      "median_price": 17.4125,
+      "sessions_observed": 84,
+      "symbol": "TOST"
+    },
+    {
+      "median_dollar_volume": 97818608.59995002,
+      "median_opening_volume": 36621.0,
+      "median_price": 76.065,
+      "sessions_observed": 84,
+      "symbol": "GDDY"
+    },
+    {
+      "median_dollar_volume": 90693033.59250003,
+      "median_opening_volume": 59765.0,
+      "median_price": 70.83500000000001,
+      "sessions_observed": 84,
+      "symbol": "IFF"
+    },
+    {
+      "median_dollar_volume": 96452055.82480001,
+      "median_opening_volume": 39984.5,
+      "median_price": 85.92500000000001,
+      "sessions_observed": 84,
+      "symbol": "TRGP"
+    },
+    {
+      "median_dollar_volume": 99711108.60064998,
+      "median_opening_volume": 38712.5,
+      "median_price": 92.50625,
+      "sessions_observed": 84,
+      "symbol": "CHD"
+    },
+    {
+      "median_dollar_volume": 106097213.64895001,
+      "median_opening_volume": 40396.0,
+      "median_price": 111.35,
+      "sessions_observed": 84,
+      "symbol": "CNI"
+    },
+    {
+      "median_dollar_volume": 95231126.47089997,
+      "median_opening_volume": 86298.5,
+      "median_price": 48.760000000000005,
+      "sessions_observed": 84,
+      "symbol": "TSN"
+    },
+    {
+      "median_dollar_volume": 117756587.20219997,
+      "median_opening_volume": 456336.5,
+      "median_price": 19.5854,
+      "sessions_observed": 84,
+      "symbol": "STLA"
+    },
+    {
+      "median_dollar_volume": 112174373.79045002,
+      "median_opening_volume": 886742.0,
+      "median_price": 8.982075,
+      "sessions_observed": 84,
+      "symbol": "AGNC"
+    },
+    {
+      "median_dollar_volume": 106310991.12235,
+      "median_opening_volume": 123828.5,
+      "median_price": 45.76,
+      "sessions_observed": 84,
+      "symbol": "CZR"
+    },
+    {
+      "median_dollar_volume": 99790151.50544998,
+      "median_opening_volume": 60607.0,
+      "median_price": 68.11000000000001,
+      "sessions_observed": 84,
+      "symbol": "KMX"
+    },
+    {
+      "median_dollar_volume": 95541141.90804994,
+      "median_opening_volume": 157085.0,
+      "median_price": 30.70375,
+      "sessions_observed": 84,
+      "symbol": "SYF"
+    },
+    {
+      "median_dollar_volume": 103840257.95444997,
+      "median_opening_volume": 136650.5,
+      "median_price": 36.177499999999995,
+      "sessions_observed": 84,
+      "symbol": "FE"
+    },
+    {
+      "median_dollar_volume": 98746776.64270005,
+      "median_opening_volume": 167379.0,
+      "median_price": 36.005,
+      "sessions_observed": 84,
+      "symbol": "MOS"
+    },
+    {
+      "median_dollar_volume": 91707802.21705003,
+      "median_opening_volume": 40374.5,
+      "median_price": 72.3275,
+      "sessions_observed": 84,
+      "symbol": "FTV"
+    },
+    {
+      "median_dollar_volume": 95167986.27315003,
+      "median_opening_volume": 69849.5,
+      "median_price": 70.97625,
+      "sessions_observed": 84,
+      "symbol": "LSCC"
+    },
+    {
+      "median_dollar_volume": 103975492.24404998,
+      "median_opening_volume": 40946.5,
+      "median_price": 83.0675,
+      "sessions_observed": 84,
+      "symbol": "CHK"
+    },
+    {
+      "median_dollar_volume": 98406997.55230004,
+      "median_opening_volume": 160759.5,
+      "median_price": 27.240625,
+      "sessions_observed": 84,
+      "symbol": "ALLY"
+    },
+    {
+      "median_dollar_volume": 114171170.01365,
+      "median_opening_volume": 172112.5,
+      "median_price": 48.90875,
+      "sessions_observed": 84,
+      "symbol": "AEM"
+    },
+    {
+      "median_dollar_volume": 86323458.127,
+      "median_opening_volume": 39765.5,
+      "median_price": 70.39687500000001,
+      "sessions_observed": 84,
+      "symbol": "HOLX"
+    },
+    {
+      "median_dollar_volume": 99836666.47590002,
+      "median_opening_volume": 95055.0,
+      "median_price": 44.2575,
+      "sessions_observed": 84,
+      "symbol": "Z"
+    },
+    {
+      "median_dollar_volume": 92168533.28194998,
+      "median_opening_volume": 52245.5,
+      "median_price": 69.44,
+      "sessions_observed": 84,
+      "symbol": "STT"
+    },
+    {
+      "median_dollar_volume": 109916539.57379994,
+      "median_opening_volume": 1024925.0,
+      "median_price": 13.433675000000001,
+      "sessions_observed": 84,
+      "symbol": "IONQ"
+    },
+    {
+      "median_dollar_volume": 106861600.84155,
+      "median_opening_volume": 198511.5,
+      "median_price": 39.945,
+      "sessions_observed": 84,
+      "symbol": "TECK"
+    }
+  ]
+}

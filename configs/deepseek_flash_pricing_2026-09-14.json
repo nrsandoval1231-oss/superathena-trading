@@ -1,0 +1,18 @@
+{
+  "cache_assumption": "cache_miss",
+  "conservative_rate": "peak",
+  "model_id": "deepseek-flash",
+  "off_peak": {
+    "input_usd_per_million_tokens": 0.15,
+    "output_usd_per_million_tokens": 0.6
+  },
+  "peak": {
+    "input_usd_per_million_tokens": 0.3,
+    "output_usd_per_million_tokens": 1.2
+  },
+  "provider": "deepseek",
+  "schema_version": "deepseek-text-pricing-v1",
+  "source_document": "docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+  "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "verified_on": "2026-09-14"
+}

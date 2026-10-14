@@ -1,0 +1,39 @@
+{
+  "execution_authority": "ABSENT",
+  "model_id": "deepseek-flash",
+  "note": "Synthetic Flash E-arm mismatch and truncation replies invented from the 2026-09-14 live pilot symptoms. Not a vendor dump, not TRAINING evidence, and not a holdout record. Compact accepts used {turn,stance,confidence,claim} or {turn,action,confidence}; rejects were extra keys, missing claim, wrong turn labels, Actor-shaped payloads, and truncated JSON.",
+  "schema_version": "athena-deepseek-flash-e-arm-mismatch-fixture-v1",
+  "cases": {
+    "extra_keys": {
+      "turn": "BULL",
+      "rejection_reason": "deliberation output schema mismatch",
+      "content": "{\"turn\":\"BULL\",\"stance\":\"IN\",\"confidence\":0.5,\"claim\":\"MACRO\",\"rationale\":\"continuation\"}"
+    },
+    "missing_claim": {
+      "turn": "BEAR",
+      "rejection_reason": "deliberation output schema mismatch",
+      "content": "{\"turn\":\"BEAR\",\"stance\":\"OUT\",\"confidence\":0.5}"
+    },
+    "wrong_turn_string": {
+      "turn": "TRADER",
+      "rejection_reason": "deliberation output schema mismatch",
+      "content": "{\"turn\":\"BULL_RESEARCHER\",\"stance\":\"OUT\",\"confidence\":0.5,\"claim\":\"NONE\"}"
+    },
+    "actor_shaped_payload": {
+      "turn": "RISK",
+      "rejection_reason": "deliberation output schema mismatch",
+      "content": "{\"action\":\"PASS\",\"confidence\":0.5,\"horizon\":\"SESSION\",\"invalidation\":\"RANGE\",\"rationale\":\"Fixture Actor payload on an E turn.\"}"
+    },
+    "copied_emit_contract": {
+      "turn": "BULL",
+      "rejection_reason": "deliberation output schema mismatch",
+      "content": "{\"turn\":\"BULL\",\"required_keys\":[\"turn\",\"stance\",\"confidence\",\"claim\"],\"stance\":[\"IN\",\"OUT\"],\"claim\":[\"MACRO\",\"PRICE\",\"NONE\"],\"confidence\":\"[0,1]\"}"
+    },
+    "truncated_json": {
+      "turn": "RISK",
+      "rejection_reason": "OUTPUT_TRUNCATED",
+      "finish_reason": "length",
+      "content": "{\"turn\":\"RISK\",\"action\":\"PASS\",\"confidence\":0.5"
+    }
+  }
+}

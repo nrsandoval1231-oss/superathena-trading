@@ -1,0 +1,26 @@
+{
+  "schema_version": "athena-alfred-vintage-observations-v1",
+  "series_id": "CPIAUCSL",
+  "category": "inflation",
+  "note": "Synthetic ALFRED-shaped fixture for CI. Not a FRED dump and not measured coverage.",
+  "observations": [
+    {
+      "realtime_start": "2026-02-12",
+      "realtime_end": "2026-03-11",
+      "date": "2026-01-01",
+      "value": "319.086"
+    },
+    {
+      "realtime_start": "2026-03-12",
+      "realtime_end": "9999-12-31",
+      "date": "2026-01-01",
+      "value": "319.214"
+    },
+    {
+      "realtime_start": "2026-03-12",
+      "realtime_end": "9999-12-31",
+      "date": "2026-02-01",
+      "value": "319.775"
+    }
+  ]
+}

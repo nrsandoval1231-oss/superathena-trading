@@ -1,0 +1,22 @@
+{
+  "assignment_hash": "46f25ba0f64c5088add6d37a72752d6fbe156de6c33e8b8d7d4415e160f5e731",
+  "authorizes_full_16705_plan": false,
+  "claim_authorized": false,
+  "consulted_terra_protocol_hash": "85d97d923f7b502dea20a936abe6334b57df64a677afdb6510376c5ea5b08027",
+  "drawn_from_exogenous_features": false,
+  "drawn_from_outcomes": false,
+  "execution_authority": "ABSENT",
+  "execution_authorized": false,
+  "gold_count": 100,
+  "gold_is_subset_of_volume": true,
+  "notes": "Pins the 8b volume / 14b gold TRAINING subsample. Volume default is 1000 opportunities; gold is 100 overlapping opportunities drawn from that volume sample. Opportunity IDs are produced by scripts/draw_aat_v2_training_subsample.py against the frozen TRAINING index. The full 16,705-opportunity plan is no longer the recommended next step.",
+  "parent_dataset_hash": "179e6f21f583bd40a5afff9acc1bfc7690155def18a1375e5535b9a6ebbe7a9a",
+  "parent_partition": "TRAINING",
+  "plan_hash": "914a70f95e1c46a41ace24d9f74ca71f24feef224b007da6f6ec8a6a0f48754f",
+  "schema_version": "athena-aat-v2-training-subsample-plan-v1",
+  "sealed_holdout_consumed": false,
+  "seed": 20260916,
+  "source_document": "docs/AAT_V2_MODEL_EXECUTION_OPTIONS.md",
+  "stratification": "symbol",
+  "volume_count": 1000
+}

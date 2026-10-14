@@ -1,0 +1,112 @@
+{
+  "execution_authority": "ABSENT",
+  "features": {
+    "opaque": 1
+  },
+  "model_id": "deepseek-flash",
+  "note": "Synthetic DeepSeek chat-completions response. Not a vendor dump, not TRAINING evidence, and not a holdout record. deliberation_responses are compact E-arm turns that fit the registered 64-token budget.",
+  "opportunity_id": "preflight-fixture-1",
+  "deliberation_responses": {
+    "BULL": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "{\"turn\":\"BULL\",\"stance\":\"IN\",\"confidence\":0.7,\"claim\":\"MACRO\"}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "id": "chatcmpl-fixture-e-bull",
+      "model": "deepseek-flash",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 80,
+        "total_tokens": 96
+      }
+    },
+    "BEAR": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "{\"turn\":\"BEAR\",\"stance\":\"OUT\",\"confidence\":0.6,\"claim\":\"PRICE\"}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "id": "chatcmpl-fixture-e-bear",
+      "model": "deepseek-flash",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 80,
+        "total_tokens": 96
+      }
+    },
+    "TRADER": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "{\"turn\":\"TRADER\",\"stance\":\"IN\",\"confidence\":0.55,\"claim\":\"MACRO\"}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "id": "chatcmpl-fixture-e-trader",
+      "model": "deepseek-flash",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 80,
+        "total_tokens": 96
+      }
+    },
+    "RISK": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "{\"turn\":\"RISK\",\"action\":\"PASS\",\"confidence\":0.5}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "id": "chatcmpl-fixture-e-risk",
+      "model": "deepseek-flash",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 80,
+        "total_tokens": 96
+      }
+    }
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"action\":\"PASS\",\"confidence\":0.5,\"horizon\":\"SESSION\",\"invalidation\":\"RANGE\",\"rationale\":\"Fixture preflight only.\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "id": "chatcmpl-fixture-not-live",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 80,
+      "total_tokens": 120
+    }
+  },
+  "schema_version": "athena-deepseek-flash-preflight-fixture-v1"
+}

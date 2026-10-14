@@ -1,0 +1,10 @@
+id: orb-momentum
+version: 1.0.0
+status: research-baseline
+promotion: not-promoted
+asset_class: us-equity
+timeframe: 1m
+entrypoint: athena_trading.orb_m
+risk_profile: constitution-ceilings-unchanged
+overnight: forbidden
+authority: PAPER-or-ABSENT
