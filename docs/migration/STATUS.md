@@ -7,7 +7,7 @@ Migration of `athena-trading` at `8bd0e7289e0a4899ec7e12291ca02a2c883c583d` is i
 | Check | Result in this environment |
 |---|---|
 | Source baseline, after NumPy 2 | 871 passed in 13.78s. 0 failed |
-| `python -m pytest -q` on this tree | 877 passed in 14.17s. 0 failed |
+| `python -m pytest -q` on this tree | 877 passed in 14.03s. 0 failed |
 | `python -m ruff check .` (ruff 0.15.8) | All checks passed |
 | `bash -n deploy/install.sh` | Clean |
 | `compileall` of the Python trees | Clean |
@@ -15,7 +15,7 @@ Migration of `athena-trading` at `8bd0e7289e0a4899ec7e12291ca02a2c883c583d` is i
 | `run_orb_m_paper.py --walk-bars` | Completed on `FixtureBroker`. Not an Alpaca session |
 | `run_fixture_self_improve.py --generations 1` | Completed offline. Authority remains ABSENT |
 
-The six tests beyond the 871 are strategy registration, dependency boundaries, and manifest reconciliation. No carried test was removed or rewritten.
+The six tests beyond the 871 are strategy registration, dependency boundaries, and manifest reconciliation. No carried test was removed or rewritten. Registration now includes `athena-retention-geometry` from main `f6e4446` as a research specification with execution disabled. That archive is not imported.
 
 These results do not measure trading performance, broker fills, or the health of the running paper host.
 
