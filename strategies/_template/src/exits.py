@@ -1,0 +1,1 @@
+"""Exit decision placeholder."""

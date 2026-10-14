@@ -1,0 +1,7 @@
+id: replace-me
+version: 0.1.0
+status: research
+asset_class: unspecified
+timeframe: unspecified
+entrypoint: src.strategy
+risk_profile: default
