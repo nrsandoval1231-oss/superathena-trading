@@ -40,8 +40,10 @@ def test_every_source_file_is_accounted_for_and_hashes_match():
             raise AssertionError(item["disposition"])
     core = payload["athena_core"]
     assert core["anchor"] == "adba694563751256f5f5e95ad47079b37c7697ec"
-    assert core["disposition"] == "external-dependency-unavailable"
-    assert "Repository not found" in core["blocker"]
+    assert core["disposition"] == "excluded-external-dependency"
+    assert core["decided_on"] == "2026-10-14"
+    assert core["scope"] == "deliberate-exclusion"
+    assert "external, unmigrated dependency" in core["decision"]
 
 
 def test_consumed_holdouts_remain_byte_for_byte():

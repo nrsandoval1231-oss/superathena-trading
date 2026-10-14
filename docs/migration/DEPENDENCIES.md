@@ -18,7 +18,7 @@ External services, used only when an operator runs a paper command with credenti
 | Nasdaq earnings calendar | earnings calendar | Free calendar, no SLA |
 | Massive / Polygon, GDELT, ALFRED | market data and exogenous | Research and ingestion. Not required for the fixture suite |
 
-Athena Core is not installed and is not importable from this environment. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
+Athena Core is an external, unmigrated dependency by Nick's decision on 2026-10-14. It is not installed here. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
 
 Not pinned: a live trading dependency. `LIVE` is not an authority.
 

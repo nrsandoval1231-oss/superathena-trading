@@ -26,4 +26,4 @@
 ## Status
 Trading-source migration is implemented on this branch from anchor `8bd0e7289e0a4899ec7e12291ca02a2c883c583d`. Every tracked trading file is migrated, import-adjusted, or preserved byte-for-byte under `docs/lineage/athena-trading/`. See [MIGRATION_MANIFEST.md](MIGRATION_MANIFEST.md) and [STATUS.md](STATUS.md).
 
-Athena Core anchor `adba694563751256f5f5e95ad47079b37c7697ec` was not readable. That blocker is [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md). The pull request stays open until that source can be accounted for. No live service was changed.
+On 2026-10-14 Nick excluded Athena Core from this migration. Anchor `adba694563751256f5f5e95ad47079b37c7697ec` stays a historical reference. Athena remains an external, unmigrated dependency. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md). No live service was changed.

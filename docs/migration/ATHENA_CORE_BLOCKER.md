@@ -1,19 +1,14 @@
-# Athena Core blocker
+# Athena Core exclusion
 
-Requested source: https://github.com/nrsandoval1231-oss/Athena
+On 2026-10-14 Nick decided that the Athena Core repository is outside this migration.
 
-Requested anchor: `adba694563751256f5f5e95ad47079b37c7697ec`
+| Field | Value |
+|---|---|
+| Repository | https://github.com/nrsandoval1231-oss/Athena |
+| Historical anchor | `adba694563751256f5f5e95ad47079b37c7697ec` |
+| Disposition | `excluded-external-dependency` |
+| Decision | Athena stays an external, unmigrated dependency |
 
-Observed on 14 October 2026:
+SuperAthena keeps the trading adapter that already lived in `athena-trading` (`athena_adapter`, including `canonical_hash` and the Jev client). It does not vendor Arena, Gauntlet, or any other Core module. Core must still not import market, broker, ticker, ORB, or PnL types from this repository.
 
-```text
-git ls-remote https://github.com/nrsandoval1231-oss/Athena.git HEAD
-remote: Repository not found.
-fatal: repository 'https://github.com/nrsandoval1231-oss/Athena.git/' not found
-```
-
-The GitHub API returned 404 for that repository. The same result was returned for the lowercase name `athena` and for `athena-core`. No commit, tree, or file list was available, so none was fabricated.
-
-What still moved: the trading-specific adapter already stored in `athena-trading` at the trading anchor. That adapter documents that Core must not import market, broker, ticker, ORB, or PnL types from this repository, and it keeps a byte-compatible `canonical_hash` so trading does not take a private Core build dependency for one function.
-
-What did not move: Arena, Gauntlet, policy genome, and any other Core module that exists only in the unreadable repository. Those remain an external dependency until the repository can be read at the anchor.
+The anchor remains a historical reference. It is not a file inventory, and this migration does not require one.

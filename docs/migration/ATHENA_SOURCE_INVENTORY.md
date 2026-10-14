@@ -9,4 +9,4 @@ Source: https://github.com/nrsandoval1231-oss/athena-trading
 
 The inventory folders now hold the implementations. Provenance is in [source-manifest.json](source-manifest.json). Holdout bytes were copied unchanged. LIVE stays rejected.
 
-Athena Core could not be inventoried. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
+On 2026-10-14 Nick excluded Athena Core from this migration. It stays an external, unmigrated dependency. See [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).

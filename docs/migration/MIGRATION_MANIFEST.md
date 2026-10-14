@@ -31,9 +31,9 @@ Compatibility modules under `operations/paper-trading/paper/` (`live.py`, `earni
 
 ## Athena Core
 
-`nrsandoval1231-oss/Athena` @ `adba694563751256f5f5e95ad47079b37c7697ec` could not be listed. Disposition: `external-dependency-unavailable`. Details: [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
+On 2026-10-14 Nick excluded `nrsandoval1231-oss/Athena` from this migration. Disposition: `excluded-external-dependency`. The historical anchor `adba694563751256f5f5e95ad47079b37c7697ec` is recorded and not inventoried. Athena stays an external, unmigrated dependency. Details: [ATHENA_CORE_BLOCKER.md](ATHENA_CORE_BLOCKER.md).
 
-The trading adapter that already lived in `athena-trading` (`athena_adapter`, including the local `canonical_hash`) is migrated. Domain-neutral Core was not invented and was not copied.
+The trading adapter that already lived in `athena-trading` (`athena_adapter`, including the local `canonical_hash`) is migrated. Domain-neutral Core was not copied.
 
 ## Recompute a source hash
 

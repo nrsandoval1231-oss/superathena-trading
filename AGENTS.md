@@ -14,5 +14,6 @@ Read [the architecture](docs/architecture/README.md) and [implementation status]
 - Astra 6 stays unwired until its provider and model id are verified. Do not substitute another model.
 - Do not deploy, restart, or retarget `athena-paper.service`. The live process is the source checkout, not this migration.
 - Do not copy secrets or private trading journals into git.
+- Athena Core stays an external, unmigrated dependency. Nick excluded it from this migration on 2026-10-14. Do not vendor it.
 
 Historical operating notes from Athena Trading are in `docs/lineage/athena-trading/`. They do not override this file.

@@ -6,8 +6,10 @@
   "athena_core": {
     "repo": "https://github.com/nrsandoval1231-oss/Athena",
     "anchor": "adba694563751256f5f5e95ad47079b37c7697ec",
-    "disposition": "external-dependency-unavailable",
-    "blocker": "git ls-remote https://github.com/nrsandoval1231-oss/Athena.git returned 'Repository not found'. The anchor was not fetched and no Athena Core file list was invented. Trading-specific adapter code already inside athena-trading was migrated. Domain-neutral Core stays an external dependency."
+    "disposition": "excluded-external-dependency",
+    "decided_on": "2026-10-14",
+    "decision": "Owner decision on 2026-10-14: Athena stays an external, unmigrated dependency and is outside this migration scope.",
+    "scope": "deliberate-exclusion"
   },
   "policies": {
     "live_authority": "rejected",

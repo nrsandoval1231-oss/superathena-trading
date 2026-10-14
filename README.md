@@ -20,4 +20,4 @@ The target decision path is Astra 6, then Jev, then deterministic code. Astra 6 
 Source anchors, verified before the move:
 
 - `nrsandoval1231-oss/athena-trading` @ `8bd0e7289e0a4899ec7e12291ca02a2c883c583d` (also the remote `main` head)
-- `nrsandoval1231-oss/Athena` @ `adba694563751256f5f5e95ad47079b37c7697ec` was not readable. See [the blocker](docs/migration/ATHENA_CORE_BLOCKER.md).
+- `nrsandoval1231-oss/Athena` @ `adba694563751256f5f5e95ad47079b37c7697ec` is an external, unmigrated dependency. Nick excluded it from this migration on 2026-10-14. See [the exclusion record](docs/migration/ATHENA_CORE_BLOCKER.md).

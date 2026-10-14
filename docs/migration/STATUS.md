@@ -1,6 +1,6 @@
 # Implementation status
 
-Migration of `athena-trading` at `8bd0e7289e0a4899ec7e12291ca02a2c883c583d` is in this checkout. The implementation commit is `87bdb66`. Athena Core is not included. The Hostinger paper service was not changed.
+Migration of `athena-trading` at `8bd0e7289e0a4899ec7e12291ca02a2c883c583d` is in this checkout. The implementation commit is `87bdb66`. On 2026-10-14 Nick excluded Athena Core: it stays an external, unmigrated dependency, recorded as `excluded-external-dependency`. The Hostinger paper service was not changed.
 
 ## What runs
 
