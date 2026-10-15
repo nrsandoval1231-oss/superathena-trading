@@ -16,6 +16,7 @@ The target decision path is Astra 6, then Jev, then deterministic code. Astra 6 
 | Where did each source file go? | [docs/migration/MIGRATION_MANIFEST.md](docs/migration/MIGRATION_MANIFEST.md) |
 | How do I test? | [docs/migration/VERIFICATION.md](docs/migration/VERIFICATION.md) |
 | Historical Athena Trading documents | [docs/lineage/athena-trading/](docs/lineage/athena-trading/) |
+| Intraday multi-trade proposal (not approved, paper only) | [docs/design/intraday-multi-trade.md](docs/design/intraday-multi-trade.md) |
 
 Source anchors, verified before the move:
 
