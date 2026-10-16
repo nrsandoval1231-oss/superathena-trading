@@ -17,6 +17,7 @@ The target decision path is Astra 6, then Jev, then deterministic code. Astra 6 
 | How do I test? | [docs/migration/VERIFICATION.md](docs/migration/VERIFICATION.md) |
 | Historical Athena Trading documents | [docs/lineage/athena-trading/](docs/lineage/athena-trading/) |
 | Intraday multi-trade proposal (not approved, paper only) | [docs/design/intraday-multi-trade.md](docs/design/intraday-multi-trade.md) |
+| How do I run the offline intraday replay? | [evaluation/backtesting/README.md](evaluation/backtesting/README.md) |
 
 Source anchors, verified before the move:
 

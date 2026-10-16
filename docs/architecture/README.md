@@ -40,7 +40,7 @@ The predictive-intraday runner calls ORB-M for the opening-range candidate. That
 | Alpaca paper adapter | `athena_trading.broker_adapters` | `core/broker-adapters` |
 | Hash-chained journal | `athena_trading.accounting` | `core/accounting` |
 | Bars, corporate actions, exogenous records | `athena_trading.market_data`, `athena_trading.exogenous` | `data/ingestion` |
-| Offline comparison | `athena_trading.backtesting` | `evaluation/backtesting` |
+| Offline comparison and the Stage 0 intraday replay | `athena_trading.backtesting` | `evaluation/backtesting` |
 | Paper session, learning, ownership | `athena_trading.paper` | `operations/paper-trading` |
 
 Historical import paths such as `athena_trading.paper.live` and `athena_trading.paper.journal` alias these modules. The alias and the implementation are the same object.
